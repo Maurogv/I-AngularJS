@@ -1,4 +1,4 @@
-myself-angularjs
+﻿I-angularjs
 ================
 
 This project was born from the desire to tell my story after an unfortunate event, a crash occurred when I was 18 years old, showing  attempts to understand the causes and consequences of physical pain that progressively worsens, the choices in the belief that can alleviate their if not eliminate, the impact on daily life and family. I will focus on the one hand the value of institutions and medical personnel, the capsizing, transformation and distortion of reality,  the ignorance, the environment, city and  region, will emerge, on the other hand, my strength, determination, the power of hope, reasoning that does adhere to objective things, intelligence, wait, experience and needs help. In the progression of the story will also clarify the economic and the fiction of its assessment. It's a site that contains a complaint and a modern work to read.
@@ -16,4 +16,4 @@ Github as well as being an open source community of code-sharing, can perform th
 
 The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
 
-You can read the site on http://maurogv.github.io/myself-angularjs/public_html/#/en-me
+You can read the site on http://maurogv.github.io/I-angularjs/public_html/#/en-me

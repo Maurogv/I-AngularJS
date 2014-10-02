@@ -1,4 +1,4 @@
-myself-angularjs
+﻿I-angularjs
 ================
 
 Questo progetto nasce dalla volontà di raccontare la mia storia dopo un evento sfortunato, una caduta avvenuta di quando ero 18enne con i tentativi di comprendere le cause di dolori fisici e conseguenze che progressivamente peggiorano, le scelte nella convinzione di alleviarli se non eliminarli, le ripercussioni sulla vita quotidiana e familiare. Mi soffermerò da un lato sul valore delle istituzioni e del personale medico, il capovolgimento, trasformazione e deformazione della realtà, l'ignoranza, l'ambiente in cui si svolge, città e regione, dall'altro emergerà la mia resistenza, determinazione, la forza della speranza, il ragionamento che fa aderire alle cose oggettive, l'intelligenza, l'attesa, l'esperienza e il bisogno di aiuto. Nella progressione del racconto si chiarirà anche il quadro economico e la finzione della sua valutazione. E' un sito che contiene una denuncia e un'opera moderna da leggere.
@@ -14,4 +14,4 @@ Le pagine sono testo e fotografie e il collegamento a sorgente dati è confinata
 Github oltre ad essere una comunità open source di condivisione del codice, permette di eseguire le pagine html staticamente, con css and javascript, non c'è elaborazione client-server. Poichè la tecnologia di Google è interamente client è possibile rendere le pagine su Github con il solo codice a disposizione, dimostrando che l'aggettivo da supereroi coniato dagli sviluppatori della piattaforma è valido.  
 La condivisione del codice su Github e la possibilità di accedervi di renderle sulla sua piattaforma rappresenta un passo importante per una futura pubblicazione su un sito autonomo.
 
-Si può leggere il sito su http://maurogv.github.io/myself-angularjs/public_html/#/me
+Si può leggere il sito su http://maurogv.github.io/I-angularjs/public_html/#/me
