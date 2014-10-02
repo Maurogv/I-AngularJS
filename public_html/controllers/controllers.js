@@ -1,0 +1,74 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+angular.module('controllers',[])  
+   .controller('CadutidiMusoccoController', cadutidiMusoccoController)
+   .controller('AppController', appController)
+   .controller('LangController', langController);
+   
+   appController.$inject=['$scope', '$route', '$rootScope', '$location', 'Icon'];
+   // as
+   // .controller('AppController',  
+   // function($scope, $route, $location, Icon, Page, CadutidiMusocco) {
+   // 
+   // code
+   // 
+   // })
+     
+   function appController( $scope, $route, $rootScope, $location, Icon) {
+           
+       $scope.social = Icon.get();   
+         
+        $scope.$on('$routeChangeSuccess', function (ev, current, prev) {      
+            $scope.pagetitle=$route.current.title;
+            $rootScope.$broadcast('routechanged',{lang: $route.current.lang});
+        }); 
+        
+        $scope.myrefcounter=1;
+//      jMauro().references($location.path());
+        jMauro().indexContent($location.path());
+        jMauro().ahreflink(Icon);
+        jMauro().activenav($location.path());
+    };         
+     
+    langController.$inject=['$scope','$rootScope' ];
+    function langController($scope, $rootScope) 
+    { 
+        var views="views/";
+        var partial="/partials/navigation.html";
+        
+        $rootScope.$on('routechanged',function(event,args) {
+              $scope.lang=views + args.lang  + partial;
+         });
+        
+    };
+      
+   cadutidiMusoccoController.$inject=['$injector', '$scope', 'CadutidiMusocco'];
+
+   function cadutidiMusoccoController($injector, $scope, CadutidiMusocco) {
+      var cadutidiMusocco=[];
+      CadutidiMusocco.query(function (response)
+      {
+         response.forEach (function(caduto){
+         cadutidiMusocco.push ({ fullname:caduto["0"], 
+                                annodinascita:caduto["1"],
+                                annodimorte:caduto["2"]
+                                });         
+         })            
+         $scope.firststoneindex=cadutidiMusocco.map(function(e) { return e.fullname; }).indexOf('Gatti Luigi');
+         $scope.secondstonecolumnlength=parseInt((cadutidiMusocco.length - $scope.firststoneindex)/3+1)-1;
+      });
+
+      $scope.cadutidiMusocco=cadutidiMusocco;
+      
+      $injector.invoke(appController, this, {
+        $scope: $scope,
+     });
+   }
+   
+   
+     
+      

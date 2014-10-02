@@ -1,0 +1,157 @@
+body {
+counter-reset:section;
+}
+
+.page-header h2:before 
+{
+  counter-increment:section;
+  content:counter(section)". ";
+}
+
+/* in jquery */
+/*sup a:after {
+  counter-increment:notecounter;
+  content:"["counter(notecounter)"]";
+}*/
+
+
+sup {
+    line-height: 1em;
+    -moz-isolate: -moz-isolate;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6,69,173);
+    background-color: Transparent;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: none;
+}
+
+    a:hover, a:focus {
+        text-decoration: underline;
+    }
+
+a.out {
+    background:no-repeat scroll right center transparent;
+    padding-right:18px;   
+}
+
+a.in {
+    background:no-repeat scroll left center transparent;
+    padding-left:20px;   
+}
+
+a.text-decoration-none {  
+    text-decoration: none;  
+}
+
+a.external {
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=");
+    padding-right:13px;
+}
+
+/* class is copy frow wikipedia, as well */
+a.new {
+    color:#BA0000;
+}
+
+.mybuffer-top { 
+  margin-top:  10px;
+}
+
+.mybuffer-bottom { 
+  margin-bottom:  10px;
+}
+
+.card {    
+/*    display:block;
+    float:left;
+    overflow: hidden;
+    margin: 0 10px;*/
+    border-top:4px solid;
+    background-color:whitesmoke;
+    padding:10px;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.bd-top-color-red { 
+   border-top-color:red;    
+}
+
+.bd-top-color-link { 
+   border-top-color:rgb(6,69,173);;    
+}
+
+.bd-top-color-green { 
+    border-top-color:green;
+}
+.bd-top-color-yellow { 
+    border-top-color:yellow;
+}
+
+.border-page { 
+    border-left: #eee  medium solid;
+    border-right: #eee medium solid;
+}
+
+.borderless tbody tr td, .borderless thead tr th {
+    border: none;
+    padding:1px;
+}
+
+.padding-left-20 {
+    padding-left:20px;
+}
+
+.font-size-small {
+    font-size:small;
+}
+
+.bk-color-white {
+    background-color: whitesmoke;
+}
+
+.me-thumbnail {
+    width:64px;
+    height:64px;   
+}
+
+.thumbnail.pull-left {
+    margin-right: 1em;
+}
+
+.thumbnail.pull-right {
+    margin-left: 5px;
+}
+
+.overflow-hidden {
+    overflow: hidden; 
+    // misalignment after thumbnail and in ie bullet as well
+    // but not blocking ul dropdown bootstrap
+}
+footer {
+    margin: 4em 0 1em 0;
+    padding: 1em;
+    clear: both;
+    font-size: 0.7em;
+    border-top: 1px solid 
+}
+
+my-ref{
+    position: relative;
+   font-size: 75%;
+   line-height: 0;
+   vertical-align: baseline;
+    line-height: 1em;
+    -moz-isolate: -moz-isolate;
+     top: -0.5em;
+}
+
+
+
+
+
+
