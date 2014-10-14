@@ -106,17 +106,16 @@ a.new {
     padding-left:20px;
 }
 
+.padding-15 {
+    padding:15px;
+}
+
 .font-size-small {
     font-size:small;
 }
 
 .bk-color-white {
     background-color: whitesmoke;
-}
-
-.me-thumbnail {
-    width:64px;
-    height:64px;   
 }
 
 .thumbnail.pull-left {

@@ -4,16 +4,26 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/controllers/controllers.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/content/dante.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/content/war%20memorial%20of%20Musocco.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/home/me.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/content/dante.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/partials/footer.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/places/war%20memorial%20of%20Musocco.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/home/preambolo.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/social-btn.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/maestri/dante.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/partials/navigation.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/partials/template.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/partials/navigation.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/maestroes/dante.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/app.config.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/css/site.css</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/home/preamble.html</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/home/about.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/content/monumento%20ai%20caduti%20di%20Musocco.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/partials/footer.html</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/en/home/about.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/content/eliminazione%20Monumento%20ai%20caduti%20di%20Musocco%20su%20Wikipedia.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/home/me.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/content/monumento%20ai%20caduti.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/luoghi/monumento%20ai%20caduti%20di%20Musocco.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/luoghi/monumento%20ai%20caduti.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/views/it/luoghi/eliminazione%20Monumento%20ai%20caduti%20di%20Musocco%20su%20Wikipedia.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/index.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularjs/public_html/app.module.js</file>
         </group>
     </open-files>
 </project-private>

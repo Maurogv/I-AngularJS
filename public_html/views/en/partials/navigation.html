@@ -1,15 +1,11 @@
-<nav class="navbar navbar-default" role="navigation" ng-controller="headerController">
+<nav class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
            <a class="navbar-brand">
            </a>
         </div>
         <div>
            <ul class="nav navbar-nav">
-              <li ng-class="{ active: isActive('/en-me')}" >
-                <a style="padding:0px;" href="#/en-me">
-                    <img class="img-rounded me-thumbnail" src="https://lh3.googleusercontent.com/-QM_kZpHa4WA/U7Unx4AnGlI/AAAAAAABmiM/Cg8qiZTezU0/w558-h699-no/Mauro+al+Principe.jpg" alt="Me">
-                </a>           
-             </li>
+              <li><a href="#/preamble">Preamble</a></li>
               <li class="dropdown" >
                  <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
                     Maestroes
@@ -27,17 +23,13 @@
                     <span class="caret"></span>
                  </a>
                  <ul class="dropdown-menu">
-                    <li ng-class="{ active: isActive('/warmemorialofMusocco')}"><a  href="#/warmemorialofMusocco">War Memorial of Musocco</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li ng-class="{ active: isActive('/warmemorialofMusocco')}"><a  href="#/warmemorialofMusocco">War Memorial of Musocco</a></li>                  
                  </ul>
               </li>              
               <li><a href="#/en-about">About</a></li>
            </ul>
             <ul class="nav navbar-nav pull-right">
-              <li ng-class="{ active: isActive('/me')}"><a  href="#/me">Italiano</a></li>
+              <li ng-class="{ active: isActive('/preambolo')}"><a  href="#/preambolo">Italiano</a></li>
             </ul>
         </div>
     </nav>
