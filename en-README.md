@@ -20,4 +20,4 @@ Github as well as being an open source community of code-sharing, can perform th
 
 The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
 
-You can read the site on http://maurogv.github.io/I-angularjs/public_html/#/premable
+You can read the site on http://maurogv.github.io/I-angularjs/public_html/#/preamble
