@@ -8,13 +8,21 @@
               <li><a href="#/preamble">Preamble</a></li>
               <li class="dropdown" >
                  <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Story
+                    <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-menu">
+                    <li ng-class="{ active: isActive('/thefall')}"><a  href="#/thefall">The fall</a></li>
+                    <li ng-class="{ active: isActive('/thefirstphysicalexaminations')}"><a  href="#/thefirstphysicalexaminations">The first physical examinations</a></li>
+                 </ul>
+              </li>    
+              <li class="dropdown" >
+                 <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
                     Maestroes
                     <span class="caret"></span>
                  </a>
                  <ul class="dropdown-menu">
-                    <li ng-class="{ active: isActive('/en-dante')}"><a  href="#/en-dante">Dante</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li ng-class="{ active: isActive('/en-dante')}"><a  href="#/en-dante">Dante</a></li>                
                  </ul>
               </li>          
               <li class="dropdown" >

@@ -12,7 +12,19 @@
             templateUrl : 'views/it/home/preambolo.html',
             title : 'Preambolo', 
             lang : 'it'
-        })       
+        })   
+        .when('/lacaduta', {
+            controller : 'appController',
+            templateUrl : 'views/it/racconto/la caduta.html',
+            title : 'La caduta', 
+            lang : 'it'
+        })
+        .when('/leprimevisitemediche', {
+            controller : 'appController',
+            templateUrl : 'views/it/racconto/le prime visite mediche.html',
+            title : 'Le prime visite mediche', 
+            lang : 'it'
+        })
         .when('/dante', {
             controller : 'appController',
             templateUrl : 'views/it/maestri/dante.html',
@@ -53,6 +65,18 @@
             controller : 'appController',
             templateUrl : 'views/en/home/preamble.html',
             title : 'Preamble', 
+            lang : 'en'
+        })
+        .when('/thefall', {
+            controller : 'appController',
+            templateUrl : 'views/en/story/the fall.html',
+            title : 'The fall', 
+            lang : 'en'
+        })
+        .when('/thefirstphysicalexaminations', {
+            controller : 'appController',
+            templateUrl : 'views/en/story/the first physical examinations.html',
+            title : 'The first physical examinations', 
             lang : 'en'
         })
         .when('/en-dante', {

@@ -15,10 +15,10 @@ counter-reset:section;
 }*/
 
 
-sup {
+/*sup {
     line-height: 1em;
     -moz-isolate: -moz-isolate;
-}
+}*/
 
 a {
     text-decoration: none;
@@ -70,10 +70,10 @@ a.new {
     float:left;
     overflow: hidden;
     margin: 0 10px;*/
-    border-top:4px solid;
+    border-top:2px solid;
     background-color:whitesmoke;
     padding:10px;
-    margin-top: 2em;
+    margin-top: 0.5em;
     margin-left: 1em;
 }
 
@@ -82,7 +82,7 @@ a.new {
 }
 
 .bd-top-color-link { 
-   border-top-color:rgb(6,69,173);;    
+   border-top-color:rgb(6,69,173);    
 }
 
 .bd-top-color-green { 
@@ -126,11 +126,16 @@ a.new {
     margin-left: 5px;
 }
 
+.caption{
+    font-size:small;
+}
+
 .overflow-hidden {
     overflow: hidden; 
-    // misalignment after thumbnail and in ie bullet as well
-    // but not blocking ul dropdown bootstrap
+    /* misalignment after thumbnail and in ie bullet as well
+    but not blocking ul dropdown bootstrap */
 }
+
 footer {
     margin: 4em 0 1em 0;
     padding: 1em;
@@ -140,17 +145,10 @@ footer {
 }
 
 my-ref{
-    position: relative;
-   font-size: 75%;
-   line-height: 0;
-   vertical-align: baseline;
-    line-height: 1em;
+     line-height: 1em;
     -moz-isolate: -moz-isolate;
+     position: relative;
+    font-size: 75%;
+    vertical-align: baseline;  
      top: -0.5em;
 }
-
-
-
-
-
-

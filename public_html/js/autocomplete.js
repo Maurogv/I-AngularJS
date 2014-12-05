@@ -18,19 +18,26 @@
         });
      },  
     
-     indexContent= function(url) {
+     indexContent= function(url, $compile, $scope) {
         var ol=$('<ol></ol>');
-        $(".page-header > h2").each(function (index) {
+        $(".page-header > h2").each(function (index) {          
+//          var element=$compile($(this))($scope);         
+//          var text=element.text();             
             var text=$(this).text();
             var id=text.toLowerCase().split(' ').join("_");
-            $(this).attr('id',id);
+            $(this).attr('id',id);       
+            if (text.toLowerCase() == "{{strings.note}}" | text.toLowerCase() == "{{strings.notes}}") ol.append('<br />');
+
             ol.append("<li><a href='#" + url + "#" + escape(id) + "'>"+ text + "</a></li>");
+           // ol.append(element);
+            $compile(ol)($scope);
         });
-        var div=$('<div id="indice" class="col-md-4 card bd-top-color-red"><div>');
-        var h3=$('<h3 class="text-center">Indice</h3>');
+        var div = $('<div id="indice" class="col-md-6 card bd-top-color-red"><div>');
+        var h3 = $('<h3 class="text-center">Indice</h3>');
         div.append(h3);
         div.append(ol);
-        $("#cards").append(div);      
+     //   $compile(div)($scope);
+        $("#index").append(div);      
     }, 
     
     ahreflink= function(icons) {
@@ -55,24 +62,24 @@
               
         var ul=new badge(links, true, icons).ul;
         var arraylinks=new badge(links).sortedAssociative;     
-        var div=$('<div id="linksCounter" class="col-md-4 card bd-top-color-link"><div>');
-        var h3=$('<h3 class="text-center">Collegamenti - Domini</h3>');
+        var div = $('<div class="col-md-5 card bd-top-color-link"><div>');
+        var h3 = $('<h3 class="text-center">Hyperlinks</h3>');
         div.append(h3);
         div.append(ul);
-        $("#cards").append(div);
+        $("#list_of_domains").append(div);
         
         var ul=new badge(images, false).ul;       
-        var div=$('<div id="imgsCounter" class="col-md-3 card bd-top-color-yellow"><div>');
-        var h3=$('<h3 class="text-center">Foto</h3>');
+        var div = $('<div class="col-md-5 card bd-top-color-yellow"><div>');
+        var h3 = $('<h3 class="text-center">Photos</h3>');
         div.append(h3);
         div.append(ul);
-        $("#cards").append(div);
+        $("#list_of_domains").append(div);
                 
         var tophostname; 
-        $.each( arraylinks, function( key, val ) {
-            tophostname=val[0];
-            return false;
-        });
+//        $.each( arraylinks, function( key, val ) {
+//            tophostname=val[0];
+//            return false;
+//        });
         
         $("a").each(function (index) 
         {
@@ -85,7 +92,8 @@
                 var parser = document.createElement('a');
                 parser.href =href;
                 var self=$(this);
-                if (!$(this).has("img").length & parser.hostname!=tophostname) {
+                if (!$(this).has("img").length & !parser.hostname.contains('wikipedia')) { 
+              //  if (!$(this).has("img").length & parser.hostname!=tophostname) {
                     icons.get(function(data){    
                             if (self.text()=="\xa0") self.addClass('text-decoration-none');
                             self.addClass('out');                         

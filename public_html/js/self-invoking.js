@@ -16,7 +16,8 @@
 //    script.src = 'js/mydynamics.js';
 //    script.type = 'text/javascript';
 //    document.getElementsByTagName("head")[0].appendChild(script);
-
+    window.I = {};
+    
     // Poll for jQuery to come into existance
     var checkReady = function(callback) {
         if (window.jQuery) {

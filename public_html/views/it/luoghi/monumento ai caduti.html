@@ -4,7 +4,9 @@
    </div>
 
    <div ng-include src="'views/social-btn.html'" ></div>       
-   <div class="row" id="cards"> </div> 
+   <div class="row">
+      <div class="index col-md-6 card bd-top-color-red">{{strings.indice}}</div>
+    </div>  
 
     <div class="page-header">
       <h2>Simbolismo</h2> 
@@ -29,7 +31,14 @@
    </div>
    <p>La pagina Monumento ai caduti (definizione) scritta da me su <a href="https://it.wikipedia.org/wiki/Pagina_principale">Wikipedia</a> con impostazione e argomentazione simili a quanto scritto in questa pagina è stata <a href="http://it.wikipedia.org/w/index.php?title=Speciale:Registri&page=Monumento_ai_caduti_(definizione)">cancellata</a>. Si leggano le mie <a href='#eliminazioneMonumentoaicadutidefinizionesuWikipedia'>considerazioni</a> su questa esperienza.</p>
 
-   <ol class="references">
-   </ol>  
+   <div class="page-header">
+     <h2>{{strings.note}}</h2>
+   </div>  
+   
+   <div class="page-header" >
+     <h2>{{strings.elencoDomini}}</h2>
+   </div>
+   <div class="hyperlinksDomain col-md-6 card bd-top-color-yellow">{{strings.dominiCollegamenti}}</div>
+   <div class="photosDomain col-md-5 card bd-top-color-green">{{strings.dominiFoto}}</div>
     
    <div ng-include src="'views/it/partials/footer.html'" ></div> 

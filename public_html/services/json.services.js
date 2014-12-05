@@ -5,12 +5,12 @@
  */
 
 angular.module('jsonServices',['ngResource'])
-  .factory('Icon', icon)
-  .factory('Page', page)
+  .factory('Icons', icons)
+//  .factory('Strings', strings)
   .factory('CadutidiMusocco', cadutidiMusocco);
   
-icon.$inject=['$resource'];
-page.$inject=['$resource'];
+//strings.$inject=['$resource'];
+icons.$inject=['$resource'];
 cadutidiMusocco.$inject=['$resource'];
 
 // AS
@@ -20,19 +20,19 @@ cadutidiMusocco.$inject=['$resource'];
 //  code
 //  
 // }
+//function strings($resource){
+//    return $resource('json/:iconId.json', {}, {
+//      get: {method:'GET', params:{iconId:'strings'}, isArray:false}
+//   });
+// };
 
- function icon($resource){
+
+ function icons($resource){
     return $resource('json/:iconId.json', {}, {
-      get: {method:'GET', params:{iconId:'social'}, isArray:false}
+      get: {method:'GET', params:{iconId:'icons16x16'}, isArray:false}
    });
  };
-   
- function page($resource){
-    return $resource('json/page.json', {}, {
-      query: {method:'GET', isArray:true}
-   });
-  };
-  
+    
  function cadutidiMusocco($resource){
     return $resource('json/caduti di Musocco.json', {}, {
       query: {method:'GET', isArray:true}

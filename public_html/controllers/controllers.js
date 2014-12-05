@@ -9,7 +9,7 @@ angular.module('controllers',[])
    .controller('AppController', appController)
    .controller('LangController', langController);
    
-   appController.$inject=['$scope', '$route', '$rootScope', '$location', 'Icon'];
+   appController.$inject=['$scope', '$route', '$rootScope', '$location', '$compile', 'Icons', 'Strings' ];
    // as
    // .controller('AppController',  
    // function($scope, $route, $location, Icon, Page, CadutidiMusocco) {
@@ -17,11 +17,14 @@ angular.module('controllers',[])
    // code
    // 
    // })
-     
-   function appController( $scope, $route, $rootScope, $location, Icon) {
-           
-       $scope.social = Icon.get();   
+   
+   function appController( $scope, $route, $rootScope, $location, $compile, Icons, Strings) {
          
+       $rootScope.$on('routechanged',function(event,args) {
+          $scope.strings = Strings[args.lang + "_strings"]; 
+          $scope.languageInvariantStrings=Strings.strings;
+       });        
+      
         $scope.$on('$routeChangeSuccess', function (ev, current, prev) {      
             $scope.pagetitle=$route.current.title;
             $rootScope.$broadcast('routechanged',{lang: $route.current.lang});
@@ -29,9 +32,12 @@ angular.module('controllers',[])
         
         $scope.myrefcounter=1;
 //      jMauro().references($location.path());
-        jMauro().indexContent($location.path());
-        jMauro().ahreflink(Icon);
-        jMauro().activenav($location.path());
+        I.createContents($location.path(), $compile, $scope);
+        I.hyperlinksDomain(Icons,$compile, $scope);
+        I.photosDomain($compile, $scope);
+        I.appendIcons(Icons);
+        //  jMauro().ahreflink(Icon);
+        I.activeNav($location.path());
     };         
      
     langController.$inject=['$scope','$rootScope' ];
@@ -42,8 +48,7 @@ angular.module('controllers',[])
         
         $rootScope.$on('routechanged',function(event,args) {
               $scope.lang=views + args.lang  + partial;
-         });
-        
+         });      
     };
       
    cadutidiMusoccoController.$inject=['$injector', '$scope', 'CadutidiMusocco'];

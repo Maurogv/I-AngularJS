@@ -10,6 +10,7 @@ var app = angular.module('app',[
        'config',
        'controllers',
        'jsonServices',  
+       'stringsResource',
        'filters',
        'directives'
    ]);

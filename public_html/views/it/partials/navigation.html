@@ -6,7 +6,16 @@
         <div>
            <ul class="nav navbar-nav">
               <li><a href="#/preambolo">Preambolo</a></li>
-            <!--  <li ><a href="#/templatePage">Template</a></li> -->
+              <li class="dropdown" >
+                 <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Racconto 
+                    <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-menu">
+                    <li ng-class="{ active: isActive('/lacaduta')}"><a  href="#/lacaduta">La caduta</a></li>
+                    <li ng-class="{ active: isActive('/leprimevisitemediche')}"><a  href="#/leprimevisitemediche">Le prime visite mediche</a></li>
+                 </ul>
+              </li>      
               <li class="dropdown" >
                  <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
                     Maestri 
@@ -14,8 +23,6 @@
                  </a>
                  <ul class="dropdown-menu">
                     <li ng-class="{ active: isActive('/dante')}"><a  href="#/dante">Dante</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
                  </ul>
               </li>          
               <li class="dropdown" >
