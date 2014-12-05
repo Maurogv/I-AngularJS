@@ -1,4 +1,4 @@
-﻿I-angularjs
+﻿I-angularJS
 ================
 
 The site was born from the desire and need to tell my story after a fall illustrating the numerous attempts to understand the origin of pain, the care, the trend of health conditions, the relationship with physicians and institutions, the vicissitudes. Provides elements of my training and my human passions that may be of understanding the whole story, while a section describing places known to me.
@@ -16,7 +16,7 @@ The programming model is that MVC made even more powerful (C that becomes W, Wha
 The page style is [bootstrap](http://getbootstrap.com/). The code in the client, Javascript, builds the index and references to the notes of each page, list domains of hyperlinks and photos, add an icon at the end of the hyperlink when the domain is present in a json library, associating domain to icon of dimension 16x16.  
 The photos were posted on various sites that make up the repository, such as flickr, google +, wikimedia, ...
 
-Github as well as being an open source community of code-sharing, can perform the static html pages with css and javascript, there is no client-server computing. Because Angular JS Google's technology is entirely client can make pages on Github with the only code available, showing that the adjective superheroic coined by the developers of the platform is valid.
+Github as well as being an open source community of code-sharing, can perform the static html pages with css and javascript, there is no client-server computing. Because AngularJS Google's technology is entirely client can make pages on Github with the only code available, showing that the adjective superheroic coined by the developers of the platform is valid.
 
 The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
 
