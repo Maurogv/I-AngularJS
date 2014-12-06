@@ -18,7 +18,7 @@
                 var parser = document.createElement('a');
                 parser.href =href;
                 var self=$(this);
-                if (!$(this).has("img").length & !parser.hostname.contains('wikipedia')) { 
+                if (!$(this).has("img").length & ! (parser.hostname.indexOf('wikipedia')>-1)) { 
               //  if (!$(this).has("img").length & parser.hostname!=tophostname) {
                     icons.get(function(data){    
                             if (self.text()=="\xa0") self.addClass('text-decoration-none');
