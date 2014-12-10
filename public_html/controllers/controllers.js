@@ -31,13 +31,10 @@ angular.module('controllers',[])
         }); 
         
         $scope.myrefcounter=1;
-//      jMauro().references($location.path());
-        I.createContents($location.path(), $compile, $scope);
-        I.hyperlinksDomain(Icons,$compile, $scope);
-        I.photosDomain($compile, $scope);
-        I.appendIcons(Icons);
-        //  jMauro().ahreflink(Icon);
         I.activeNav($location.path());
+        I.createContents($location.path(), $compile, $scope);
+        I.domainsList($compile, $scope);     
+        I.prependIcons(Icons);        
     };         
      
     langController.$inject=['$scope','$rootScope' ];

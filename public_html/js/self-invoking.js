@@ -13,9 +13,6 @@
     script.type = 'text/javascript';
     document.getElementsByTagName("head")[0].appendChild(script);
     
-//    script.src = 'js/mydynamics.js';
-//    script.type = 'text/javascript';
-//    document.getElementsByTagName("head")[0].appendChild(script);
     window.I = {};
     
     // Poll for jQuery to come into existance
@@ -32,8 +29,7 @@
     checkReady(function($) {
         // Use $ here...
         $(document).ready(function () {
-        // createReference();
-        // createIndexContent();
+       
        });
     });
 })();
