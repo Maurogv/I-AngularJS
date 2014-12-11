@@ -1,4 +1,4 @@
-﻿I-angularJS
+﻿I-AngularJS
 ================
 
 The site was born from the desire and need to tell my story after a fall illustrating the numerous attempts to understand the origin of pain, the care, the trend of health conditions, the relationship with physicians and institutions, the vicissitudes. Provides elements of my training and my human passions that may be of understanding the whole story, while a section describing places known to me.
@@ -20,4 +20,4 @@ Github as well as being an open source community of code-sharing, can perform th
 
 The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
 
-You can read the site on http://maurogv.github.io/I-angularJS/public_html/#/preamble
+You can read the site on http://maurogv.github.io/I-AngularJS/public_html/#/preamble
