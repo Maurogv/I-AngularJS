@@ -3,7 +3,7 @@
     var prependIcons = function (icons) {
         $("a").each(function (index) 
         {
-          // if ($(this).hasClass("thumbnail")) return;
+            if ($(this).has("img").length) return true;
             var href=$(this).attr('href');
             // It was enough just checking that string doesn't start with 
             var urlPattern = /(http|ftp|https):\/\/[\w-]+(\.[\w-]+)+/;

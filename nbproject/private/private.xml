@@ -3,26 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/css/site.css</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/it/racconto/la%20caduta.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/services/strings.resource.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/controllers/controllers.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/json/caduti%20di%20Musocco.json</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/app.config.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/app.module.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/index.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/services/json.services.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/json/icons16x16.json</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/prependIcons.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/createContents.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/domainsList.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/json/caduti%20di%20Musocco.json</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/css/site.css</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/activeNav.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/self-invoking.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/controllers/controllers.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/json/icons16x16.json</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/directives/index.directive.js</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/it/maestri/dante.html</file>
-            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/directives/myRef.directive.js</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/it/home/about.html</file>
             <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/en/home/about.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/createContents.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/self-invoking.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/app.config.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/services/strings.resource.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/index.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/js/I/domainsList.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/it/racconto/la%20caduta.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/services/json.services.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/app.module.js</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/views/it/maestri/dante.html</file>
+            <file>file:/C:/Users/Mauro/Google%20Drive/I-angularJS/public_html/directives/myRef.directive.js</file>
         </group>
     </open-files>
 </project-private>
