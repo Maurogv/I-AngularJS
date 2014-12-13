@@ -1,8 +1,8 @@
 body {
-counter-reset:section;
+  counter-reset:section;
 }
 
-.page-header h2:before 
+.content:before 
 {
   counter-increment:section;
   content:counter(section)". ";
@@ -52,16 +52,18 @@ a.external {
     padding-right:13px;
 }
 
-/* class is copy frow wikipedia, as well */
+/* class in wikipedia, when war memorial discussion is copied */
 a.new {
     color:#BA0000;
 }
 
-.mybuffer-top { 
+/* div img*/
+.margin-top-10px { 
   margin-top:  10px;
 }
 
-.mybuffer-bottom { 
+/* div img*/
+.margin-bottom-10px { 
   margin-bottom:  10px;
 }
 
@@ -102,28 +104,23 @@ a.new {
     padding:1px;
 }
 
-.padding-left-20 {
+/* Fallen list, inside Razor not works, skip with in-style*/
+.padding-left-20px {
     padding-left:20px;
 }
 
-.padding-15 {
-    padding:15px;
+/* jumbotron */
+.padding-15px {
+    padding:15px;  
 }
 
+/* Fallen names*/
 .font-size-small {
     font-size:small;
 }
 
 .bk-color-white {
     background-color: whitesmoke;
-}
-
-.thumbnail.pull-left {
-    margin-right: 1em;
-}
-
-.thumbnail.pull-right {
-    margin-left: 5px;
 }
 
 .caption{
@@ -148,7 +145,7 @@ my-ref{
      line-height: 1em;
     -moz-isolate: -moz-isolate;
      position: relative;
-    font-size: 75%;
-    vertical-align: baseline;  
+     font-size: 75%;
+     vertical-align: baseline;  
      top: -0.5em;
 }
