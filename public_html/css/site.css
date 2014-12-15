@@ -104,19 +104,18 @@ a.new {
     padding:1px;
 }
 
-/* Fallen list, inside Razor not works, skip with in-style*/
-.padding-left-20px {
+.fallen-name-td-padding-left-20px tbody > tr > td:nth-child(3n+1) {
     padding-left:20px;
-}
-
-/* jumbotron */
-.padding-15px {
-    padding:15px;  
 }
 
 /* Fallen names*/
 .font-size-small {
     font-size:small;
+}
+
+/* jumbotron */
+.padding-15px {
+    padding:15px;  
 }
 
 .bk-color-white {

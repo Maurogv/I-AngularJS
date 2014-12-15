@@ -154,10 +154,10 @@
    </div>
  
    <p>I nomi dei caduti della prima lapide:</p>
-   <table class="table borderless font-size-small" >      
+   <table class="table borderless font-size-small fallen-name-td-padding-left-20px" >      
      <tbody> 
       <tr ng-repeat="i in [] | range:firststoneindex/3+1">       
-          <td ng-repeat-start="j in [] | range:3" style="padding-left: 20px">{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i].fullname}}</td>    
+          <td ng-repeat-start="j in [] | range:3">{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i].fullname}}</td>    
           <td ng-repeat-end>
               <span>{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i].annodinascita}}</span> 
               <span>{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i].annodimorte}}</span> 
@@ -166,10 +166,10 @@
      </tbody>
    </table> 
    <p>I nomi dei caduti sulla seconda lapide:</p>
-   <table class="table borderless font-size-small" >      
+   <table class="table borderless font-size-small fallen-name-td-padding-left-20px" >      
      <tbody> 
       <tr ng-repeat="i in [] | range:secondstonecolumnlength">       
-          <td ng-repeat-start="j in [] | range:3" style="padding-left: 20px">{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i + firststoneindex + 1].fullname}}</td>    
+          <td ng-repeat-start="j in [] | range:3">{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i + firststoneindex + 1].fullname}}</td>    
           <td ng-repeat-end>
               <span>{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i + firststoneindex + 1].annodinascita}}</span> 
               <span>{{cadutidiMusocco[(firststoneindex + 1) * j / 3 + i + firststoneindex + 1].annodimorte}}</span> 
