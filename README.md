@@ -8,7 +8,7 @@ Questo progetto è nato dalla volontà e necessità di raccontare la mia storia 
 Scusandomi di dover raccontare di me, accettando la mia sorte, portato in sbagliata direzione, la scrittura possa fare chiarezza e rendere giustizia nella ricerca di verità e salvezza, sia pane per altri.  
 Aiutato da maestri e forze celesti, non ignaro della misericordia divina, il sito possa mostrare lo svolgimento della vicenda in modo conforme alla dinamica dei fatti e comprensibile, fornendo le informazioni, aiutato da documenti, commenti, analisi e spiegazioni.  
 Si evidenzierà l'incapacità di medici e strutture di comprendere l'origine del dolore, diagnosi superficiale, lo sconvolgimento, deformazione e capovolgimento della situazione allontanando dalla ricerca di verità, la loro ripetizione. Le conseguenze sono cure inutili quando non sbagliate, peggioramento della condizione di salute per mancanza o falso obiettivo nell'ignoranza e falsità, disconoscimento di responsabilità e colpe e altro, condizioni economiche valutate in modo ipocrito. La storia si svolge a Milano e in Lombardia con la dipendenza economica del malato addossata alla famiglia.  
-La lingua mostri il mio difetto di facoltà, laddove c'è stato, nel giudizio imperscrutabile che questa storia possa essere nota, completamente o in parte.
+La lingua mostri il mio difetto di facoltà, laddove c'è stato, nell'imperscrutabile giudizio divino che questa storia possa essere nota, completamente o in parte.
 
 Le potenzialità internet, un insieme di pagine collegate tra di loro, mi permette di pubblicare liberamente questa storia e sono cosciente che la mia passione per i computer, nata sin da adolescente, è stata utile e necessaria per poterla scrivere. 
   
