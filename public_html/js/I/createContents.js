@@ -3,7 +3,7 @@
     var createContents = function(url, $compile, $scope) {
         var ol = $('<ol></ol>');
         var $contents = $(".table-of-contents");
-        $(".page-header > h2").each(function (index) {
+        $(".content").each(function (index) {
             var text = $(this).text();
             var id = text.toLowerCase().split(' ').join("_");
             $(this).attr('id', id);
@@ -13,7 +13,6 @@
           //  $compile(ol)($scope);
         });
         
-       // var div = $('<div class="col-md-6 card bd-top-color-red"><div>');
         var h3 = $('<h3 class="text-center">' + $contents.text() + '</h3>');
         $contents.html('');
         $contents.append(h3);
