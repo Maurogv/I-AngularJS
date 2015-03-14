@@ -1,7 +1,7 @@
 ﻿I-AngularJS
 ================
 
-The site was born from the desire and need to tell my story after a fall illustrating the numerous attempts to understand the origin of pain, the care, the trend of health conditions, the relationship with physicians and institutions, the vicissitudes. Provides elements of my training and my human passions that may be of understanding the whole story, while a section describing places known to me.
+The site was born from the desire and need to tell my story after a fall illustrating the numerous attempts to understand the origin of pain, the care, the trend of health conditions, the relationship with physicians and institutions, the vicissitudes. Provides elements of my training and my human passions that may be of understanding the whole story.
 
 
 
