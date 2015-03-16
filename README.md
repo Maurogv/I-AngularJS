@@ -1,4 +1,4 @@
-﻿I-AngularJS
+I-AngularJS
 ================
 
 Questo progetto è nato dalla volontà e necessità di raccontare la mia storia dopo una caduta illustrando i numerosi tentativi di comprendere l'origine del male che diventa cronico, pungente e carico di elettricità, le cure, l'andamento delle condizioni di salute, il rapporto con i medici e le istituzioni, le vicissitudini. Fornisce elementi della mia formazione umana e delle mie passioni che possono essere di comprensione dell'intera storia.
