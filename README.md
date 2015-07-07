@@ -22,4 +22,4 @@ Le foto sono state pubblicate su vari siti che fanno da deposito, quali flickr, 
 Github oltre ad essere una comunità open source di condivisione del codice, permette di eseguire le pagine html staticamente, con css and javascript, non c'è elaborazione client-server. Poichè la tecnologia di Google è interamente client è possibile rendere le pagine su Github con il solo codice a disposizione, dimostrando che l'aggettivo da supereroi coniato dagli sviluppatori della piattaforma è valido.  
 La condivisione del codice su Github e la possibilità di accedervi di renderle sulla sua piattaforma rappresenta un passo importante per una futura pubblicazione su un sito autonomo.
 
-Si può leggere il sito su http://maurogv.github.io/I-AngularJS/public_html/#/preambolo
+Si può leggere il sito su http://maurogv.github.io/I-AngularJS/public_html/#/proemio
