@@ -7,7 +7,8 @@
 angular.module('controllers',[])  
    .controller('CadutidiMusoccoController', cadutidiMusoccoController)
    .controller('AppController', appController)
-   .controller('LangController', langController);
+   .controller('NavController', navController)
+   .controller('BackToTopController', backToTopController);
    
    appController.$inject=['$scope', '$route', '$rootScope', '$location', '$compile', 'Icons', 'Strings' ];
    // as
@@ -31,17 +32,29 @@ angular.module('controllers',[])
         }); 
         
         $scope.myrefcounter=1;
+        I.backToTop();
         I.activeNav($location.path());
         I.createContents($location.path(), $compile, $scope);
         I.domainsList($compile, $scope);     
         I.prependIcons(Icons);        
     };         
      
-    langController.$inject=['$scope','$rootScope' ];
-    function langController($scope, $rootScope) 
+    navController.$inject=['$scope','$rootScope' ];
+    function navController($scope, $rootScope) 
     { 
         var views="views/";
         var partial="/partials/navigation.html";
+        
+        $rootScope.$on('routechanged',function(event,args) {
+              $scope.lang=views + args.lang  + partial;
+         });      
+    };
+    
+    backToTopController.$inject=['$scope','$rootScope' ];
+    function backToTopController($scope, $rootScope) 
+    { 
+        var views="views/";
+        var partial="/partials/backToTop.html";
         
         $rootScope.$on('routechanged',function(event,args) {
               $scope.lang=views + args.lang  + partial;
@@ -70,7 +83,7 @@ angular.module('controllers',[])
         $scope: $scope,
      });
    }
-   
+
    
      
       
