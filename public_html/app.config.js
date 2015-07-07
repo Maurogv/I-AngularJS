@@ -7,10 +7,10 @@
    angular.module('config',[])
    .config(['$routeProvider', function($routeProvider){
     $routeProvider    
-        .when('/preambolo', {
+        .when('/proemio', {
             controller : 'appController',
-            templateUrl : 'views/it/home/preambolo.html',
-            title : 'Preambolo', 
+            templateUrl : 'views/it/home/proemio.html',
+            title : 'Proemio', 
             lang : 'it'
         })   
         .when('/lacaduta', {
@@ -25,10 +25,40 @@
             title : 'Le prime visite mediche', 
             lang : 'it'
         })
-        .when('/dante', {
+        .when('/incontroconilpoeta', {
             controller : 'appController',
-            templateUrl : 'views/it/maestri/dante.html',
-            title : 'Dante', 
+            templateUrl : 'views/it/dante/incontro con il poeta.html',
+            title : "L'incontro con il poeta", 
+            lang : 'it'
+        })
+        .when('/introduzioneaConvivio', {
+            controller : 'appController',
+            templateUrl : 'views/it/dante/introduzione a Convivio.html',
+            title : "Introduzione a Convivio", 
+            lang : 'it'
+        })
+        .when('/convivioTrattatoPrimo', {
+            controller : 'appController',
+            templateUrl : 'views/it/dante/convivio Trattato Primo.html',
+            title : "Convivio - Trattato Primo", 
+            lang : 'it'
+        })
+        .when('/convivioTrattatoSecondo', {
+            controller : 'appController',
+            templateUrl : 'views/it/dante/convivio Trattato Secondo.html',
+            title : "Convivio - Trattato Secondo", 
+            lang : 'it'
+        })
+        .when('/commedia', {
+            controller : 'appController',
+            templateUrl : 'views/it/dante/commedia.html',
+            title : "Commedia", 
+            lang : 'it'
+        })
+        .when('/miecitazionidellaCommedia', {
+            controller : 'appController',
+            templateUrl : 'views/it/dante/mie citazioni della Commedia.html',
+            title : "Commedia", 
             lang : 'it'
         })
         .when('/monumentoaicaduti', {
@@ -79,10 +109,40 @@
             title : 'The first physical examinations', 
             lang : 'en'
         })
-        .when('/en-dante', {
+        .when('/mymeetingwiththepoet', {
             controller : 'appController',
-            templateUrl : 'views/en/maestroes/dante.html',
-            title : 'Dante', 
+            templateUrl : 'views/en/dante/my meeting with the poet.html',
+            title : "My meeting with the poet", 
+            lang : 'en'
+        })
+        .when('/introductiontoConvivio', {
+            controller : 'appController',
+            templateUrl : 'views/en/dante/introduction to Convivio.html',
+            title : "Introdution to Convivio", 
+            lang : 'en'
+        })
+        .when('/convivioBookOne', {
+            controller : 'appController',
+            templateUrl : 'views/en/dante/convivio Book One.html',
+            title : "Convivio - Book One", 
+            lang : 'en'
+        })
+        .when('/convivioBookTwo', {
+            controller : 'appController',
+            templateUrl : 'views/en/dante/convivio Book Two.html',
+            title : "Convivio - Book Two", 
+            lang : 'en'
+        })
+        .when('/comedy', {
+            controller : 'appController',
+            templateUrl : 'views/en/dante/comedy.html',
+            title : "Comedy", 
+            lang : 'en'
+        })
+        .when('/myquotesontheComedy', {
+            controller : 'appController',
+            templateUrl : 'views/en/dante/my quotes on the Comedy.html',
+            title : "My quotes on the Comedy", 
             lang : 'en'
         })
         .when('/warmemorialofMusocco', {
@@ -98,10 +158,10 @@
             lang : 'en'
         })
         .when('index', {
-            redirectTo : '/preambolo'
+            redirectTo : '/proemio'
         })
         .otherwise({
-            redirectTo : '/preambolo'
+            redirectTo : '/proemio'
         });
 }]);
    

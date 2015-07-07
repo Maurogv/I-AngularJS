@@ -148,3 +148,31 @@ my-ref{
      vertical-align: baseline;  
      top: -0.5em;
 }
+
+#back-top {
+  position: fixed;
+  bottom: 20px;
+  margin-left: 30px;
+}
+
+#back-top a {
+  width: 108px;
+  display: block;
+  text-align: center;
+  font: 11px/100% Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bbb;
+
+  /* transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+#back-top a:hover {
+  color: #000;
+}
+
+#back-top a:hover span {
+  background-color: #777;
+}
