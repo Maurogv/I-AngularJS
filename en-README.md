@@ -3,17 +3,6 @@ I-AngularJS
 
 The site was born from the desire and need to tell my story after a fall illustrating the numerous attempts to understand its consequences and the internal origin of pain, the care, the trend of health conditions, the relationship with physicians and institutions, hospitals, my vicissitudes. Provides elements of my training and find my passions, that may be of understanding for the whole story.
 
-A large important section is dedicated to my training, my reading and study of Dante, often inspiring, I told as born my passion and I have paraphrased a part of Convivio, considered useful exercise to good writing and successful story. When I have any flashbacks I mention the Comedy.
-
-The potential of internet, a set of pages linked together, allowing me to freely publish this story and I am conscious that my passion for computers, born since adolescent, helpful and necessary to be able to write.
-
-I apologize for having to tell about me, accepting my fate, led in the wrong direction, the writing can bring clarity and justice in the search for truth and salvation, be bread for others.  
-Helped by maestoes and celestial forces, not ignorant of God's mercy, the site can show the course of the story in a manner consistent with the sequence of events and understandable by providing the information, aided by documents, comments, analysis and explanations.  
-Highlighting the inability of doctors and facilities to understand the origin of the pain, superficial diagnosis, the upsetting, deformation, and overturning of situation away from the search for truth, their repetition. The consequences are unnecessary care when is not wrong, worsening health condition due to lack or false objective in ignorance and falsehoods, statism, disregard of responsibility and guilt and other thing, economic conditions evaluated hypocritically. The story takes place in Milan and Lombardy with economic dependence of the sick charged to the family.  
-
-The language show my lack of faculty, where there was. My fault that appears is that I've continued, betrayed by a medicine misleading and inexperience of youth, the demanding university activity of those years, despite the progressive negative signals of the body and disease, signals badly evaluated individually, by family, friends and the community.  
-Grate to be able to write, be the inscrutable divine judgment to allow my history is known, in part or whole.
-
 The platform used is [AngularJS](https://angularjs.org/), the powerful and innovative MVW Javascript framework for writing applications by Google getting a Single Page Application. AngularJS lets extend HTML’s syntax, automatically synchronizes data from your UI (view) with your JavaScript objects (model) through 2-way data binding and teaches the browser how to do [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) and [inversion of control](http://en.wikipedia.org/wiki/Inversion_of_control).  
 MVW (Model-View-Whatever) is an evolution of the programming model [MVC](http://en.wikipedia.org/wiki/Model-View-Controller). Over time and thanks to many [refactorings]( http://en.wikipedia.org/wiki/Code_refactoring) and [api](http://en.wikipedia.org/wiki/Application_programming_interface) improvements, AngularJS is now closer to [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel), the $scope object could be considered the ViewModel that is being decorated by a function (Controller). This framework flexibility has been named as whatever (W), whatever works for you.  
 The language of the style sheets, the [CSS](http://en.wikipedia.org/wiki/CSS) that gives the appearance and formatting of the page, is [Bootstrap](http://getbootstrap.com/).  
@@ -24,4 +13,4 @@ Github as well as being an open source community of code-sharing, can perform th
 
 The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
 
-You can read the site on http://maurogv.github.io/I-AngularJS/public_html/#/preamble
+You can read the site on http://maurogv.github.io/I-AngularJS/public_html/#/about
