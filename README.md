@@ -1,7 +1,5 @@
 I-AngularJS
 ================
-
-Il sito è nato dalla volontà e necessità di raccontare la mia storia dopo una caduta illustrando i numerosi tentativi di comprendere le sue conseguenze e l'origine interna del male, le cure, l'andamento delle condizioni di salute, il rapporto con i medici e le istituzioni, ospedali, le mie vicissitudini. Fornisce elementi della mia formazione umana e scoprirete le mie passioni, che possono essere di comprensione dell'intera storia.
   
 La piattaforma utilizzata è **AngularJS**, il potente e innovativo Javascript MVW framework di Google per scrivere applicazioni completamente client ottenendo un'applicazione a singola pagina. AngularJS permette con le direttive di arricchire la sintassi di html, sincronizza nei due sensi l'interfaccia utente con i dati (il modello), indica al browser l'[iniezione di dipendenza](http://it.wikipedia.org/wiki/Dependency_injection) e l'[inversione del controllo](http://it.wikipedia.org/wiki/Inversion_of_Control).  
 MVW (Model-View-Whatever) è un evoluzione del modello di programmazione [MVC](http://it.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). Grazie ai miglioramenti del [refactoring](http://it.wikipedia.org/wiki/Refactoring) e dell'interfaccia di programmazione dell'applicazione ([API](http://it.wikipedia.org/wiki/Application_programming_interface)), AngularJS è più vicino a MVVM, in cui l'oggetto di collegamento alla vista, $scope, è simile a View Model (VM), questa versalità del framework è stata indicata come whatever (W), qualsiasi cosa sia utile.  
