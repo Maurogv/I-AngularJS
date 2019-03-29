@@ -5,7 +5,7 @@ The platform for I is [AngularJS](https://angularjs.org/), the powerful and inno
 MVW (Model-View-Whatever) is an evolution of the programming model [MVC](http://en.wikipedia.org/wiki/Model-View-Controller). Over time and thanks to many [refactorings]( http://en.wikipedia.org/wiki/Code_refactoring) and [api](http://en.wikipedia.org/wiki/Application_programming_interface) improvements, AngularJS is now closer to [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel), the $scope object could be considered the ViewModel that is being decorated by a function (Controller). This framework flexibility has been named as whatever (W), whatever works for you.  
 Software framework to support the development of my website is [Bootstrap](http://getbootstrap.com/), that contains HTML and [CSS](http://en.wikipedia.org/wiki/CSS)-based design templates for typography, forms, buttons, navigation and other interface components.  
 **Javascript** builds the table of contents, references to the notes of each page and back to top, list domains of hyperlinks and photos, add an 16x16 icon when the domain is present in a library of json file.  
-The photos were posted on various sites that make up the repository, such as flickr, google +, wikimedia.
+Photos are in some popular image hosting service, flickr, google +, wikimedia.
 
 Github as well as being an open source community of code-sharing, can perform the static html pages. with css and javascript there is not client-server computing. Because AngularJS Google's technology is entirely client can make pages on Github with the only code available, showing that the adjective superheroic coined by the developers of the platform is valid.
 
