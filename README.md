@@ -10,4 +10,4 @@ Le foto sono in alcuni popolari hosting di immagini, flickr, google+, wikimedia.
 Github, la comunità open source di condivisione del codice, permette di eseguire le pagine html staticamente. Poichè la tecnologia di Google è interamente client, Github le rende, dimostrando che l'aggettivo da supereroi per AngularJS è veritiero.    
 Questa condivisione rappresenta un passo importante per lo sviluppo del mio sito.
 
-Si può anche leggere http://maurogv.github.io/I-AngularJS/public_html/#/about
+Potete anche leggere http://maurogv.github.io/I-AngularJS/public_html/#/about
