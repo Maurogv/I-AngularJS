@@ -7,7 +7,7 @@ Il framework software per supportare lo sviluppo del mio sito Web è Bootstrap, 
 **Javascript** costruisce l'indice, i riferimenti alle note di ogni pagina e torna su, elenca i domini dei collegamenti ipertestuali e delle foto, aggiunge un'icona 16x16 quando il suo dominio è presente in una libreria di un file **json**.   
 Le foto sono in alcuni popolari hosting di immagini, flickr, google+, wikimedia.
 
-Github oltre ad essere una comunità open source di condivisione del codice, permette di eseguire le pagine html staticamente, con css and javascript non c'è elaborazione client-server. Poichè la tecnologia di Google è interamente client è possibile rendere le pagine su Github con il solo codice a disposizione, dimostrando che l'aggettivo da supereroi coniato dagli sviluppatori della piattaforma è valido.  
+Github, oltre ad essere una comunità open source di condivisione del codice, permette di eseguire le pagine html staticamente, con css and javascript non c'è elaborazione client-server. Poichè la tecnologia di Google è interamente client è possibile rendere le pagine su Github con il solo codice a disposizione, dimostrando che l'aggettivo da supereroi coniato dagli sviluppatori della piattaforma è valido.  
 La condivisione del codice su Github e la possibilità di accedervi di renderle sulla sua piattaforma rappresenta un passo importante per una futura pubblicazione su un sito autonomo.
 
 Si può leggere il sito su http://maurogv.github.io/I-AngularJS/public_html/#/about
