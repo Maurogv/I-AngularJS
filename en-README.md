@@ -7,8 +7,7 @@ Software framework to support the development of my website is [Bootstrap](http:
 **Javascript** builds the table of contents, references to the notes of each page and back to top, list domains of hyperlinks and photos, add an 16x16 icon when the domain is present in a library of json file.  
 Photos are in some popular image hosting service, flickr, google+, wikimedia.
 
-Github as well as being an open source community of code-sharing, can perform the static html pages. with css and javascript there is not client-server computing. Because AngularJS Google's technology is entirely client can make pages on Github with the only code available, showing that the adjective superheroic coined by the developers of the platform is valid.
+Github, the open source community to share the code, allows to perform the static html pages. Since Google's technology is entirely client, Github renders them, proving that the superhero adjective for AngularJS is truthful.  
+This sharing is an important step for the development of my site.
 
-The sharing of the code on Github and the possibility to access to make them on its platform is an important step for a future publication of a standalone site.
-
-You can read the site on http://maurogv.github.io/I-AngularJS/public_html/#/about
+You can also read http://maurogv.github.io/I-AngularJS/public_html/#/about
