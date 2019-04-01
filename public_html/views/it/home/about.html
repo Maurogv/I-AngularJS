@@ -2,24 +2,21 @@
   <h1 class="text-center">{{pagetitle}}</h1>
   <hr />
 </div>
-<p>La piattaforma utilizzata è AngularJS<my-ref>^</my-ref><my-ref>^</my-ref>, il potente e innovativo Javascript MVW framework di Google per scrivere applicazioni completamente client ottenendo un'applicazione a singola pagina. AngularJS permette con le direttive di arricchire la sintassi di html, sincronizza nei due sensi l'interfaccia utente (V) con gli oggetti Javascript (M), indica al browser l'<a href="http://it.wikipedia.org/wiki/Dependency_injection">iniezione di dipendenza</a> e l'<a href="http://it.wikipedia.org/wiki/Inversion_of_Control">inversione del controllo</a>.<br> 
-    MVW (Model-View-Whatever) è un evoluzione del modello di programmazione <a href="http://it.wikipedia.org/wiki/Model-View-Controller">MVC</a>. MVC (Model-View-Controller) separa l&#39;applicazione in tre elementi principali: il modello (M), la vista (V) e il controller (C) in modo che la logica di business, quella di interfaccia utente (UI) e di input abbiano un basso accoppiamento concentrando l&#39;attenzione su ogni singolo aspetto come separazione delle preoccupazioni. 
+<p>Per I, il sito web che avrebbe dovuto dire un po' di me, ho imparato AngularJS<my-ref>^</my-ref><my-ref>^</my-ref>, la struttura per applicazioni web front-end. Il potente e innovativo Javascript MVW framework di Google completamente client ottiene un'applicazione a singola pagina. AngularJS permette con le direttive di arricchire la sintassi di html, sincronizza nei due sensi l'interfaccia utente (V) con gli oggetti Javascript (M), indica al browser l'<a href="http://it.wikipedia.org/wiki/Dependency_injection">iniezione di dipendenza</a> e l'<a href="http://it.wikipedia.org/wiki/Inversion_of_Control">inversione del controllo</a>.<br> 
+    MVW (Model-View-Whatever) è un evoluzione del modello di programmazione <a href="http://it.wikipedia.org/wiki/Model-View-Controller">MVC</a>. MVC (Model-View-Controller) separa l&#39;applicazione in tre elementi principali: il modello (M), la vista (V) e il controller (C) in modo che la logica di business, quella di interfaccia utente (UI) e di input abbiano un basso accoppiamento concentrando l&#39;attenzione su ogni singolo aspetto. 
     Grazie ai miglioramenti del <a href="http://it.wikipedia.org/wiki/Refactoring">refactoring</a> e dell'interfaccia di programmazione dell'applicazione (<a href="http://it.wikipedia.org/wiki/Application_programming_interface">API</a>), AngularJS è più vicino a MVVM, in cui l'oggetto di collegamento alla vista, $scope, è simile a View Model (VM), questa versalità del framework è stata indicata come whatever (W), qualsiasi cosa sia utile.<br />
-    Il linguaggio dei fogli di stile, il <a href="http://it.wikipedia.org/wiki/CSS">CSS</a> che dà l&#39;aspetto e la formattazione della pagina, è Bootstrap<my-ref>^</my-ref> che facilita e migliora la leggibilità e disposizione del sito.<br />
-    Un lavoro è stato speso per la doppia lingua del sito con un certo grado di difficoltà nel routing e nella definizione dei controller.<br />
-    Il codice eseguito nella parte client, <a href="http://it.wikipedia.org/wiki/JavaScript">Javascript</a>, ha queste funzioni: </p>
+    La libreria di componenti per l'interfaccia è Bootstrap<my-ref>^</my-ref>, la libreria HTML, <a href="http://it.wikipedia.org/wiki/CSS">CSS</a> e JS più popolare al mondo che facilita lo svilupatore nella disposizione degli elementi e quindi nella sua leggibilità.<br />
+    I è in italiano e in inglese, la gestione della doppia lingua ha richiesto uno sforzo per il routing e la definizione dei controller.<br />
+   <a href="http://it.wikipedia.org/wiki/JavaScript">Javascript</a> da me implementato gestisce queste funzioni:</p>
    <ul>
     <li>crea l&#39;indice</li>
-    <li>compila il riferimento che manda alla fonte nelle note</li>
+    <li>compila il collegamento che manda alla fonte, contenuta nelle note</li>
     <li>torna su</li>
     <li>elenca i domini dei collegamenti </li>
     <li>elenca i domini delle foto</li>
-    <li>aggiunge i collegamenti ai social e alla email, in cui si usa il codice fornito da addthis<my-ref>^</my-ref></li>   
+    <li>con addthis<my-ref>^</my-ref> aggiunge i collegamenti ai social e email</li>   
    </ul>
-<p>I collegamenti ipertestuali che non si indirizzano al sito o a Wikipedia presentano un simbolo aggiuntivo. Il sito dispone di una piccola libreria di icone 16x16 con i simboli grafici dei siti a cui si fa riferimento; se il simbolo è esistente nella mia libreria viene aggiunto prima del collegamento ipertestuale, altrimenti il collegamento esterno 
-    viene evidenziato con un simbolo standard <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Simbolo grafico collegamento esterno" /> dopo il collegamento. La libreria di icone è stata costruita con ricerca tramite Google Search con il nome del sito e immagini della dimensione 16x16. Se l&#39;icona del marchio del sito è disponibile come risorsa su internet viene aggiunta alla libreria.<br />
-    Il collegamento viene sottolineato quando il mouse ne è di al di sopra.</p>
-<p>La vostra opinione, suggerimenti, incoraggiamenti, messaggi, condivisioni, correzioni sono gradite.</p>
+<p>I collegamenti ipertestuali che non si indirizzano al sito o a Wikipedia presentano un simbolo aggiuntivo dopo il collegamento; esso può essere di due tipi. Un tipo è una icona 16x16 quando il nome del sito è presente in una mia piccola libreria, che lo associa a un suo simboli grafico, l'altro è simbolo standard <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Simbolo grafico collegamento esterno" /> quando non c'è.</p>
 <p>&nbsp;</p>
 
 <div ng-include src="'views/social-btn.html'" ></div>  
