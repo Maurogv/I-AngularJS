@@ -7,18 +7,18 @@
     MVW (Model-View-Whatever) è un evoluzione del modello di programmazione <a href="http://it.wikipedia.org/wiki/Model-View-Controller">MVC</a>. MVC (Model-View-Controller) separa l&#39;applicazione in tre elementi principali: il modello (M), la vista (V) e il controller (C) in modo che la logica di business, quella di interfaccia utente (UI) e di input abbiano un basso accoppiamento concentrando l&#39;attenzione su ogni singolo aspetto. 
     Grazie ai miglioramenti del <a href="http://it.wikipedia.org/wiki/Refactoring">refactoring</a> e dell'interfaccia di programmazione dell'applicazione (<a href="http://it.wikipedia.org/wiki/Application_programming_interface">API</a>), AngularJS è più vicino a MVVM, in cui l'oggetto di collegamento alla vista, $scope, è simile a View Model (VM), questa versalità del framework è stata indicata come whatever (W), qualsiasi cosa sia utile.</p>
     
-<p>Per l'interfaccia, la libreria di componenti è Bootstrap,<my-ref>^</my-ref>,la libreria HTML, <a href="http://it.wikipedia.org/wiki/CSS">CSS</a> e JS più popolare al mondo.<br />
+<p>Per l'interfaccia, la libreria di componenti è Bootstrap,<my-ref>^</my-ref> la libreria HTML, <a href="http://it.wikipedia.org/wiki/CSS">CSS</a> e JS più popolare al mondo.<br />
     I è in italiano e in inglese, la gestione della doppia lingua ha richiesto uno sforzo per il routing e la definizione dei controller.<br />
    Brevi frammenti di codice in <a href="http://it.wikipedia.org/wiki/JavaScript">Javascript</a> da me implementati gestiscono queste funzioni:</p>
    <ul>
     <li>crea l&#39;indice</li>
-    <li>crea un numero progressivo, il collegamento ipertestuale che manda alla citazioe della fonte, contenuta nelle note</li>
+    <li>crea un numero progressivo, il collegamento ipertestuale che manda alla citazione della fonte, contenuta nelle note</li>
     <li>crea un collegamento ipertestuale, simboleggiato con ^, dalla citazione al testo</li>
     <li>elenca i nomi dei domini dei collegamenti</li>
     <li>elenca i nomi dei domini delle foto</li>
     <li>con addthis<my-ref>^</my-ref> aggiunge i collegamenti ai social e email</li>   
    </ul>
-<p>I collegamenti ipertestuali esterni al sito o a Wikipedia presentano l simbolo <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Simbolo grafico collegamento esterno" /> dopo il collegamento.</p>
+<p>I collegamenti ipertestuali esterni al sito o a Wikipedia presentano il simbolo <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Simbolo grafico collegamento esterno" /> dopo il collegamento.</p>
 
 <div ng-include src="'views/social-btn.html'" ></div>  
 <hr />
