@@ -12,4 +12,4 @@ The photos of I are on the Internet in some popular image hosting service, flick
 Github, the open source community to share the code, allows to perform the static html pages. Since Google's technology is entirely client, Github renders them, proving that the superhero adjective for AngularJS is truthful.  
 This sharing is an important step for the development of my site.
 
-You can enter in I by http://maurogv.github.io/I-AngularJS/public_html/#/about
+You can enter in I by http://maurogv.github.io/I-AngularJS/public_html/#/en-about
