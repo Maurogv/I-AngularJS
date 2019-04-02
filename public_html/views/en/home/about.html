@@ -3,37 +3,36 @@
   <hr />
 </div>
 
-<p>The platform used is <a href="http://en.wikipedia.org/wiki/AngularJS">AngularJS</a><my-ref>^</my-ref><my-ref>^</my-ref>, the powerful and innovative MVW Javascript framework for writing applications by Google getting a <a href="http://en.wikipedia.org/wiki/Single-page_application">Single Page Application</a>. AngularJS lets extend HTML’s syntax, automatically synchronizes data from UI (view) with JavaScript objects (model) through 2-way data binding and teaches the browser how to do <a href="http://en.wikipedia.org/wiki/Dependency_injection">dependency injection</a> and <a href="http://en.wikipedia.org/wiki/Inversion_of_control">inversion of control</a>.<br> 
+<p>For I, the website that should have said a little about me, I learned <a href="http://en.wikipedia.org/wiki/AngularJS">AngularJS</a>,<my-ref>^</my-ref><my-ref>^</my-ref> a front-end web framework.  
+  The powerful and innovative MVW JavaScript framework for writing applications by Google getting a <a href="http://en.wikipedia.org/wiki/Single-page_application">Single Page Application</a>. AngularJS lets extend HTML’s syntax, automatically synchronizes data from UI (view) with JavaScript objects (model) through 2-way data binding and teaches the browser how to do <a href="http://en.wikipedia.org/wiki/Dependency_injection">dependency injection</a> and <a href="http://en.wikipedia.org/wiki/Inversion_of_control">inversion of control</a>.<br> 
     MVW (Model-View-Whatever)<my-ref>^</my-ref> is an evolution of the programming model <a href="http://en.wikipedia.org/wiki/Model-View-Controller">MVC</a>. The Model-View-Controller (<a href="http://en.wikipedia.org/wiki/Model–view–controller">MVC</a><my-ref>^</my-ref>) architectural pattern separates an application into three main components: the model (M), the view (V), and the controller (C) providing loose coupling between different aspects of the application, input logic, business logic, and User Interface (UI) logic. It enables to focus on one aspect of the implementation at a time as separation of concerns. 
-    Over time and thanks to many <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactorings</a> and <a href="http://en.wikipedia.org/wiki/Application_programming_interface">api</a> improvements, AngularJS is now closer to <a href="http://en.wikipedia.org/wiki/Model_View_ViewModel">MVVM</a>, the $scope object could be considered the ViewModel that is being decorated by a function (Controller). This framework flexibility has been named as whatever (W), whatever works for you.<br />
-    The language of the style sheets, the <a href="http://en.wikipedia.org/wiki/CSS">CSS</a> that gives the appearance and formatting of the page, is Bootstrap<my-ref>^</my-ref>, that facilitates and improves readability and layout of the site.<br />
-    A work has been spent on the double language of the site with a certain degree of difficulty in routing and in the definition of controller.<br />
-    The code executed in the client side, <a href="http://en.wikipedia.org/wiki/JavaScript">Javascript</a>, has these functions:</p>
+    Over time and thanks to many <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactorings</a> and <a href="http://en.wikipedia.org/wiki/Application_programming_interface">api</a> improvements, AngularJS is now closer to <a href="http://en.wikipedia.org/wiki/Model_View_ViewModel">MVVM</a>, the $scope object could be considered the ViewModel that is being decorated by a function (Controller). This framework flexibility has been named as whatever (W), whatever works for you.</p>
+   
+<p>For the interface, the component library is Bootstrap,<my-ref>^</my-ref> the most popular HTML, <a href="http://en.wikipedia.org/wiki/CSS">CSS</a> and JS library in the world.<br />
+   I is in Italian and English, the two languages management has required an extra effort for the routing and the definition of the controllers.<br />
+    Short snippets of code in <a href="http://en.wikipedia.org/wiki/JavaScript">Javascript</a> implemented by me handle these functions:</p>
     <ul>
      <li>create the table of contents</li>
-     <li>fill out the reference linking to the source in the notes</li>
-     <li>back to top</li>
-     <li>list the links domains</li>
-     <li>list the photos domains</li>
-     <li>add links to social and email, in which it used the javascript code provided by addthis<my-ref>^</my-ref></li>   
+     <li>creates a progressive number, which is a hypertext link that sends to the quotation of the source, contained in the notes</li>
+     <li>creates a hyperlink, symbolized with ^, from the quote to the text</li>
+     <li>list of the domain names of the links</li>
+     <li>list of the domain names of the photos</li>
+     <li>with addthis<my-ref>^</my-ref> add social and email links</li>   
     </ul>
-<p>Hyperlinks that do not address the site or Wikipedia have an additional symbol. The site has a small library of 16x16 graphic symbols of the sites to which you refer; if the symbol is existing in my library is added in front of the hyperlink, otherwise the external connection is highlighted with a standard symbol <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Graphic symbol of external hyperlink" /> after link. The library was built with search icons by Google Search with the site name and image of the size 16x16. If the brand icon of the site is available as a resource on the Internet is added to the library.<br />
-    The link is highlighted when the mouse is over.</p>
-<p>Your opinion, suggestions, encouragement, posts, shares and corrections are welcome.</p>
-<p>&nbsp;</p>
+<p>External hypertext links that are not addressed to Wikipedia have the symbol <img src='{{languageInvariantStrings.externalHyperlinkIcon}}' alt="Simbolo grafico collegamento esterno" /> after hyperlink.</p>
 
 <div ng-include src="'views/social-btn.html'" ></div>  
 <hr />
    
 <h2>{{strings.notes}}</h2>
 <hr />
-<ol class="references">       
-    <li><em><a href="https://angularjs.org/">AngularJS</a></em></li>
-    <li><em><a href="https://github.com/angular/angular.js">GitHub angularjs/angular.js</a></em></li>
+<ol class="references">
+    <li><a href="https://angularjs.org/">AngularJS</a>. <i>angularjs.org</i>. Retrieved 2 April 2015.</li
+    <li><a href="https://github.com/angular/angular.js">GitHub angularjs/angular.js</a>. <i>GitHub</i>. Retrieved 2 April 2015.</li>
     <li><em><a href="https://plus.google.com/+AngularJS/posts/aZNVhj355G2">AngularJS</a> Posts, Igor Minar</em></li>
-    <li><em><a href="https://msdn.microsoft.com/en-us/library/dd381412%28v=vs.108%29.aspx">ASP.NET MVC Overview</a></em></li>
-    <li><em><a href="http://getbootstrap.com/">Bootstrap</a></em></li>
-    <li><em><a href="http://www.addthis.com/">addthis</a></em></li>   
+    <li><a href="https://msdn.microsoft.com/en-us/library/dd381412%28v=vs.108%29.aspx">ASP.NET MVC Overview</a>. <i>Microsoft</i>. Retrieved 2 April 2015.</li>
+    <li><a href="http://getbootstrap.com/">Bootstrap</a>. <i>getbootstrap.com</i>. Retrieved 2 April 2015.</li>
+    <li><a href="http://www.addthis.com/">addthis</a>. <i>addthis.com</i>. Retrieved 2 April 2015.</li>
 </ol>
 <hr />
 <h2>{{strings.domainsList}}</h2>
