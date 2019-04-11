@@ -1,6 +1,6 @@
 I-AngularJS
 ================
-  
+
 Ho costruito I, un sito web che avrebbe dovuto raccontare di me, per mezzo della piattaforma **AngularJS**. Il potente e innovativo JavaScript MVW framework di Google per scrivere applicazioni completamente client ottiene un'applicazione a singola pagina, simile a una desktop.  
 AngularJS permette con le direttive di arricchire la sintassi di html, sincronizza nei due sensi l'interfaccia utente con i dati (il modello), indica al browser l'[iniezione di dipendenza](http://it.wikipedia.org/wiki/Dependency_injection) e l'[inversione del controllo](http://it.wikipedia.org/wiki/Inversion_of_Control).  
 MVW (Model-View-Whatever) è un evoluzione del modello di programmazione [MVC](http://it.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). Grazie ai miglioramenti del [refactoring](http://it.wikipedia.org/wiki/Refactoring) e dell'interfaccia di programmazione dell'applicazione ([API](http://it.wikipedia.org/wiki/Application_programming_interface)), AngularJS è più vicino a MVVM, l'oggetto $scope può essere considerato il ViewModel che viene decorato da una funzione (Controller). Questa versalità del framework è stata indicata come whatever (W), qualsiasi cosa sia utile.
