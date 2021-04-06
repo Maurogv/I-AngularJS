@@ -25,7 +25,7 @@ angular.module('config',[])
 			title : 'Le prime visite mediche', 
 			lang : 'it'
 		})
-		.when('/incontroconilpoeta', {
+		.when('/incontroconilsommopoeta', {
 			controller : 'appController',
 			templateUrl : 'views/it/dante/incontro con il sommo poeta.html',
 			title : "L'incontro con il sommo poeta", 
