@@ -109,10 +109,10 @@ angular.module('config',[])
 			title : 'The first physical examinations',
 			lang : 'en'
 		})
-		.when('/mymeetingwiththepoet', {
+		.when('/mymeetingwiththegreatpoet', {
 			controller : 'appController',
-			templateUrl : 'views/en/dante/my meeting with the poet.html',
-			title : "My meeting with the poet",
+			templateUrl : 'views/en/dante/my meeting with the great poet.html',
+			title : "My meeting with the great poet",
 			lang : 'en'
 		})
 		.when('/introductiontoConvivio', {
