@@ -1,0 +1,169 @@
+body {
+ font-family:Arial, Helvetica, sans-serif; 
+ background-color:#efefee; 
+	color:#000000;
+ padding:10px; 
+} 
+
+.colore {
+ color:#CE3131;
+}
+
+.colore-off {
+ color:#999999;
+}
+
+h1 {
+ font-size:x-large;
+ font-weight:bold;
+	margin-top:0px;
+ text-align:center;
+}
+
+h2 {
+ font-size:x-large;
+ text-align:center;
+}
+
+h3 {
+ font-size:large;
+ font-weight:bold;
+}
+
+#menu {
+ border-bottom:1px solid #AAAAAA;
+ margin-top:10px;
+ padding:0px 0px 3px 0px;
+}
+
+.menu_off {
+ background-color:#DDDDDD;
+ border-left:1px solid #AAAAAA;
+ border-right:1px solid #AAAAAA;
+ border-top:1px solid #AAAAAA;
+	color:#000000;
+ padding-left:20px;
+ padding-right:20px;
+ padding-top:5px;
+ padding-bottom:4px;
+}
+
+.menu_on {
+ background-color:#FFFFFF;
+ border-top:1px solid #AAAAAA;
+ border-left:1px solid #AAAAAA;
+ border-right:1px solid #AAAAAA;
+ border-bottom:0px solid #AAAAAA;
+	color:#000000;
+	font-weight:bold;
+ padding-left:20px;
+ padding-right:20px;
+ padding-top:5px;
+ padding-bottom:5px;
+}
+
+#paginazione {
+ background-color:#FFFFFF;
+ border:1px solid #AAAAAA;
+ margin-top:10px;
+ padding:20px;
+}
+
+#paginazione_avanti {
+ float:right;
+ font-size:large;
+}
+
+#paginazione_indietro {
+ font-size:large;
+}
+
+.piccolo {
+ font-size:small;
+}
+
+.piccolo-x {
+ font-size:x-small;
+}
+
+#piede {
+ clear:both;
+ margin-top:10px;
+}
+
+#piede a {
+ display:block;
+ text-decoration:none;
+}
+
+#piede a:hover {
+ text-decoration:underline;
+}
+
+#testata {
+ padding:0px;
+}
+
+#testata_autore {
+ font-size:x-large;
+ font-weight:bold;
+}
+
+#testata_autore a {
+ color:#AAAAAA;
+ text-decoration:none;
+}
+
+#testata_logoliberliber {
+ float:right;
+}
+
+#testata_logoliberliber a {
+ font-weight:bold;
+ font-size:xx-large;
+ text-decoration:none;
+}
+
+#testata_logoliberliber a:hover {
+ text-decoration:underline;
+}
+
+#testata_titolo {
+ font-size:x-large;
+ font-weight:bold;
+ margin-top:-10px;
+}
+
+#testata_titolo a {
+ color:#333333;
+ text-decoration:none;
+}
+
+#testata_titolo a:hover {
+ text-decoration:underline;
+}
+
+#testata_titoloautore {
+ margin-top:0px;
+}
+
+#testo {
+ background-color:#FFFFFF;
+ border-top:0px solid #AAAAAA;
+ border-left:1px solid #AAAAAA;
+ border-right:1px solid #AAAAAA;
+ border-bottom:1px solid #AAAAAA;
+ margin-top:0px;
+ padding:20px;
+}
+
+.testo_rientrato {
+ text-indent:-2em;
+ margin-left:5em;
+}
+.testo_numero {
+ background-color:#FFFFFF;
+ color:#CE3131;
+	font-size:small;
+	position:absolute;
+}
