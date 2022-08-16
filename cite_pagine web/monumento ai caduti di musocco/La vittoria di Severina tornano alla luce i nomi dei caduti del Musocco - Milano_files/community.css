@@ -1,0 +1,2412 @@
+/*
+	<!--Configurazione usata per importare le immagini presenti nel file comunity.css-->
+
+
+	
+*/
+
+/* ------------------------ NUOVA COMMUNITY --------------------------- */
+
+/*FONT BRERA*/
+@font-face {
+    font-family: "BreraRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.eot?#iefix") format("embedded-opentype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.woff") format("woff"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.ttf") format("truetype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.svg#BreraRegular") format("svg");
+}
+@font-face {
+    font-family: "BreraCondensedRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.eot?#iefix") format("embedded-opentype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.woff") format("woff"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.ttf") format("truetype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.svg#BreraCondensedRegular") format("svg");
+}
+@font-face {
+    font-family: "BreraCondensedSemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.eot?#iefix") format("embedded-opentype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.woff") format("woff"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.ttf") format("truetype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.svg#BreraCondensedSemiBold") format("svg");
+}
+@font-face {
+    font-family: "BreraCondensedLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnlt-webfont.eot?#iefix") format("embedded-opentype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnlt-webfont.woff") format("woff"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnlt-webfont.ttf") format("truetype"), url("//css2.corriereobjects.it/includes2007/static/font/brera/brecnlt-webfont.svg#BreraCondensedLight") format("svg");
+}
+@font-face {
+    font-family: BreraLight;
+    src: url('//css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.eot');
+    src: url('//css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.woff') format('woff'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.ttf') format('truetype'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.svg#BreraLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*-----*/
+.share-button,
+#homepage-corriere .share-bt-container,
+.share-bt-container {
+	display: none !important; /* nasconde i vecchi pulsanti di condivisione */
+}
+
+/* box home */
+.social-bar {
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	color: #666666;
+	min-height: 20px;
+	margin: 0 0 10px 0;
+	padding-top: 10px;
+}
+
+
+.social-bar .title_art {
+	display: none!important;
+}
+
+.social-bar a {
+	color: #666666;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.social-bar a strong {
+	color: #518456;
+	font-family: BreraBold;
+	font-weight: normal;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.social-bar a.tot-rating {
+	padding: 2px 0 0 0;
+}
+
+.social-bar a.tot-reply {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -780px -172px;
+	padding: 3px 0 3px 25px;
+	min-height: 15px;
+}
+
+.social-bar .show-share {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -780px -226px;
+	padding: 3px 0 1px 25px;
+	color: #666666;
+	display: block;
+	float: left;
+	margin-right: 11px;
+	cursor: pointer;
+}
+
+
+.social-bar .readinglist{
+	float: right;
+	margin-right: 0px;
+}
+
+.social-bar .readinglist .reading-list {
+	width: 20px;
+	height: 20px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -92px -228px;
+}
+
+.social-bar .readinglist .off {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -92px -228px;
+}
+
+.social-bar .readinglist .off:hover {
+	background-position: -225px -227px;
+}
+
+.social-bar .readinglist .on {
+	background-position: -225px -227px;
+}
+
+.social-bar .readinglist .on:hover {
+	background-position: -92px -228px;
+}
+
+
+.zappingnews .social-bar {
+	margin: 0;
+	padding: 0;
+}
+
+.zappingnews .social-bar .show-share {
+	
+}
+
+#homepage-corriere .box-fotovideo .social-bar {
+    bottom: -1px;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.homearticle-box-relative {
+	position: relative;
+}
+
+#hp-top-reply {
+	/* width: 50px; */
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: -2px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -236px -275px;
+	font-family: BreraBold;
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	text-indent: -5000px;
+	width: 38px;
+	background-position: -152px -334px;	
+}
+
+#hp-top-reply:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -174px -275px;
+	text-indent: 0px;
+	/* padding-top: 30px; */
+	text-decoration: none;
+	background-position: -101px -334px;
+	padding-top: 20px;	
+}
+
+#hp-top-share {
+	/* width: 50px;
+	height: 40px; */
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: -2px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -109px -275px;
+	font-family: BreraBold;
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	text-indent: -5000px;
+	width: 38px;
+	height: 30px;
+	background-position: -51px -336px;	
+}
+
+.hp-top-share-conflict {
+	right: 72px !important;
+	top: -2px;
+}
+
+#hp-top-share:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -423px -275px;
+	text-indent: 0px;
+	padding-top: 30px;
+	text-decoration: none;
+	background-position: 0px -336px;
+	padding-top: 17px;
+}
+
+
+/* widget home */
+
+#widget-header {
+	background: #c4d4c6 none;
+	padding: 10px;
+}
+
+#widget-header a {
+	display: block;
+	height: 42px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -568px -95px;
+}
+
+
+#widget-arg {
+	background: #e5ede6 none;
+	padding: 10px 7px 15px 8px;
+	font-family: BreraRegular;
+	border-bottom: 1px solid #b4c1b6;
+}
+
+#widget-arg li {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+#widget-arg li.title {
+	color: #518456;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#widget-arg li a {
+	color: #000;
+	font-family: BreraBold;
+	padding-left: 25px;
+	display: block;
+}
+
+#widget-arg li a.eq {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -786px -260px;
+}
+
+#widget-arg li a.up {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -786px -367px;
+}
+
+#widget-arg li a.down {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -786px -314px;
+}
+
+#widget-firma {
+	background: #e5ede6 none;
+	padding: 10px;
+	position: relative;
+	height: 290px;
+	overflow: hidden;
+	margin-bottom: 17px;
+}
+
+#widget-firma .top-rated {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -51px -275px;
+    height: 50px;
+    position: absolute;
+    right: -20px;
+    top: -42px;
+    width: 38px;
+	z-index: 20;
+}
+
+#widget-firma strong {
+	color: #518456;
+	font-size: 12px;
+	display: block;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#container-box-firma {
+	min-height: 265px;
+}
+
+#container-box-firma .box-firma {
+	width: 140px;
+	margin: auto;
+	border-top: 1px solid #aabdae;
+	margin-left: 20px;
+}
+
+#container-box-firma .box-firma img {
+	width: 140px;
+	height: 140px;
+}
+
+#container-box-firma .box-firma em {
+	font-family: BreraBold;
+	font-size: 14px;
+	color: #000;
+	display: block;
+	border-top: 1px solid #fff;
+	font-style:normal;
+	padding: 5px 0;
+	text-transform: capitalize;
+}
+
+#container-box-firma .box-firma p {
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	color: #333;
+	display: block;
+	padding: 6px 8px 11px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	background: #f7faf8 url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) repeat-x scroll left bottom;
+}
+
+#container-box-firma .box-firma a.add-user {
+	color: #333333;
+	padding: 5px 0 5px 30px;
+	background: #f7faf8 url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 5px 6px;
+	min-width: 100px;
+	font-family: BreraRegular;
+	font-weight: normal;
+	display: block;
+	height: 20px;
+}
+
+#container-box-firma .box-firma a.add-user:hover {
+	background: #f7faf8 url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 5px -98px;
+	text-indent: -5000px;
+}
+
+#container-box-firma .box-firma a.on {
+	background-position: 5px -48px;
+	color: #4d8358;
+	font-family: BreraBold;
+}
+
+#container-box-firma .box-firma a.on:hover {
+	background-position: -184px 6px;
+	min-width: 150px;
+	text-indent: -5000px;
+}
+
+#container-box-firma .box-firma a.loading,
+#container-box-firma .box-firma a.loading:hover {
+	background:  #F7FAF8 url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/ajax-loader.gif?v=1305071048) no-repeat  5px 6px;
+	text-indent: -5000px;
+}
+
+#widget-firma .prev {
+	display:block;
+	width: 10px;
+	height: 20px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -322px -171px;
+	position: absolute;
+	top: 155px;
+	left: 10px;
+}
+
+#widget-firma .next {
+	display:block;
+	width: 10px;
+	height: 20px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -382px -171px;
+	position: absolute;
+	top: 155px;
+	right: 10px;
+}
+
+#widget-top {
+	margin-bottom: 20px;
+}
+
+#widget-top li {
+	background: #c4d4c6 none;
+	padding: 10px;
+	color: #333333;
+	font-family: BreraRegular;
+	font-size: 12px;
+	border-top: 1px solid #fff;
+	text-transform: uppercase;
+}
+
+#widget-top li a {
+	color: #333333;
+}
+
+
+
+/* box articolo */
+
+#uuid_articolo {
+	display:none;
+}
+
+#box-interessi {
+	border-top: 1px solid #969696;
+	position: relative;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+#box-interessi ul li {
+	font-family: BreraBold;
+	font-size: 14px;
+	color: #000;
+	display:none;
+	padding: 8px;
+	overflow: hidden;
+}
+
+#box-interessi ul li.first {
+	display:block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) repeat-x scroll left bottom;
+	margin-bottom: 10px;
+}
+
+#box-interessi ul li div.argomento {
+	float: left;
+}
+
+#box-interessi ul li div.argomento span {
+	font-weight: normal;
+	display: none;
+}
+
+#box-interessi ul li a.add {
+	color: #333333;
+	padding-left: 25px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 2px;
+	display: block;
+	float: left;
+	min-width: 120px;
+	margin-left: 25px;
+	font-family: BreraRegular;
+	font-weight: normal;
+	min-height: 20px;
+	min-width: 125px;
+	padding-top: 1px;
+}
+
+#box-interessi ul li a.on {
+	background-position: 0 -52px;
+	color: #4d8358;
+	font-family: BreraBold;
+}
+
+#box-interessi ul li a.add:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 -102px;
+	text-indent: -5000px;
+}
+
+#box-interessi ul li a.on:hover {
+	background-position: -190px 2px;
+	min-width: 150px;
+}
+
+#box-interessi ul li a.loading,
+#box-interessi ul li a.loading:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/ajax-loader.gif?v=1305071048) no-repeat 0 0;
+	text-indent: -5000px;
+}
+
+#box-interessi .show-hide {
+	font-family: Arial;
+	font-size: 12px;
+	margin: -5px 0 0 8px;
+	display: block;
+	cursor: pointer;
+}
+
+#box-interessi .show-hide .expand {
+	display: block;
+	
+}
+
+#box-interessi .show-hide .collapse {
+	display: none;
+	border-top: 1px solid #969696;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+#box-interessi .bt-underline {
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	display: none;
+}
+
+#box-interessi .bt-underline a {
+	display:block;
+	width: 70px;
+	height: 25px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 -170px;
+	display: none;
+}
+
+#box-interessi .bt-underline .on {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 -170px;
+}
+
+#box-interessi .bt-underline .off {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -87px -170px;
+}
+
+#box-community-firma {
+	display: block;
+	float: right;
+	margin-top: 5px;
+	padding: 0;
+}
+
+#box-community-firma .show-share {
+	height: 20px;
+	margin-right: 40px;
+}
+
+#box-community-firma .total-count {
+	display: none;
+}
+
+
+#box-community-firma .readinglist {
+	display: block;
+	float: right;
+}
+
+#box-community-firma .reading-list {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 0;
+}
+
+#box-community-firma .readinglist .off {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -92px -226px;
+}
+
+#box-community-firma .readinglist .off:hover {
+	background-position: -225px -225px;
+}
+
+#box-community-firma .readinglist .on {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -225px -225px;
+}
+
+#box-community-firma .readinglist .on:hover {
+	background-position: -92px -226px;
+}
+
+#box-firma {
+	font-family: BreraBold;
+	color: #333333;
+	font-size: 14px;
+	border-top: 1px solid #969696;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) repeat-x scroll left bottom;
+	overflow: hidden;
+	padding: 6px 5px 7px;
+	margin-top: 50px;
+}
+
+#box-firma .show-user img {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: -4px;
+	width: 30px;
+	height: 30px;
+	background: url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -410px -165px transparent;
+    padding-right: 30px;
+}
+
+#box-firma a.show-user {
+	display: block;
+	float: left;
+	padding-top: 3px;
+}
+
+#box-firma a.add-user {
+	font-family: BreraRegular;
+	color: #000;
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 25px;
+	margin-left: 15px;
+	margin-top: 1px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 2px;
+	min-width: 125px;
+	height: 20px;
+	display: block;
+	float: left;
+}
+
+#box-firma a.add-user:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 -102px;
+	text-indent: -5000px;
+}
+
+#box-firma a.on {
+	background-position: 0 -52px;
+	color: #4d8358;
+	font-family: BreraBold;
+}
+
+#box-firma a.on:hover {
+	background-position: -190px 2px;
+	min-width: 150px;
+	text-indent: -5000px;
+}
+
+#box-firma a.loading,
+#box-firma a.loading:hover {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/ajax-loader.gif?v=1305071048) no-repeat 0 0;
+	text-indent: -5000px;
+}
+
+
+#box-community-social .emotion {
+	color: #333333;
+	font-family: BreraBold;
+	font-size: 12px;
+	padding: 0 0 13px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) repeat-x scroll left bottom;
+	overflow: hidden;
+}
+
+
+#box-community-social .emotion a {
+	position: relative;
+	display: block;
+	height: 55px;
+}
+
+#box-emotional {
+    margin-top: 35px;
+	clear: both;
+	font-family: BreraLight;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #363636;
+	overflow: hidden;
+	position: relative;
+}
+
+#box-emotional .loader {
+   display: none;
+   position: absolute;
+   left: 290px;
+   top: 70px;
+   width: 32px;
+   height: 32px;
+}
+
+#box-emotional {
+    margin-top: 35px;
+	clear: both;
+	font-family: BreraLight;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #363636;
+	overflow: hidden;
+}
+
+#box-emotional ul {
+	margin-top: 10px;
+}
+
+#box-emotional ul li {
+	float: left;
+}
+
+
+#box-emotional ul li a { /* bg della linea con V */
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -100px -1178px;
+	width: 124px;
+	height: 120px;
+	font-family: BreraRegular;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;
+	color: #b9b8b8;
+}
+
+#box-emotional ul li a span { 
+	cursor: pointer;
+}
+
+#box-emotional ul li.emo1 a.selected,
+#box-emotional ul li.emo1 a:hover {
+	color: #515050;
+	background-position: -35px -1178px;
+}
+
+#box-emotional ul li.emo2 a.selected,
+#box-emotional ul li.emo2 a:hover {
+	color: #515050;
+	background-position: -32px -1178px;
+}
+
+#box-emotional ul li.emo3 a.selected,
+#box-emotional ul li.emo3 a:hover {
+	color: #515050;
+	background-position: -21px -1178px;
+}
+
+#box-emotional ul li.emo4 a.selected,
+#box-emotional ul li.emo4 a:hover {
+	color: #515050;
+	background-position: -15px -1178px;
+}
+
+#box-emotional ul li.emo5 a.selected,
+#box-emotional ul li.emo5 a:hover {
+	color: #515050;
+	background-position: -6px -1178px;
+}
+
+#box-emotional ul li .circle,
+#box-community-social .emotion a .circle  { /* bg della percentuale default */
+	position: absolute;
+	display: block;
+	width: 55px;
+	height: 56px;
+    left: 18px;
+    top: 23px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -12px -918px;
+}
+
+#box-community-social .emotion a .circle { 
+    left: 24px;
+    top: 0;
+}
+
+#box-emotional ul li.emo2 .circle {
+	left: 20px;
+}
+
+#box-emotional ul li.emo3 .circle {
+	left: 32px;
+}
+
+#box-emotional ul li.emo4 .circle {
+	left: 38px;
+}
+
+#box-emotional ul li.emo5 .circle {
+	left: 47px;
+}
+
+#box-emotional ul li a.selected .circle,
+#box-emotional ul li a:hover .circle,
+#box-community-social .emotion a .circle {
+	background-position: -12px -653px;
+}
+
+/* bg della percentuale */
+
+#box-emotional ul li .perc0 {
+	background-position: -12px -918px;
+}
+
+#box-emotional ul li .perc5 {
+	background-position: -94px -918px;
+}
+
+#box-emotional ul li .perc10 {
+	background-position: -175px -918px;
+}
+
+#box-emotional ul li .perc15 {
+	background-position: -256px -918px;
+}
+
+#box-emotional ul li .perc20 {
+	background-position: -339px -918px;
+}
+
+#box-emotional ul li .perc25 {
+	background-position: -422px -918px;
+}
+
+#box-emotional ul li .perc30 {
+	background-position: -505px -918px;
+}
+
+#box-emotional ul li .perc35 {
+	background-position: -12px -998px;
+}
+
+#box-emotional ul li .perc40 {
+	background-position: -94px -997px;
+}
+
+#box-emotional ul li .perc45 {
+	background-position: -177px -998px;
+}
+
+#box-emotional ul li .perc50 {
+	background-position: -257px -998px;
+}
+
+#box-emotional ul li .perc55 {
+	background-position: -340px -998px;
+}
+
+#box-emotional ul li .perc60 {
+	background-position: -422px -998px;
+}
+
+#box-emotional ul li .perc65 {
+	background-position: -504px -997px;
+}
+
+#box-emotional ul li .perc70 {
+	background-position: -12px -1074px;
+}
+
+#box-emotional ul li .perc75 {
+	background-position: -95px -1074px;
+}
+
+#box-emotional ul li .perc80 {
+	background-position: -177px -1075px;
+}
+
+#box-emotional ul li .perc85 {
+	background-position: -257px -1075px;
+}
+
+#box-emotional ul li .perc90 {
+	background-position: -340px -1074px;
+}
+
+#box-emotional ul li .perc95 {
+	background-position: -422px -1073px;
+}
+
+#box-emotional ul li .perc100 {
+	background-position: -506px -1074px;
+}
+
+/* bg della percentuale hover/selected */
+
+#box-emotional ul li a.selected .perc0,
+#box-emotional ul li a:hover .perc0,
+#box-community-social .emotion a .perc0 {
+	background-position: -12px -653px;
+}
+
+#box-emotional ul li a.selected .perc5,
+#box-emotional ul li a:hover .perc5,
+#box-community-social .emotion a .perc5 {
+	background-position: -94px -653px;
+}
+
+#box-emotional ul li a.selected .perc10,
+#box-emotional ul li a:hover .perc10,
+#box-community-social .emotion a .perc10 {
+	background-position: -175px -653px;
+}
+
+#box-emotional ul li a.selected .perc15,
+#box-emotional ul li a:hover .perc15,
+#box-community-social .emotion a .perc15 {
+	background-position: -256px -653px;
+}
+
+#box-emotional ul li a.selected .perc20,
+#box-emotional ul li a:hover .perc20,
+#box-community-social .emotion a .perc20 {
+	background-position: -339px -653px;
+}
+
+#box-emotional ul li a.selected .perc25,
+#box-emotional ul li a:hover .perc25,
+#box-community-social .emotion a .perc25 {
+	background-position: -422px -653px;
+}
+
+#box-emotional ul li a.selected .perc30,
+#box-emotional ul li a:hover .perc30,
+#box-community-social .emotion a .perc30 {
+	background-position: -505px -653px;
+}
+
+#box-emotional ul li a.selected .perc35,
+#box-emotional ul li a:hover .perc35,
+#box-community-social .emotion a .perc35 {
+	background-position: -12px -733px;
+}
+
+#box-emotional ul li a.selected .perc40,
+#box-emotional ul li a:hover .perc40,
+#box-community-social .emotion a .perc40 {
+	background-position: -94px -732px;
+}
+
+#box-emotional ul li a.selected .perc45,
+#box-emotional ul li a:hover .perc45,
+#box-community-social .emotion a .perc45 {
+	background-position: -177px -733px;
+}
+
+#box-emotional ul li a.selected .perc50,
+#box-emotional ul li a:hover .perc50,
+#box-community-social .emotion a .perc50 {
+	background-position: -257px -733px;
+}
+
+#box-emotional ul li a.selected .perc55,
+#box-emotional ul li a:hover .perc55,
+#box-community-social .emotion a .perc55 {
+	background-position: -340px -733px;
+}
+
+#box-emotional ul li a.selected .perc60,
+#box-emotional ul li a:hover .perc60,
+#box-community-social .emotion a .perc60 {
+	background-position: -422px -733px;
+}
+
+#box-emotional ul li a.selected .perc65,
+#box-emotional ul li a:hover .perc65,
+#box-community-social .emotion a .perc65 {
+	background-position: -504px -732px;
+}
+
+#box-emotional ul li a.selected .perc70,
+#box-emotional ul li a:hover .perc70,
+#box-community-social .emotion a .perc70 {
+	background-position: -12px -809px;
+}
+
+#box-emotional ul li a.selected .perc75,
+#box-emotional ul li a:hover .perc75,
+#box-community-social .emotion a .perc75 {
+	background-position: -95px -809px;
+}
+
+#box-emotional ul li a.selected .perc80,
+#box-emotional ul li a:hover .perc80,
+#box-community-social .emotion a .perc80 {
+	background-position: -177px -810px;
+}
+
+#box-emotional ul li a.selected .perc85,
+#box-emotional ul li a:hover .perc85,
+#box-community-social .emotion a .perc85 {
+	background-position: -257px -810px;
+}
+
+#box-emotional ul li a.selected .perc90,
+#box-emotional ul li a:hover .perc90,
+#box-community-social .emotion a .perc90 {
+	background-position: -340px -809px;
+}
+
+#box-emotional ul li a.selected .perc95,
+#box-emotional ul li a:hover .perc95,
+#box-community-social .emotion a .perc95 {
+	background-position: -422px -808px;
+}
+
+#box-emotional ul li a.selected .perc100,
+#box-emotional ul li a:hover .perc100,
+#box-community-social .emotion a .perc100 {
+	background-position: -506px -809px;
+}
+
+#box-emotional ul li .smile,
+#box-community-social .emotion a .smile  { /* bg dello smile */
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -23px -176px;
+	display: block;
+	color: #b9b9b9;
+	width: 45px;
+	height: 42px;
+	position: absolute;
+	top: 30px;
+	left: 24px;
+}
+
+
+#box-community-social .emotion a .smile  { /* bg dello smile */
+	top: 7px;
+	left: 30px;
+}
+
+
+#box-emotional ul li.emo2 .smile {
+	background-position: -149px -176px;
+}
+
+#box-emotional ul li.emo3 .smile {
+	background-position: -288px -176px;
+	left: 36px;
+}
+
+#box-emotional ul li.emo4 .smile {
+	background-position: -417px -176px;
+	left: 42px;
+}
+
+#box-emotional ul li.emo5 .smile {
+	background-position: -546px -176px;
+	left: 51px;
+}
+
+
+#box-emotional ul li.emo1 a.selected .smile,
+#box-emotional ul li.emo1 a:hover .smile  {
+	background-position: -23px -29px;
+}
+
+#box-emotional ul li.emo2 a.selected .smile,
+#box-emotional ul li.emo2 a:hover .smile {
+	background-position: -149px -29px;
+}
+
+#box-emotional ul li.emo3 a.selected .smile,
+#box-emotional ul li.emo3 a:hover .smile {
+	background-position: -288px -29px;
+}
+
+#box-emotional ul li.emo4 a.selected .smile,
+#box-emotional ul li.emo4 a:hover .smile {
+	background-position: -417px -29px;
+}
+
+#box-emotional ul li.emo5 a.selected .smile,
+#box-emotional ul li.emo5 a:hover .smile {
+	background-position: -546px -29px;
+}
+
+
+#box-community-social .emotion a .emo1  {
+	background-position: -23px -29px;
+}
+
+
+#box-community-social .emotion a .emo2 {
+	background-position: -151px -29px;
+}
+
+
+#box-community-social .emotion a .emo3 {
+	background-position: -290px -29px;
+}
+
+
+#box-community-social .emotion a .emo4 {
+	background-position: -419px -29px;
+}
+
+
+#box-community-social .emotion a .emo5 {
+	background-position: -548px -29px;
+}
+
+#box-emotional ul li .txt { /*  scritte */
+	display: block;
+	position: absolute;
+	width: 80px;
+	top: 82px;
+	left: 4px;
+	line-height: 17px;
+}
+
+#box-emotional ul li.emo2 .txt {
+	left: 9px;
+}
+
+#box-emotional ul li.emo3 .txt {
+	left: 20px;
+}
+
+#box-emotional ul li.emo4 .txt {
+	left: 26px;
+}
+
+#box-emotional ul li.emo5 .txt {
+	left: 35px;
+}
+
+#box-emotional ul li a .txt .num {
+	display: block;
+	font-size: 14px;
+}
+
+#box-community-scrivi {
+	font-family: BreraLight;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #363636;
+	background-color: #edf0ed;
+	padding: 20px 14px 20px 20px;
+	width: 620px;
+	margin: 20px 0 30px -24px;
+}
+
+.bt.bt-ok.message-to-long{
+margin: 0 0 0 80px !important;
+}
+
+#box-community-scrivi form#sendcomment {
+	border-top: 1px solid #868686;
+	padding-top: 20px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+
+#box-community-scrivi form#sendcomment .respond {
+	display: none;
+    background-color: #ACC3AE;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-align: center;
+    text-transform: none;
+}
+
+#box-community-scrivi form#sendcomment .respond span.user-reply {
+	font-weight: bold;
+}
+
+
+#box-community-scrivi form#sendcomment .avatar {
+	float: left;
+	margin-right: 15px;
+	width: 70px;
+	height: 70px;
+}
+
+#box-community-scrivi form#sendcomment .freccia {
+	float: left;
+	width: 6px;
+	height: 11px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -144px -231px;
+	margin-top: 10px;
+}
+
+#box-community-scrivi form#sendcomment textarea {
+	width: 509px;
+	height: 50px;
+	border: 0;
+	font-family: BreraRegular;
+	font-size: 16px;
+	color: #333333;
+	padding: 10px;
+	overflow: auto;
+}
+
+#box-community-scrivi form#sendcomment textarea.disabled {
+	color: #B9B8B8;
+}
+
+#box-community-scrivi form#sendcomment .submit {
+	background-color: #518456;
+	font-family: BreraRegular;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 15px;
+	border: none;
+	text-transform: uppercase;
+	float: right;
+	margin-top: 10px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+#box-contributi {
+	border-top: 1px solid #868686;
+	margin-bottom: 40px;
+}
+
+#box-contributi .title {
+	color: 333333;
+	font-family: BreraBold;
+	font-size: 22px;
+	margin: 35px 0 20px;
+	position: relative;
+}
+
+#box-contributi .title .tot-reply {
+	position: absolute;
+	top: 5px;
+	left: 190px;
+	font-weight: normal;
+	width: 120px;
+	font-size: 19px;
+	color:  #333333;
+	padding-left: 40px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -774px -3px;
+	min-height: 30px;
+}
+
+#box-contributi .title .orderby {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	color: 666666;
+	font-family: BreraRegular;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#box-contributi .title .orderby a {
+	color: #666666;
+	display: block;
+	float: left;
+	margin-left: 25px;
+	padding-bottom: 4px;
+}
+
+#box-contributi .title .orderby a.selected {
+	color: 333333;
+	font-family: BreraBold;
+	border-bottom: 4px solid #a8c1aa;
+}
+
+#box-contributi #sort-by-vote {
+	display: none;
+}
+
+#box-contributi .contributo,
+.fancy-th .contributo{
+	border-top: 1px solid #cccccc;
+	padding: 7px 0 35px;
+	position: relative;
+}
+
+#box-contributi .hide {
+	display: none;
+}
+
+.fancy-th .title-overlay {
+	color: 333333;
+	font-family: BreraBold;
+	font-size: 22px;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+#box-contributi .contributo .rating,
+.fancy-th .contributo .rating  {
+	position: absolute;
+	right: 42px;
+	top:-3px;
+	width: 38px;
+	height: 50px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0px -275px;
+	display: none;
+}
+
+#box-contributi .contributo .rating span,
+.fancy-th .contributo .rating span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	padding-top: 22px;
+	display: block;
+}
+
+#box-contributi .top-rated {
+	border-bottom: 1px solid #868686;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+#box-contributi .contributo .container-left,
+.fancy-th .contributo .container-left {
+	width: 495px;
+	min-height: 110px;
+}
+
+#box-contributi .contributo .info,
+.fancy-th .contributo .info {
+	font-family: BreraBold;
+	font-size: 14px;
+	line-height: 28px;
+	color: #333333
+}
+
+#box-contributi .contributo .info .avatar,
+.fancy-th .contributo .info .avatar {
+	float: left;
+	margin-right: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+#box-contributi .contributo .info .avatar-firma,
+.fancy-th .contributo .info .avatar-firma {
+	padding-right: 30px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -410px -165px;
+}
+
+#box-contributi .contributo .info .avatar img,
+.fancy-th .contributo .info .avatar img {
+	width: 30px;
+	height: 30px;
+}
+
+
+#box-contributi .contributo .info .dataora,
+.fancy-th .contributo .info .dataora {
+	float: right;
+	font-family: Arial;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#box-contributi .contributo p,
+.fancy-th .contributo p {
+	clear: both;
+	display: block;
+	padding-top: 10px;
+	font-family: BreraRegular;
+	font-size: 14px;
+	color: #333333;
+	margin: 0;
+}
+
+#box-contributi .top-rated p {
+	padding: 10px;
+	margin-top: 5px;
+	background: #e1e9e3 url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 0 -595px;
+}
+
+.fancy-th .contributo .view-reply {
+	display: none;
+}
+
+
+#box-contributi .contributo .view-reply {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin-top: 10px;
+}
+
+#box-contributi .contributo .view-reply a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #518456;
+	text-decoration: underline;
+	text-transform:uppercase;
+	padding-left: 10px;
+}
+
+#box-contributi .top-rated .view-reply a {
+	font-family: BreraRegular;
+	color: #666666;
+	text-decoration: none;
+	text-transform:none;
+	padding-left: 0;
+}
+
+#box-contributi .contributo .azioni,
+.fancy-th .contributo .azioni {
+	width: 80px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+
+#box-contributi .contributo .azioni li,
+.fancy-th .contributo .azioni li {
+	font-family: BreraRegular;
+	font-size: 11px;
+	color: #666666;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+}
+
+#box-contributi .contributo .azioni li.last,
+.fancy-th .contributo .azioni li.last {
+	border-bottom: 0;
+}
+
+#box-contributi .contributo .azioni li a,
+.fancy-th .contributo .azioni li a {
+	color: #666666;
+}
+
+
+#box-contributi .contributo .azioni li.loading,
+.fancy-th .contributo .azioni li.loading {
+	background:  transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/ajax-loader.gif?v=1305071048) no-repeat  5px 6px;
+	text-indent: -5000px;	
+}
+
+
+#box-contributi .contributo .contributo-reply  {
+	display: none;
+}
+
+.fancy-th .contributo .contributo-reply  {
+	display: block;
+	margin-top: 20px;
+}
+
+.load-more-contributi {
+	font-family: BreraBold;
+	font-size: 16px;
+	color: #505050;
+	background: #edecec none;
+	text-align: center;
+	padding: 7px 0;
+	text-transform: uppercase;
+	display: block;
+}
+
+#box-contributi #total-th {
+	display: none;
+}
+
+.fancy-th #total-th  {
+	display: block;
+}
+
+.fancy-th #total-th .link-reply-all {
+	display: block;
+	float: right;
+	background-color: #518456;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: BreraRegular;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+
+#box-community-social {
+	background: #d5e1d8 none;
+	padding: 10px 0;
+	clear: both;
+}
+
+#box-community-social .views {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0 0 10px 5px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) repeat-x scroll left bottom;
+}
+
+#box-community-social .views .num {
+	display: block;
+	float: left;
+	color: #333333;
+	font-family: BreraRegular;
+	font-size: 12px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -174px -172px;
+	padding: 16px 0 0 0;
+	text-align: center;
+	min-width: 50px;
+	margin-right: 5px;
+}
+
+#box-community-social .views strong {
+	display: block;
+	font-family: BreraBold;
+	font-weight: normal;
+}
+
+#box-community-social .emotion .txt .totalVoteText{
+display: none;
+font-size: 9px;
+}
+
+#box-community-social .emotion .txt .totalVote{
+display: none;
+}
+
+#box-community-social .emotion .txt {
+	color: #333333;
+	font-family: BreraBold;
+	font-size: 12px;
+	position: absolute;
+	left: 92px;
+	top: 7px;
+}
+
+#box-community-social .emotion .txt .text {
+	text-transform: uppercase;
+}
+
+#box-community-social .emotion .txt .num {
+	font-size: 22px;
+	line-height: 24px;
+	font-family: BreraLight;
+	font-weight: normal;
+	display: block;
+}
+
+#box-community-social .emotion .default-text {
+	color: #6b6d6b;
+	font-family: BreraRegular;
+	font-size: 11px;
+	position: absolute;
+	left: 83px;
+	top: 10px;
+}
+
+#box-community-social .social {
+	color: #333333;
+	font-family: BreraRegular;
+	font-size: 14px;
+	padding: 10px 0 12px 25px;
+	border-bottom: 1px solid #95aa9a;
+	min-height: 30px;
+}
+
+	
+#box-community-social .social .tot-reply {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -774px -58px;
+	padding: 5px 0 5px 35px;
+	width: 50px;
+	float: left;
+	display: block;
+	min-height: 20px;
+	color: #666666;
+}
+
+#box-community-social .social .social-bar {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+
+#box-community-social .social .social-bar .show-share {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -774px -112px;
+	padding: 9px 0 5px 35px;
+	min-height: 20px;
+	color: #565656;
+	font-family: BreraRegular;
+	font-size: 14px;
+}
+
+#box-community-social .readinglist {
+	display: none
+}
+
+#box-community-social .readinglist-2col {
+	display: block;
+	padding: 10px 10px 12px 17px;
+	border-bottom: 1px solid #95aa9a;
+	border-top: 1px solid #eaf0ec;
+}
+
+#box-community-social .readinglist-2col a.off {
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -181px -102px;
+	text-indent: -5000px;
+	height: 23px;
+	width: 140px;
+}
+
+#box-community-social .readinglist-2col a.off:hover {
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -389px -102px;
+	text-indent: -5000px;
+	height: 23px;
+}
+
+#box-community-social .readinglist-2col a.on {
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -181px -53px;
+	text-indent: -5000px;
+	height: 23px;
+	width: 140px;
+}
+
+#box-community-social .readinglist-2col a.on:hover {
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -389px -53px;
+	text-indent: -5000px;
+	height: 23px;
+}
+
+
+#box-community-social .readinglist-2col a.loading,
+#box-community-social .readinglist-2col a.loading:hover {
+	background:  transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/ajax-loader.gif?v=1305071048) no-repeat  5px 6px;
+	text-indent: -5000px;
+}
+
+#box-community-social #article_sh_box {
+	margin: 0 !important;
+}
+
+#box-community-social .basic {
+	padding: 12px 10px 4px 26px;
+	border-top: 1px solid #eaf0ec;
+	color: #333333;
+	font-family: BreraRegular;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#box-community-social .basic a {
+	color: #333333;
+	border-right: 1px solid #333;
+	padding: 0 5px;
+}
+
+#box-community-social .basic a:hover {
+	color: #4D8358;
+}
+
+#box-community-social .basic a.last {
+	border-right: 0;
+}
+
+#box-community-social .basic a.ico-underline {
+	display: block;
+	width: 20px;
+	height: 11px;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -250px -174px;
+	/*float: left;*/
+	text-indent: -5000px;
+	display: none;
+}
+
+/* share */
+
+.show-share {
+	position: relative;
+	cursor: pointer;
+}
+
+.show-share .title_art {
+	display: none;
+}
+
+.share-bt {
+    text-align: center;
+	display: none;
+    background: url("//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047") no-repeat scroll -522px -257px transparent;
+	top: -88px;
+	left: -89px;
+    width: 206px;
+	height: 85px;
+	position: absolute;
+	z-index: 1000;
+}
+
+.share-bt .button {
+    display: block;
+	float: left;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+.share-bt .button .counter {
+    bottom: 0;
+    display: block;
+    font-size: 14px;
+    height: 15px;
+    position: absolute;
+    width: 50px;
+}
+.share-bt a {
+    background: url("//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047") no-repeat scroll -524px -257px transparent;
+    display: block;
+	float: left;
+    max-height: 50px;
+    width: 45px;
+	padding-top: 40px;
+	margin: 10px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #515050;
+	font-weight: normal;
+}
+.share-bt .bt-passaparola-share {
+    background-position: -528px -173px;
+    border-right: 1px solid #518456;
+	width: 50px;
+	margin-right: 10px;
+}
+.share-bt .bt-facebook-share {
+    background-position: -585px -173px;
+}
+.share-bt .bt-twitter-share {
+    background-position: -631px -173px;
+}
+.share-bt .bt-google-share {
+    background-position: -680px -173px;
+}
+
+
+/* gallery */
+
+.social-gallery #box-community-social  {
+	padding: 0;
+	min-height: 65px;
+	margin-bottom: 25px;
+}
+
+.social-gallery #box-community-social .emotion {
+	width: 183px;
+	float: left;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y scroll right 0;
+	padding: 5px 0;
+}
+
+.social-gallery #box-community-social .social {
+	width: 180px;
+	float: left;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y scroll right 0;
+	border-bottom: 0;
+	padding: 20px 8px 10px;
+}
+
+.social-gallery #box-community-social .readinglist-2col {
+	width: 150px;
+	float: left;
+	border-bottom: 0;
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y scroll right 0;
+	padding: 20px 10px;
+}
+
+.social-gallery #box-community-social .basic a {
+    display: block;
+	font-size: 10px;
+	padding: 0;
+	border-right: 0;
+}
+
+.social-gallery #box-community-social #article_sh_box {
+	display: block;
+    float: left;
+    padding: 12px 15px 0 15px;
+}
+
+.social-gallery #box-community-social #article_sh_box .ascolta,
+.social-gallery #box-community-social #article_sh_box #print_tba_bt,
+.social-gallery #box-community-social .basic a.ico-underline {
+	/*display: none;*/
+}
+
+ /*dialog popu */
+
+#response-popup {
+    background-color: #E5EDE6;
+    color: #666666;
+    font-family: BreraRegular;
+    font-size: 14px;
+    width: 696px;
+	padding-bottom: 10px;
+}
+.response-popup-small {
+    width: 376px !important;
+}
+
+#response-popup .header {
+	background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/header-popup.gif?v=1305071049) no-repeat scroll 0 0;
+	height: 57px;
+	margin-bottom: 30px;
+}
+
+#response-popup p {
+    color: #333333;
+    font-family: BreraLight;
+    font-size: 18px;
+    padding: 0 0 10px;
+    text-align: center;
+}
+
+#response-popup p.oneline {
+    padding: 20px 0 40px;
+}
+
+#response-popup .container-bt {
+    overflow: auto;
+    padding: 0 38px 10px;
+}
+
+#response-popup .bt {
+    background-color: #518456;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 23px;
+    margin: 15px 0 0 20px;
+    padding-top: 7px;
+    text-align: center;
+    width: 130px;
+	display: block;
+	float: left;
+}
+
+#response-popup a {
+    text-decoration: none;
+}
+
+/* --------------------- COMMUNITY LOCAL GALLERY 20-5-2013 --------------------------- */
+
+#gallery .social-gallery{
+margin-right: 9px;
+}
+
+#gallery #box-community-social .emotion a .smile{
+left: 12px;
+}
+
+#gallery #box-community-social .emotion a .circle{
+left: 6px;
+}
+
+#gallery #box-community-social .emotion .default-text{
+left: 70px;
+text-align:left;
+}
+
+#gallery .social-gallery #box-community-social #article_sh_box {
+width: 84px;
+text-align: center;
+}
+
+#gallery #header-leaderboard{
+background: none repeat scroll 0 0 #EFEFEF;
+margin: 0 auto;
+text-align: center;
+width: 987px;
+}
+
+#gallery #testata_tkv{
+    margin-left: 0!important;
+    margin-top: 0!important;
+    top: 0!important;
+}
+
+#gallery #col-sx {
+min-height:1500px;
+background-image:none;
+}
+
+#gallery #box-emotional ul li a{
+width: 132px;
+}
+
+#gallery #box-community-scrivi{
+margin: 20px 0 30px 14px;
+}
+
+#gallery #box-emotional {
+    padding: 0 10px;
+}
+
+#gallery #box-contributi {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#gallery #ricerca_semplice_a {
+    margin-right: 13px;
+}
+
+
+ @media screen and (-webkit-animation) { 
+	#gallery #header-leaderboard {
+	width: 989px;
+	}
+ } 
+ 
+#gallery #header{
+width: 988px;
+
+
+
+
+}
+
+#gallery #col-dx{
+
+background-image:none;
+
+
+}
+
+#gallery #box-community-social .social .tot-reply{
+line-height: 22px;
+text-align:left;
+
+
+}
+
+/*body#gallery{
+text-align:left;
+}*/
+
+#gallery #wrapper{
+text-align:left;
+
+
+}
+
+#gallery #multibar{
+text-align:left;
+}
+/*mattia 16-2-2013*/
+
+.articles-home.left .social-bar .share-bt {
+    background-position: -522px -432px;
+    left: 0px;
+    top: -83px;
+}
+
+.articles-home.left .social-bar .tot-reply + .show-share .share-bt{
+    background-position: -522px -344px;
+    left: -26px;
+    top: -83px;
+}
+
+#home-2col .social-bar .share-bt {
+    background-position: -522px -432px;
+	left: -3px;
+    top: -83px;
+}
+
+#home-2col .social-bar .tot-reply + .show-share .share-bt {
+background-position: -297px -344px;
+left: -51px;
+top: -83px;
+}
+#homepage-corriere .home-2col-exid  .social-bar a.tot-rating{
+	display:none;
+}
+.first-lista .social-bar a.tot-rating{
+margin-right:0px;
+}
+
+.first-lista .social-bar a.tot-rating span{
+    margin-right: 15px;
+}
+
+.articles-home .social-bar a.tot-rating{
+margin-right:0px;
+}
+
+.articles-home .social-bar a.tot-rating span{
+    margin-right: 15px;
+}
+
+.edizione-straordinaria .social-bar a.tot-rating{
+margin-right:0px;
+}
+
+.edizione-straordinaria .social-bar a.tot-rating span{
+    margin-right: 15px;
+}
+
+#example #slides .social-bar a.tot-rating{
+margin-right:0px;
+}
+
+#example #slides .social-bar a.tot-rating span{
+    margin-right: 15px;
+}
+
+/*__________________ CUCINA ___________________*/
+
+#cucina.sub-default.type-home .share-bt {
+background: url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -522px -430px transparent;
+top: -88px;
+left: 0px;
+}
+
+
+/*_____________________ MOTORI _______________________*/
+
+#home-motori #example {
+padding-bottom: 10px;
+}
+
+#home-motori #example .share-bt {
+    background-position: -522px -432px;
+    left: 0px;
+    top: -83px;
+}
+
+/*correzioni 03-06-2013*/
+
+#footer {}
+
+/* VIDEO player 300,400,620 */
+
+/*Fix per canale motori*/
+#home-motori .box_Player_300 #box-community-social .emotion {
+left: 106px;
+}
+
+.box_Player_300 #box-community-social {
+padding: 0px;
+height: 58px;
+min-height: 30px;
+background: #F1F2EE;
+}
+
+.box_Player_300 #box-community-social .emotion a{
+height: 29px;
+}
+
+.box_Player_300 #box-emotional ul li .circle, #box-community-social .emotion a .circle{
+display:none;
+}
+
+.box_Player_300 #box-community-social .emotion a .smile{
+top:-9px;
+left:35px;
+float: left;
+background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -389px -267px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo1 {
+    background-position: -394px -317px;
+	margin-top: 9px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo2 {
+    background-position: -443px -317px;
+	margin-top: 9px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo3 {
+    background-position: -490px -317px;
+	margin-top: 9px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo4 {
+    background-position: -536px -317px;
+	margin-top: 9px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo5 {
+    background-position: -580px -317px;
+	margin-top: 9px;
+}
+
+.box_Player_300 #box-community-social .emotion .txt{
+    float: left;
+    left: 0;
+    position: relative;
+    top: 2px;
+}
+
+.box_Player_300 #box-community-social .emotion{
+border-right: 1px dotted #a1a9a1;
+height: 27px;
+left: 110px;
+position: absolute;
+width: 114px;
+padding-right: 16px;
+padding-top: 8px;
+background-image:none;
+z-index: 3;
+}
+
+.box_Player_300 #box-community-social .emotion .txt .text{
+display:none;
+}
+
+.box_Player_300 #box-community-social .emotion .txt .num{
+font-size: 14px;
+}
+
+.box_Player_300 #box-community-social .emotion .default-text{
+display:none;
+}
+
+.box_Player_300 #box-community-social .social .social-bar{
+width: 43px;
+float: none;
+}
+
+.box_Player_300 #box-community-social .social .ajax-social{
+width: 43px;
+float: right;
+}
+
+.box_Player_300 #box-community-social .social .social-bar .show-share {
+background-position: -754px -113px;
+float: none;
+font-size: 12px;
+padding: 27px 0 0px;
+text-align: center;
+width: 65px;
+border-right: 1px dotted #a1a9a1;
+min-height: 10px;
+}
+
+.box_Player_300 #box-community-social .social .tot-reply {
+background-position: -755px -60px;
+font-size: 12px;
+padding: 28px 0 1px;
+text-align: center;
+width: 65px;
+float: right;
+border-right: 1px dotted #a1a9a1;
+min-height: 14px;
+}
+
+
+.box_Player_300 #box-community-social .readinglist-2col a.off {
+background-position:-189px -102px;
+width: 26px;
+position: absolute;
+left: 253px;
+top: 8px;
+}
+
+.box_Player_300 #box-community-social .readinglist-2col a.on:hover {
+background-position:-189px -102px;
+}
+
+.box_Player_300 #box-community-social .readinglist-2col a.on{
+background-position:-397px -102px;
+width: 26px;
+position: absolute;
+left: 254px;
+top: 10px;
+}
+
+.box_Player_300 #box-community-social .social{
+padding-left: 0px;
+width: auto;
+position: absolute;
+padding-top: 0px;
+padding-bottom: 0px;
+border-bottom:none;
+width: 110px!important!;
+z-index: 2;
+}
+
+.box_Player_300 #box-community-social .readinglist-2col {
+border:none;
+position:relative;
+height: 2px;
+width: 279px;
+z-index: 1;	
+background-color:#D5E1D8;
+}
+
+.box_Player_300 .social-gallery #box-community-social .readinglist-2col{
+background-image: none;
+}
+
+.box_Player_300 #box-community-social .readinglist-2col a.off:hover{
+background-position:-397px -102px;
+}
+
+.box_Player_300 #box-community-social #article_sh_box {
+display:none;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo1 {
+    background-position: -394px -317px
+}
+
+.box_Player_300 #box-community-social .emotion a .emo2 {
+    background-position: -443px -317px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo3 {
+    background-position: -490px -317px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo4 {
+    background-position: -536px -317px;
+}
+
+.box_Player_300 #box-community-social .emotion a .emo5 {
+    background-position: -580px -317px;
+}
+
+.box_Player_300 .social-gallery #box-community-social .social {
+background: none;
+}
+
+.box_Player_300 #box-community-social .emotion .txt .num {
+margin-left: 33px;
+margin-left: 78px;
+}
+
+.box_Player_300 .social-gallery {
+clear: both; 
+display: inline; 
+float: left;
+}
+
+.box_Player_620 #box-community-firma,.box_Player_400 #box-community-firma,.box_Player_300 #box-community-firma {
+margin-top: -1px;
+}
+
+.box_Player_620 #box-community-firma .show-share {
+margin-right: 16px;
+margin-left: 17px;
+
+}
+
+.box_Player_620 #box-community-firma .readinglist .off,.box_Player_620 #box-community-firma .readinglist .on{
+margin-right: 8px; 
+
+}
+
+.box_Player_400 #box-community-firma .readinglist .off,.box_Player_400 #box-community-firma .readinglist .on{
+margin-right: 2px; 
+
+}
+
+.box_Player_400 #box-community-firma .show-share {
+margin-right: 6px;
+margin-left: 13px;
+}
+
+.box_Player_300 #box-community-social .social .social-bar .share-bt{
+left: -68px;
+
+}
+
+.box_Player_620 .social-bar .share-bt{
+left: -149px;
+background-position: -297px -432px;
+
+}
+
+.box_Player_620 .tit_Title {
+font-size: 20px !important;
+line-height: 21px !important;
+margin: 0 !important;
+}
+
+/*Fix inserita per ripristino firma twitter 03/07/2013*/
+#article_sh_box #box-firma .twitter-author{
+	color: #019ad2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	display: block;
+	background: transparent url(//images2.corriereobjects.it/images/static/common/ico-twitter.gif?v=[an error occurred while processing this directive]) no-repeat 0 0;	
+	text-indent: 18px;
+	font-weight: normal;
+}
+
+/*fix fumetto condivisione social*/
+
+/* .show-share:hover .share-bt{
+display:block;
+} */
+
+.share-bt{
+top:-84px;
+}
+
+/*fix form invia commento*/
+
+#box-community-scrivi form#sendcomment .fake_submit {
+    background-color: #518456;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-family: BreraRegular;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+/*messaggio complilazione obbligatoria campo commento*/
+.error {
+color: red;
+display: none;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 10px;
+position: absolute;
+right: 115px;
+visibility: hidden;
+bottom: 20px;
+text-transform: lowercase;
+min-width: 118px;
+text-align: right;
+}
+
+#box-community-scrivi {
+position: relative;
+}
+
+#box-community-scrivi .maxNumberOfCharacters {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 10px;
+bottom: 20px;
+text-transform: lowercase;
+min-width: 118px;
+text-align: right;
+}
+
+/*SEZIONE VIVIMILANO RISTORANTI*/
+
+#sez-ristoranti #box-emotional {
+visibility: hidden;
+height: 20px;
+}
+
+#sez-ristoranti .spalla-dx #box-community-social .emotion {
+display: none;
+}
+
+#sez-ristoranti .spalla-dx #box-community-social {
+margin-bottom:10px;
+}
+
+#sez-ristoranti #box-interessi ul li a{
+color: #fcc641 !important
+}
+
+#sez-ristoranti #box-interessi .show-hide .collapse {
+color: #fcc641 !important
+}
+
+#sez-ristoranti #box-interessi .show-hide .expand {
+color: #fcc641 !important
+}
+
+#sez-photogallery .share-bt {
+background-position:-521px -344px;
+left: -21px;
+}
+
+#sez-home .share-bt, #sez-ristoranti .share-bt, #sez-locali .share-bt, #sez-cinema .share-bt, #sez-concerti .share-bt, #sez-concerti-classica .share-bt, #sez-teatro .share-bt, #sez-arte-cultura .share-bt, #sez-bambini .share-bt, #sez-shopping .share-bt, #sez-benessere-sport .share-bt, #sez-feste-mercatini-fiere .share-bt, #sez-weekend-fuori-porta .share-bt{
+background-position: -298px -343px;
+left: -51px;
+}
+
+/*Modifica commento piu' votato*/
+
+#box-contributi .top-rated-title ,#box-contributi .contributo.top-rated{
+display:none;
+}
+
+/*Modifica per nuovi elementi emotional*/
+#box-community-social .emotion .txt .text{
+display:none!important;
+}
+ 
+#box-emotional ul li .txt{
+display:none!important;
+}
+
+.avatar_indignato{
+background-position: -393px -316px!important;
+}
+ 
+ 
+.avatar_triste{
+background-position: -442px -316px!important;
+}
+ 
+ 
+.avatar_sconvolto{
+background-position: -489px -316px!important;
+}
+ 
+ 
+.avatar_soddisfatto{
+background-position: -580px -316px!important;
+}
+ 
+ 
+.avatar_divertito{
+background-position: -536px -316px!important;
+}
+ 
+.social-bar a strong{
+background: transparent url(//images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -393px -316px;
+width: 30px;
+height: 30px;
+display: block;
+float: left;
+margin: -9px 2px 0px 6px;
+text-indent: 9999px;
+overflow: hidden;
+}

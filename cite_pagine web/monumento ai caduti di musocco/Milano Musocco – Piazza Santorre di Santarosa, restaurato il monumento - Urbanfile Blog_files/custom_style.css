@@ -1,0 +1,20 @@
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);@import url(http://fonts.googleapis.com/css?family=Titillium+Web);    
+
+body{background:url(img/pattern/pattern_use/pattern16.png);}
+.sf-menu > li.color-1 > a span.border-menu{background: #a3620a !important;}.sf-menu > li.color-2 > a span.border-menu{background: #7accc8 !important;}.sf-menu > li.color-3 > a span.border-menu{background: #aba000 !important;}.sf-menu > li.color-4 > a span.border-menu{background: #a67c52 !important;}.sf-menu > li.color-5 > a span.border-menu{background: #f26d7d !important;}.sf-menu > li.color-6 > a span.border-menu{background: #00a99d !important;}.sf-menu > li.color-7 > a span.border-menu{background: #a186be !important;}.sf-menu > li.color-8 > a span.border-menu{background: #f26522 !important;}.sf-menu > li.color-9 > a span.border-menu{background: #a3620a !important;}.sf-menu > li.color-10 > a span.border-menu{background: #a67c52 !important;}        
+.sf-top-menu li a,
+#mainmenu li > a,
+.item_slide_caption .post-meta.meta-main-img, .feature-post-list .post-meta.meta-main-img, .footer_carousel .meta-comment, .post-meta.meta-main-img,.item_slide_caption h1 a,  .tickerfloat, .box-1 .inside h3, .detailholder.medium h3, .feature-post-list .feature-post-title, .widget-title h2, .image-post-title, .grid.caption_header h3, ul.tabs li a, ul.tabs1 li a, ul.hover_tab_post_large li a, h1, h2, h3, h4, h5, h6, .carousel_title, .postnav a{font-family:Titillium Web !important;}   
+ 
+body, p, #ticker a, #search_block_top #search_query_top, .tagcloud a, .btn.default.read_more{font-family:Titillium Web !important; font-size:16px; font-weight:normal !important;}   
+            
+
+.feature-item:hover img, .feature-post-list .feature-image-link img:hover {
+-webkit-transform: scale(1) rotate(0deg);
+-moz-transform: scale(1) rotate(0deg);
+-o-transform: scale(1 rotate(0deg));
+transform: scale(1) rotate(0deg);
+}
+ 
+

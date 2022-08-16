@@ -1,0 +1,24 @@
+.francesco_homepage{float:right;width:75%}
+.francesco_homepage th,td{padding:0}
+.francesco_homepage .wrapper{width:100%;min-width:300px;min-height:auto;position:relative}
+.francesco_homepage .pope img{width:100%;max-width:350px;height:auto;display:block;margin:auto}
+.francesco_homepage .link{text-align:center;width:100%}
+.francesco_homepage .link h1{font-family:Tahoma,Verdana,Segoe,sans-serif!important;text-transform:none;font-weight:bold;font-size:16pt}
+.francesco_homepage .link .item{display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;margin-right:10%}
+.francesco_homepage .infos{text-align:center}
+.francesco_homepage .infos .info{line-height:1}
+.francesco_homepage .infos .info h1{font-family:Tahoma,Verdana,Segoe,sans-serif!important;text-transform:none;font-size:22pt;font-weight:bold;margin:0}
+.francesco_homepage .infos .info h2{font-family:Tahoma,Verdana,Segoe,sans-serif!important;text-transform:none;font-size:13pt;margin:0}
+.francesco_homepage .infos .info h2{font-family:Tahoma,Verdana,Segoe,sans-serif!important;text-transform:none;font-size:13pt;margin:0}
+.francesco_homepage .infos .info .item{color:#630!important;font-family:Tahoma,Verdana,Segoe,sans-serif!important;text-transform:none;line-height:1;font-size:13pt!important;font-weight:bold}
+.francesco_simplemenu .documento{float:right;width:75%}
+.francesco_simplemenu .menu{float:left}
+.text .arabic,#CQrte .arabic{text-align:right;direction:rtl;display:block;unicode-bidi:embed}
+.text .arabic-center,#CQrte .arabic-center{text-align:center;direction:rtl;display:block;unicode-bidi:embed}
+.text .medium,#CQrte .medium{font-family:Tahoma,Verdana,Segoe,sans-serif;font-size:12pt}
+.text .large,#CQrte .large{font-family:Tahoma,Verdana,Segoe,sans-serif;font-size:14pt}
+.text .title-2,#CQrte .title-1{font-family:Tahoma,Verdana,Segoe,sans-serif!important;font-size:16px}
+.text .title-2,#CQrte .title-2{font-family:Tahoma,Verdana,Segoe,sans-serif!important;font-size:24px}
+.text .title-1-color,#CQrte .title-1-color{font-family:Tahoma,Verdana,Segoe,sans-serif!important;font-size:18px;color:#630}
+.text .title-2-color,#CQrte .title-2-color{font-family:Tahoma,Verdana,Segoe,sans-serif!important;font-size:24px;color:#630}
+.text .image-small,#CQrte .image-small{max-width:25%}

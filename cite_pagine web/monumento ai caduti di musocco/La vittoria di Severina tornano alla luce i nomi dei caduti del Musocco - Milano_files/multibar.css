@@ -1,0 +1,952 @@
+/*
+	<!--Configurazione usata per importare le immagini presenti nel file comunity.css-->
+
+
+	
+*/
+
+/* multibar */
+#multibar {
+	width: 991px;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	z-index:999999900;
+	font-family: BreraRegular;
+	font-size: 14px;
+	color: #333333;
+	background: none repeat scroll 0 0 #ACC3AE;		/* tentativo di fix background - 14_04_2014 */
+}
+
+#multibar ul {
+	list-style: none;
+}
+
+/* multibar non loggato */
+#multibar #multibar-default {
+	border-top: 3px solid #518456;
+	background: #acc3ae none;
+	height: 90px;
+	display: none;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .txt .desc{
+font-size: 12px;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+display:none;
+}
+
+#multibar #multibar-default .multibar-show-hide {
+	width: 65px;
+	height: 30px;
+	display: block;
+	margin: -33px auto 3px;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll 0 -403px;
+}
+
+#multibar #multibar-default .multibar-show-hide.hide {
+	background-position: -85px -403px;
+}
+
+#multibar #multibar-default .multibar-default {
+	width: 991px;
+	margin: auto;
+}
+
+/* multibar loggato */
+#multibar #multibar-log {
+	border-top: 3px solid #518456;
+	background: #acc3ae none;
+	height: 30px;
+	display: none;
+}
+
+#multibar #multibar-log .multibar-log {
+	width: 991px;
+	margin: auto;
+}
+
+/* multibar  logo*/
+#multibar #multibar-default li#mb-logo,
+#multibar #multibar-log li#mb-logo {
+	width: 200px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+	height: 70px;
+	margin: 10px 0;
+}
+
+#multibar #multibar-log li#mb-logo {
+	height: auto;
+	margin: 0;
+}
+
+#multibar #multibar-default li#mb-logo a,
+#multibar #multibar-log li#mb-logo a {
+	display: block;
+	padding-left: 20px;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -565px -22px; /*valori background position per "passaparola" senza scritta beta: -564px -90px*/
+	text-indent: -5000px;
+	height: 30px;
+	margin: 10px 0 0 10px;
+}
+
+#multibar #multibar-log li#mb-logo a {
+	margin: -22px 0 0 0px;
+	height: 50px;
+}
+
+
+/* multibar random */
+#multibar #multibar-default li#mb-random {
+	width: 320px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+	height: 70px;
+	margin: 10px 0;
+	color: #333;
+	position: relative;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion {
+	display: none;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion a {
+	text-decoration: none;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .title {
+	color: #518456;
+	margin-left: 105px;
+	font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .num {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: breraBold;
+	float: left;
+	color: #333;
+	padding-right: 5px;
+	margin-left: 100px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc {
+	font-size: 16px;
+	font-family: breraBold;
+	color: #333;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .txt {
+	font-size: 18px;
+	color: #333;
+	line-height: 22px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .desc {
+	font-size: 22px;
+	line-height: 24px;
+	display: block;
+	color: #333;
+	text-transform: uppercase;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .smile {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -17px -290px;
+    width: 55px;
+	height: 55px;
+    left: 28px;
+	top: 8px;
+    position: absolute;
+}
+
+
+#multibar #multibar-default li#mb-random .mb-emotion .circle {
+	width: 75px;
+	height: 75px;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -12px -390px;
+	position: absolute;
+	left: 20px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .emo1 {
+	background-position: -17px -290px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .emo2 {
+	background-position: -87px -290px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .emo3 {
+	background-position: -157px -290px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .emo4 {
+	background-position: -227px -290px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .emo5 {
+	background-position: -296px -290px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc0 {
+	background-position: -12px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc5 {
+	background-position: -98px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc10 {
+	background-position: -176px -391px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc15 {
+	background-position: -257px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc20 {
+	background-position: -339px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc25 {
+	background-position: -422px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc30 {
+	background-position: -505px -390px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc35 {
+	background-position: -13px -471px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc40 {
+	background-position: -95px -472px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc45 {
+	background-position: -177px -471px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc50 {
+	background-position: -258px -472px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc55 {
+	background-position: -341px -471px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc60 {
+	background-position: -424px -472px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc65 {
+	background-position: -505px -471px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc70 {
+	background-position: -12px -554px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc75 {
+	background-position: -96px -556px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc80 {
+	background-position: -176px -554px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc85 {
+	background-position: -258px -555px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc90 {
+	background-position: -340px -555px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc95 {
+	background-position: -422px -554px;
+}
+
+#multibar #multibar-default li#mb-random .mb-emotion .perc100 {
+	background-position: -506px -553px;
+}
+
+/* multibar random sondaggio */
+#multibar #multibar-default li#mb-random .mb-sondaggio {
+	display: none;
+	margin: 0 0 0 24px;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio #target_sondaggio img{
+float:left;
+margin-right: 10px;
+margin-top: -8px;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio .title {
+	color: #518456;
+	line-height: 10px;
+	font-size: 14px;
+	margin-bottom: 5px;
+	font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio p.domanda {
+	width: 270px;
+	color: #333333;
+	line-height: 16px;
+	font-size: 17px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio p.text {
+	width: 270px;
+	color: #333333;
+	line-height: 16px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio .mb-vota {
+    background: #518456 none;
+    color: #FFFFFF;
+    display: block;
+    margin: 10px 20px 0 0;
+    padding: 5px 20px;
+	float: right;
+}
+
+/* multibar random passaparola */
+#multibar #multibar-default li#mb-random .mb-passaparola {
+    display: none;
+	margin: 0 20px 0 17px;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola .tot-passaparola {
+    background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -360px -275px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    text-align: center;
+    width: 44px;
+	padding-top: 30px;
+	float: left;
+	margin: 0 25px 0 7px;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola .tot-passaparola a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola .title {
+	color: #518456;
+	line-height: 14px;
+	font-size: 14px;
+	margin-bottom: 3px;
+	font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola span.tit {
+	color: #333333;
+	line-height: 20px;
+	font-size: 17px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	display: block;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola span.text {
+	color: #333333;
+	line-height: 16px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+/* multibar random redazioneonline */
+#multibar #multibar-default li#mb-random .mb-redazioneonline {
+	display: none;
+	margin: 0 0 0 24px;
+}
+
+#multibar #multibar-default li#mb-random .mb-redazioneonline .title {
+color: #518456;
+line-height: 14px;
+font-size: 14px;
+margin-bottom: 3px;
+font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-random .mb-redazioneonline span.text {
+color: #333333;
+line-height: 20px;
+font-size: 17px;
+font-family: Georgia, "Times New Roman", Times, serif;
+display: block;
+margin-top:6px;
+}
+
+/* multibar argomenti */
+#multibar #multibar-default li#mb-arg {
+	width: 255px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+	height: 70px;
+	margin: 10px 0;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg {
+	padding: 0 20px;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg li.title {
+	color: #518456;
+	font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg li a {
+	color: #333333;
+	padding-left: 14px;
+	font-size: 13px;
+	line-height: 14px;
+	font-family: breraBold;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg li a.equal,
+#multibar #multibar-default li#mb-arg .mb-arg li a.eq {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -791px -262px;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg li a.up {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -791px -369px;
+}
+
+#multibar #multibar-default li#mb-arg .mb-arg li a.down {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -791px -316px;
+}
+
+/* multibar login */
+#multibar #multibar-default li#mb-login {
+	/* width: 145px; */
+	width: 145px;
+	float: left;
+	height: 70px;
+	margin: 10px 0;
+}
+
+#multibar #multibar-default li#mb-login a.mb-complete {
+	display: block;
+	color: #333333;
+	margin-left: 14px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+#multibar #multibar-default li#mb-login .mb-login {
+	display: block;
+	color: #333333;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	padding-top: 8px;
+}
+
+#multibar #multibar-default li#mb-login .mb-registrati {
+	display: block;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0 15px;
+	background: #518456 url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat 97px -223px;
+}
+
+/* multibar random emotion */
+#multibar #multibar-log li#mb-random {
+	width: 375px;
+	height: 30px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+	font-family: breraRegular;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion {
+	margin: 0px 2px 2px 2px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion a {
+	text-decoration: none;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .title {
+	color: #518456;
+	line-height: 14px;
+	font-size: 14px;
+	font-family: breraBold;
+	margin: 10px 16px 0px 53px;
+	float:left;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .txt {
+	color: #333333;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .txt .perc {
+	font-family: breraBold;
+	float:left;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .smile {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -393px -316px;
+    width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin: 0px 6px 0px 6px;
+}
+
+
+#multibar #multibar-log li#mb-random .mb-emotion .emo1 {
+	background-position: -393px -316px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .emo2 {
+	background-position: -442px -316px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .emo3 {
+	background-position: -489px -316px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .emo4 {
+	background-position: -536px -316px;
+}
+
+#multibar #multibar-log li#mb-random .mb-emotion .emo5 {
+	background-position: -580px -316px;
+}
+
+
+/* multibar interessi */
+#multibar #multibar-log li#mb-interessi {
+	width: 251px;
+	height: 30px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+	position: relative;
+}
+
+#multibar #multibar-log li#mb-interessi .mb-interessi-default {
+	margin: 10px 0 0 20px;
+	display:none;
+}
+
+#multibar #multibar-log li#mb-interessi .mb-interessi-default .title {
+	color: #518456;
+	line-height: 14px;
+	font-size: 14px;
+	position: relative;
+	margin-left: 40px;
+}
+
+#multibar #multibar-log li#mb-interessi .mb-interessi-default .title a {
+	color: #518456;
+	text-decoration: none;
+}
+
+#multibar #multibar-log li#mb-interessi .mb-interessi {
+	margin: 10px 0 0 20px;
+	display: none;
+}
+
+#multibar #multibar-log li#mb-interessi .title {
+	color: #518456;
+	line-height: 14px;
+	font-size: 14px;
+	position: relative;
+	margin-left: 0px;
+}
+
+#multibar #multibar-log li#mb-interessi .title a {
+	color: #518456;
+	text-decoration: none;
+	font-family: breraBold;
+}
+
+#multibar #multibar-log li#mb-interessi .num-notifiche {
+	position: absolute;
+	left: 130px;
+	top: 0;
+	display: none;
+}
+
+
+#multibar #multibar-log li#mb-interessi .num-notifiche .corner-sx {
+	display: block;
+	width: 6px;
+	height: 13px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -369px -223px;
+}
+
+#multibar #multibar-log li#mb-interessi .num-notifiche .num {
+	display: block;
+	float: left;
+	height: 13px;
+	width: auto;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -375px -223px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 11px;
+	color: #fff;
+	text-align: center;
+	padding: 1px 1px 0 0;
+}
+
+#multibar #multibar-log li#mb-interessi .num-notifiche .num a {
+	color: #fff;
+}
+
+#multibar #multibar-log li#mb-interessi .num-notifiche .corner-dx {
+	display: block;
+	width: 6px;
+	height: 13px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat -413px -223px;
+}
+
+#multibar #multibar-log li#mb-interessi .interesse {
+	display: none;
+}
+
+#multibar #multibar-log li#mb-interessi .txt {
+	color: #333333;
+	line-height: 14px;
+	font-size: 13px;
+	display: block;
+	left: 61px;
+	position: absolute;
+}
+
+#multibar #multibar-log li#mb-interessi .txt a {
+	color: #333333;
+}
+
+#multibar #multibar-log li#mb-interessi .txt .author {
+	font-family: breraBold;
+}
+
+#multibar #multibar-log li#mb-interessi img.avatar {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 11px;
+}
+
+
+/* multibar reading list */
+#multibar #multibar-log li#mb-reading {
+	width: 69px;
+	height: 30px;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+}
+
+#multibar #multibar-log li#mb-reading .mb-reading {
+    background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll -302px -275px;
+    min-height: 48px;
+    width: 43px;
+    color: #FFFFFF;
+    display: block;
+    font-family: breraRegular;
+    font-size: 13px;
+    text-align: center;
+	padding-top: 25px;
+	margin-left: 13px;
+	margin-top: -18px;
+	text-decoration: none;
+}
+#multibar #multibar-log li#mb-random .mb-emotion .txt .percText{
+	float:left;
+}
+
+
+/* multibar modify */
+#multibar #multibar-log li#mb-modify {
+	width: 90px;
+	height: 30px;
+	float: left;	
+}
+
+#multibar #multibar-log li#mb-modify .mb-modify {
+	display: block;
+	float: left;
+	widht: 30px;
+	height: 30px;
+	margin: 0px 0 0 17px;
+}
+
+#multibar #multibar-log li#mb-modify img.avatar {
+	width: 30px;
+	height: 30px;
+}
+
+#multibar #multibar-log li#mb-modify .mb-settings {
+	display: block;
+	float: left;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047)  no-repeat -302px -222px;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+
+/*modifiche per cucina*/
+.article .container-ricetta-tools {
+padding-bottom: 11px;
+}
+.article .ricetta-tools {
+padding: 5px 11px 19px 10px;
+
+}
+
+/*MODIFICHE 1-7-2013*/
+
+#multibar #multibar-default li#mb-emo {
+float: left;
+font-family: breraRegular;
+height: 30px;
+width: 320px;
+background: transparent url(/includes2007/ssi/boxes/community/images/punto_verticale.gif?v=1305101039) repeat-y right 0;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion {
+margin: 10px 0 0 3px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion a {
+	text-decoration: none;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .title {
+	color: #518456;
+	line-height: 14px;
+	font-size: 14px;
+	font-family: breraBold;
+	margin: 0 16px 20px 20px;
+	float:left;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .txt {
+	color: #333333;
+	line-height: 14px;
+	font-size: 13px;
+	display:block;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .txt .perc {
+	font-family: breraBold;
+	float:left;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .txt .desc{
+	display:none;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .txt .percText{
+	float:left;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .smile {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/emotion.png?v=1403260929) no-repeat -393px -316px;
+    width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin: -10px 8px 0px 14px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .emo1 {
+	background-position: -393px -316px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .emo2 {
+	background-position: -442px -316px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .emo3 {
+	background-position: -489px -316px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .emo4 {
+	background-position: -536px -316px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .emo5 {
+	background-position: -580px -316px;
+}
+
+#multibar #multibar-default li#mb-login .mb-login {
+margin-left: 15px;
+margin-bottom: 4px;
+}
+
+#multibar #multibar-default {
+height: 30px;
+}
+
+#multibar #multibar-default li#mb-logo {
+height: 30px;
+margin: 0px;
+}
+
+#multibar #multibar-default li#mb-logo a{
+height: 51px;
+margin: 0px;
+margin-top: -21px;
+}
+
+#multibar #multibar-default li#mb-random {
+height: 30px;
+margin: 0px;
+padding: 0px 0px;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio .title {
+margin-bottom: 1px;
+margin-top: 12px;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio p.domanda {
+line-height: 13px;
+font-size: 13px;
+font-family: breraRegular;
+height: 27px;
+overflow: hidden;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio{
+margin: 0 0 0 10px;
+}
+
+#multibar #multibar-default li#mb-random .mb-sondaggio .mb-vota {
+margin: 7px 25px 0 0;
+padding: 4px 30px;
+font-size: 11px;
+}
+
+#multibar #multibar-default li#mb-login {
+height: 30px;
+margin: 0px;
+padding: 4px 0px;
+padding: 0px 0px;
+}
+
+#multibar #multibar-default li#mb-login .mb-registrati {
+font-size: 11px;
+padding: 4px 10px;
+background-position: 97px -227px;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola span.tit{
+line-height: 13px;
+font-size: 13px;
+font-family: breraRegular;
+height: 27px;
+overflow: hidden;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola {
+margin: 0 20px 0 10px;
+}
+
+#multibar #multibar-default li#mb-random .mb-passaparola .title{
+margin-top:1px;
+}
+
+#multibar #multibar-log .multibar-show-hide {
+	width: 65px;
+	height: 30px;
+	display: block;
+	margin: -33px auto 3px;
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/sprite.png?v=1501121047) no-repeat scroll 0 -403px;
+}
+
+#multibar #multibar-log .multibar-show-hide.hide {
+	background-position: -85px -403px;
+}
+
+#multibar #multibar-default li#mb-random .mb-redazioneonline span.text {
+line-height: 13px;
+font-size: 13px;
+font-family: breraRegular;
+height: 27px;
+overflow: hidden;
+margin-top: 1px;
+}
+
+#multibar #multibar-default li#mb-random .mb-redazioneonline {
+margin: 0 20px 0 10px;
+}
+
+#multibar #multibar-default li#mb-random .mb-redazioneonline .title{
+margin-top:1px;
+}
+
+#multibar #multibar-default li#mb-emo .mb-emotion .desc {
+font-size: 12px;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+/*Mod per blog cucina.Da eliminare quando si intega la community sui blog*/
+#body_blog_tom #multibar{
+	display:none;
+}
+
+/*Sezione Cinema*/
+
+#home-cinema-tv #cin_slide_cont {
+height: 390px !important;
+}
+
+#home-cinema-tv #cin_slide .slide {
+margin-bottom: 35px !important;
+}
+
+#home-cinema-tv .cin_cont_bt .social-bar{
+background: url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) scroll repeat-x left bottom;
+padding-bottom: 6px;
+}
+
+#home-cinema-tv .homearticle-box, #home-cinema-tv .cin_homearticle-box{
+background:none !important;
+}
+
+#home-cinema-tv .cin_first_news .social-bar{
+background:none !important;
+padding-bottom: 0px;
+}
+
+#home-cinema-tv #parental_box .homearticle-box{
+background: url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/punto_orizzontale.gif?v=1305151453) scroll repeat-x left bottom !important;
+}
+
+#home-cinema-tv .cin_cont_bt .homearticle-box, #home-cinema-tv .cin_homearticle-box {
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+#home-cinema-tv #parental_box .homearticle-box{
+margin-bottom: 17px ;
+padding-bottom: 17px;
+}
