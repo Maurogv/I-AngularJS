@@ -1,0 +1,112 @@
+html,
+body,
+.testata {
+	width: 670px;
+	overflow: hidden;
+}
+
+ul.gol > li img,
+#wide-pushbar,
+.manchette,
+#pushbar2,
+#col-dx,
+.tabs-agenda,
+#header,
+.toolbar,
+#media-daytop,
+#footer,
+#media-daytop * {
+	display: none !important;
+}
+
+#where,
+#motore_ricerca {
+display: none;
+	filter: mask();
+}
+
+#main,
+#home-2col {
+	overflow: visible;
+}
+
+#testata-home {
+	padding-top: 0;
+}
+
+#testata-home ul {
+	margin-left: 54px;
+}
+
+.evento p {
+	width: 400px;
+}
+
+.info-evento ul.item-info-selected,
+.info-evento {
+	display: block;
+	font-size:12px;
+}
+.item-info-selected .item-tipologiaId,
+.item-info-selected .item-tipologiaDescr,
+.item-info-selected .item-idEntita,
+.item-info-selected .item-lat,
+.item-info-selected .item-long,
+.item-info-selected .item-idEvento,
+.item-info-selected .item-tipologiaEvento,
+#box-entita-simili,
+#box-eventi-zona,
+#box-eventi-simili,
+#box-ristoranti-zona,
+.spalla h3,
+.box-dilatua,
+#box-dilatua-article,
+#agenda_id,
+.link-acquista,
+.segnala-evento {
+	display: none !important;
+}
+
+.lascia-commento {
+	display: none !important;
+}
+
+div.evento ul.info-evento li,
+.spalla,
+#main {
+	background: none !important;
+}
+/*CANALE CALCIO*/
+#canale-calcio #ricerca-squadre, #canale-calcio #ricerca-squadre-cookie,
+#canale-calcio .bt-scrivi,
+#canale-calcio #tooltip-cancella p,
+#canale-calcio #box-fotogallery-calcio h3,
+#canale-calcio #bt-back, #canale-calcio #bt-next,
+#canale-calcio .show-full,
+#canale-calcio #cancella_foto,
+#canale-calcio #page-list,
+#canale-calcio #box-intro-squadra{
+    display: none;
+}
+#canale-calcio #ricerca-squadre, #canale-calcio #ricerca-squadre-cookie fieldset{
+    display: none;
+}
+#canale-calcio #box-risultati ul li {
+    font-size: 12px;
+    padding: 6px 0;
+}
+#canale-calcio #box-fotogallery-calcio img {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 20px 0 0 10px;
+}
+#canale-calcio #container-dx {
+    width: 200px;
+}
+#canale-calcio #ultimi-commenti li {
+    padding-bottom: 15px;
+}
+#canale-calcio #container-full .bg_photo img {
+    display: block;
+    margin: 0 auto;
+}

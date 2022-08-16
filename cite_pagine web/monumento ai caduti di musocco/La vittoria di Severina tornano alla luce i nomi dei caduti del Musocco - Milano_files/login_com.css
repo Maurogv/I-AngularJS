@@ -1,0 +1,1346 @@
+/*
+	<!--Configurazione usata per importare le immagini presenti nel file comunity.css-->
+
+
+	
+*/
+
+#lcom_pop .clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+#lcom_pop .clearfix {
+	#display: inline-block;
+}
+#lcom_pop ol,#lcom_pop ul {
+	list-style: none;
+}
+#lcom_pop .left {
+	float: left;
+	display: inline;
+}
+
+#lcom_pop .right {
+	float: right;
+	display: inline;
+}
+#lcom_pop .clear {
+	clear: both;
+}
+#lcom_pop a {
+	text-decoration: none;
+}
+@font-face {
+    font-family: BreraBold;
+    src: url('//css2.corriereobjects.it/includes2007/static/font/brera/brerabd-webfont.eot');
+    src: url('//css2.corriereobjects.it/includes2007/static/font/brera/brerabd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/brerabd-webfont.woff') format('woff'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/brerabd-webfont.ttf') format('truetype'),
+         url('//css2.corriereobjects.it/includes2007/static/font/brera/brerabd-webfont.svg#BreraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ad hoc per obiettivoitalia*/
+#lcom_pop.oir{
+    background:#F4F4F4 !important;
+}
+
+#lcom_pop.oir2013{
+    background:#F4F4F4 !important;
+}
+
+
+#lcom_pop.oir a.next_bt_1_4{
+    background:#23A9DB !important;
+}
+
+#lcom_pop {
+	background-color:#e5ede6;
+	color:#666666;
+	font-family:'BreraRegular';
+	font-size:14px;
+	width:696px;
+}
+#lcom_pop .brera_bold {
+	font-family:'BreraBold';
+}
+#loginFormBean_form #lcom_pop {
+	width: 620px !important;
+}
+#lcom_pop .header_logo {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/images/header-popup_large.gif?v=1305071049) no-repeat scroll top center;	
+    height: 57px;
+}
+#loginFormBean_form {
+	background-color:#e5ede6;
+}
+#lcom_pop iframe {
+	background-color:#e5ede6;
+}
+#lcom_pop strong{
+	font-family:'BreraBold';
+}
+.lcom_pop_small {
+    width: 376px !important;
+}
+.lcom_pop_medium {
+    width: 458px !important;
+}
+#lcom_pop h4 {
+    color: #333333;
+    font-family: 'BreraLight';
+    font-size: 18px;
+	font-weight:normal;
+    padding: 30px 0 12px;
+    text-align: center;	
+}
+#lcom_pop h4.lcom_title_interno {
+    padding: 0 0 12px;
+    text-align: left;
+}
+#lcom_pop p.lcom_title_interno {
+    padding: 0 0 12px;
+    text-align: left;
+}
+#lcom_pop h3 {
+    border-bottom: 2px solid #C4D4C6;
+    color: #333333;
+    font-family: 'BreraLight';
+    font-size: 28px;
+    margin: 0 0 33px !important;
+    padding: 31px 0 11px 30px;
+    position: relative;
+}
+#lcom_pop h3.lcom_light {
+    font-size: 24px;
+}
+#lcom_pop h5 {
+    border-bottom: medium none !important;
+    border-top: 1px dotted #A0A5A1;
+    clear: both;
+    color: #333333;
+    font-family: 'BreraLight';
+    font-size: 20px;
+    padding: 19px 0 11px;
+}
+#lcom_pop .lcom_reg_2step,
+#lcom_pop .lcom_reg_3step {
+	display:none;
+}
+.lcom_social_aj {
+	clear:both;
+	display:block;
+}
+#lcom_upl_target {
+	width:0;
+	height:0;
+	border:0px solid #fff;
+}
+#lcom_pop .lcom_loading {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/lcom_loader.gif?v=1305151803) no-repeat scroll 0 0;	
+    display: none;
+    height: 16px;
+    left: 62px;
+    position: absolute;
+    top: 62px;
+    width: 16px;
+}
+#lcom_menu {
+    border-bottom: 2px solid #C4D4C6;
+    color: #333333;
+    font-family: 'BreraLight';
+    font-size: 20px;
+	height:33px;
+    margin: 0 0 33px !important;
+    padding: 31px 0 11px 30px;
+    position: relative;
+}
+.subscribe h4 {
+    padding: 30px 30px 12px !important;
+    text-align: left !important;
+}
+.subscribe p {
+    padding: 30px 30px 12px !important;
+    text-align: left !important;
+    line-height: 22px;
+}
+#lcom_menu .logout {
+	color: #404040;
+    font-family: 'BreraRegular';
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    text-decoration: underline;
+    top: 38px;
+}
+
+.lcom_cont_lab_act .logout {
+    font-family: 'BreraRegular';
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 36px;
+    text-decoration: underline;
+    top: -28px;
+}
+.option_top.bottom_modifica_prof {
+   border-top: medium none !important;
+    float: right !important;
+    padding-bottom: 18px !important;
+    padding-top: 22px !important;
+    position: absolute;
+    top: -15px;
+    right: 36px;
+}
+
+#lcom_menu .lab_menu {
+	color:#333333;
+	text-decoration:none;
+	float:left;
+	height: 24px;
+	padding:0 13px 20px 13px;
+	border-bottom:2px solid #c4d4c6;
+}
+#lcom_menu .hover_class,
+#lcom_menu .lab_active {
+	border-bottom:2px solid #518456;
+}
+#lcom_pop h3 em {
+    color: #666666;
+    font-size: 12px;
+    font-style: normal;
+    left: 32px;
+    position: absolute;
+    top: 6px;
+}
+.lcom_text_small {
+    color: #777877;
+    font-size: 11px;
+    height: 53px;
+    line-height: 12px;
+    padding-top: 10px;
+}
+#lcom_pop .container_spacer .lcom_text_small {
+	width:375px;
+}
+#lcom_pop .container_small {
+    overflow: auto;
+    padding: 0 38px 35px;
+}
+#lcom_pop .container_small #messaggio {
+    font-family: 'BreraBold';
+    padding-top: 0;
+    text-align: left !important;
+}
+.lcom_pop_medium .container_small {
+    padding: 0 38px 17px !important;
+}
+#lcom_pop .container_spacer {
+	overflow:visible;
+	padding:0 38px 9px 38px;
+	position:relative;
+}
+#lcom_pop .container_spacer .container_spacer {
+	padding:0;
+}
+#lcom_pop .container_spacer_login {
+	overflow:visible;
+	position:relative;
+	width:620px;
+}
+#lcom_pop .lcom_con_social {
+	padding:0 38px 0 38px !important;
+}
+.lcom_modifica_profilo .container_spacer {
+	overflow:inherit !important;
+}
+.lcom_modifica_profilo .lcom_disclaimer {
+	margin-top:15px;
+}
+#lcom_avatar {
+	background: #bbb9b9 url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/avatar.gif?v=1305151803) no-repeat scroll 0 0;	
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    right: 36px;
+    top: 15px;
+    width: 140px;
+    display:none; /*da riattivare*/
+}
+#lcom_pop .div_2.lcom_height_63{
+    display:none !important; /*da riattivare*/
+}
+#lcom_pop .div_2.lcom_text_small{
+    display:none !important; /*da riattivare*/
+}
+#lcom_avatar_modera {
+    color: #0E60BC;
+    font-size: 11px;
+    height: 25px;
+    position: absolute;
+    right: 36px;
+    text-align: center;
+    top: 178px;
+    width: 140px;
+}
+#lcom_avatar img {
+    height: 130px;
+    width: 140px;
+}
+#lcom_avatar .carica_foto,
+#lcom_avatar a {
+    bottom: 7px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 140px;
+}
+#lcom_pop #lcom_avatar input {
+    opacity: 0;
+	filter: alpha(opacity = 0);
+    cursor: pointer;
+    font-size: 4000px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto !important;	
+}
+#lcom_avatar .lcom_cont_file {
+	cursor:pointer;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:140px;
+	height:28px;
+	overflow:hidden;
+}
+#lcom_pop .lcom_height_63 {
+	height:63px;
+}
+#lcom_pop a.lcom_aiuto {
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 36px;
+    text-align: right;
+    text-decoration: underline;
+    top: -10px;
+    width: 140px;
+}
+#lcom_pop a.lcom_disattiva {
+    color: #666666;
+	display: none;
+    font-size: 12px;
+    position: absolute;
+    right: 36px;
+    text-align: right;
+    text-decoration: underline;
+    top: -26px;
+    width: 140px;
+}
+#lcom_pop a.lcom_descrizione {
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 36px;
+    text-decoration: underline;
+    top: 211px;
+    width: 140px;
+}
+.lcom_modifica_profilo a.lcom_descrizione {
+    right: 415px !important;
+    top: 191px !important;
+    white-space: nowrap;
+    width: 240px !important;
+}
+.lcom_modifica_profilo a.lcom_altrisocial {
+    right: 274px !important;
+    top: 191px !important;
+}
+#lcom_pop a.lcom_altrisocial {
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 36px;
+    text-decoration: underline;
+    top: 269px;
+    width: 140px;
+}
+#lcom_pop .lcom_line {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/bg_line.gif?v=1305151803) no-repeat scroll 50% 50%;
+    display: block;
+    height: 12px;
+    text-align: center;
+}
+#lcom_pop .lcom_line span {
+    background-color: #E5EDE6;
+    line-height: 12px;
+    padding: 0 19px;
+}
+#lcom_pop .lcom_box_social {
+    border-bottom: 1px dotted #A0A5A1;
+    margin-bottom: 4px;
+    overflow: auto;
+    padding: 46px 0 43px;
+}
+#lcom_pop .lcom_box_social a {
+    color: #303030;
+    float: left;
+	font-family:'BreraBold';
+    height: 17px;
+    margin: 0 37px;
+    padding-top: 58px;
+    text-align: center;
+	text-decoration:none;
+    width: 80px;
+}
+#lcom_pop p {
+	height:49px;
+	padding-top:33px;
+	text-align:center;
+}
+#lcom_pop p.lcom_title_interno {
+    height: auto;
+    padding: 0 0 9px;
+    text-align: left;
+}
+#lcom_pop p.lcom_pwd {
+    height: auto;
+    padding: 8px 38px 13px;
+    text-align: left;
+}
+#lcom_pop a.accedioptin {
+    background-color: #518456;
+    color: #ffffff;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 20px;
+    padding: 7px;
+}
+
+#lcom_pop p a.link_green {
+	color:#518456;
+}
+#lcom_pop .lcom_box_social a.lcom_facebook {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/facebook.png?v=1305151803) no-repeat scroll 50% 0;
+}
+#lcom_pop .lcom_box_social a.lcom_twitter {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/twitter.png?v=1305151803) no-repeat scroll 50% 0;
+}
+#lcom_pop .lcom_box_social a.lcom_google {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/google.png?v=1305151803) no-repeat scroll 50% 0;
+}
+#lcom_pop .lcom_box_social a.lcom_linkedin {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/linkedin.png?v=1305151803) no-repeat scroll 50% 0;
+}
+
+#lcom_pop .opacity_wait_05 {
+    background: url("https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/ajax-loader_sm.gif?v=1305151803") no-repeat scroll center 8px transparent;
+    opacity: 0.4;
+    text-indent: -5000px;
+}
+#lcom_pop .opacity_wait_05 img {
+    opacity: 0.4;
+}
+
+
+#lcom_pop label {
+    color: #666666;
+    display: block;
+    font-size: 12px;
+	padding:0;
+    text-align: left;
+    width: 100%;
+}
+#lcom_pop input,
+#lcom_pop select {
+    border: 1px solid #ACACAC;
+    /*height: 28px;*/
+    margin: 1px 20px 18px 0;
+    width: 100%;
+}
+#lcom_pop input.no_margin_r {
+	margin-right:0;
+}
+#lcom_pop input {
+	/*padding:0 0 0 5px;*/
+	padding:6px 0 6px 5px;
+}
+#lcom_pop select {
+	/*padding:0 0 0 5px;*/
+	padding:6px 0 6px 5px;
+}
+#lcom_pop .lcom_email_ok {
+    /*border-left: 3px solid #518456;*/
+    color: #518456;
+    font-family: 'BreraBold';
+    font-size: 12px;
+    height: 26px;
+    line-height: 13px;
+    padding-left: 10px;
+    position: absolute;
+    right: -158px;
+    top: 17px;
+}
+#lcom_pop .lcom_img_soc_in {
+	display:inherit;
+	vertical-align: -7px;
+}
+#lcom_pop input.Err {
+	border:1px solid #ed1c24;
+}
+#lcom_pop .error_dyn {
+    color: #ED1C24;
+    display: block;
+    font-size: 11px;
+    font-style: normal;
+}
+#lcom_pop #registrazione-social-err,
+#lcom_pop #registrazione-fb-err {
+	color:#ed1c24;
+	width:100%;
+}
+#lcom_pop #fb_form_iscriviti #registrazione-social-err,
+#lcom_pop #fb_form_iscriviti #registrazione-fb-err {
+	width: 470px;
+}
+#lcom_pop #social_connect #registrazione-social-err,
+#lcom_pop #social_connect #registrazione-fb-err {
+	padding:0 38px !important;
+}
+#lcom_pop #social_connect #ajax_container #registrazione-social-err,
+#lcom_pop #social_connect #ajax_container #registrazione-fb-err {
+	padding:0 !important;
+}
+#lcom_pop .lcom_reg_3step #registrazione-fb-err {
+	margin: 15px 0 0 0 !important;
+}
+#lcom_pop .lcom_reg_3step #registrazione-fb-err p {
+    margin: 0 !important;
+}
+#lcom_pop #registrazione-social-err a,
+#lcom_pop #registrazione-fb-err a {
+    bottom: 0;
+    color: #ED1C24;
+    font-size: inherit;
+    position: relative;
+    right: 0;
+}
+#lcom_pop #registrazione-social-err h6,
+#lcom_pop #registrazione-fb-err h6 {
+    color: #333333;
+    font-family: 'BreraBold';
+}
+#lcom_pop #registrazione-social-err p,
+#lcom_pop #registrazione-fb-err p {
+    font-family: BreraRegular;
+    height: auto;
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+    text-align: left;
+}
+#lcom_pop .div_1,
+#lcom_pop .div_2,
+#lcom_pop .div_2_b,
+#lcom_pop .div_2_big,
+#lcom_pop .div_2_big_last,
+#lcom_pop .div_3,
+#lcom_pop .div_4 {
+	position:relative;
+	float:left;
+}
+#lcom_pop  span.in-moderazione,
+#lcom_pop .div_1 .error,
+#lcom_pop .div_2 .error,
+#lcom_pop .div_2_b .error,
+#lcom_pop .div_2_big .error,
+#lcom_pop .div_2_big_last .error,
+#lcom_pop .div_3 .error,
+#lcom_pop .div_4 .error {
+	bottom: auto;
+    color: #ED1C24;
+	display: block;
+    font-family: BreraCondensedLight;
+    font-size: 11px;
+    font-style: normal;
+    position: absolute;
+    right: 21px;
+    top: 0;
+	visibility: visible !important;
+}
+#lcom_pop  span.in-moderazione {
+    color: #0e60bc !important;
+}
+#lcom_pop .lcom_moderazione {
+
+}
+#lcom_pop .div_1 {
+	width:480px;
+}
+#lcom_descrizione,
+#lcom_pop .div_1 input {
+	width:453px;
+}
+#loginFormBean_form {
+    background-color: #E5EDE6;
+}
+#lcom_descrizione {
+	border: 1px solid #ACACAC;
+	height:40px;
+	margin-bottom:25px;
+	padding:6px 0 6px 5px;
+}
+#lcom_pop .lcom_connected {
+	margin-bottom:20px;
+}
+#lcom_pop .lcom_connected img {
+    display: inline;
+    margin-top: 2px;
+    vertical-align: -7px;
+}
+#lcom_pop .lcom_connected a {
+	font-family: 'BreraBold';
+	font-size:12px;
+	color:#333333;
+	text-decoration:underline;
+}
+#lcom_pop .div_2 {
+	width:240px;
+}
+#lcom_pop .div_2 input {
+	width:213px;
+}
+#lcom_pop .div_2_b {
+	width:240px;
+}
+#lcom_pop .div_2_b input {
+	float:left;
+	width:53px;
+}
+#lcom_pop .div_2_big {
+	width:319px;
+}
+#lcom_pop .div_2_big input {
+	float:left;
+	width:294px;
+}
+#lcom_pop .div_2_big_last {
+	width:301px;
+}
+#lcom_pop .div_2_big_last input {
+	float:left;
+	width:294px;
+}
+#lcom_pop .div_3 {
+	width:80px;
+}
+#lcom_pop .div_3 input,
+#lcom_pop .div_3 select {
+    height: 30px;
+    padding: 4px 0 4px 5px;
+    width: 55px;
+}
+#lcom_pop .div_4 {
+	width:160px;	
+}
+#lcom_pop .div_4 input,
+#lcom_pop .div_4 select {
+	width:140px;
+    height: 30px;
+    padding: 4px 0 4px 5px;
+}
+#lcom_pop select.div_2_sel {
+	width:220px;
+    height: 30px;
+    padding: 4px 0 4px 5px;
+}
+#lcom_pop .lcom_unbind {
+    font-size: 13px;
+    line-height: 13px;
+    position: absolute;
+    right: 50px;
+    top: 230px;
+    width: 110px;
+}
+#lcom_pop .lcom_unbind img {
+	float:left;
+}
+#lcom_pop .lcom_unbind a {
+    background-color: #518456;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    height: 18px;
+    margin: 10px auto 0;
+    padding-top: 4px;
+    text-align: center;
+    width: 98px;
+}
+#lcom_pop .option_bottom {
+    border-top: 1px dotted #A0A5A1;
+    float: left;
+    margin-top: 2px;
+    padding-top: 18px;
+	width:620px;
+}
+#lcom_pop .bottom_newsletter {
+    border-top: medium none!important;
+    float: right!important;
+    padding-bottom: 18px!important;
+    padding-top: 17px!important;		
+}
+#lcom_pop .bottom_modifica_prof {
+    border-top: medium none !important;
+    float: right !important;
+    padding-bottom: 18px !important;
+    padding-top: 22px !important;	
+}
+#lcom_pop .extra_spacer {
+    margin-top: 95px !important;
+}
+#lcom_pop .extra_bottom {
+	margin-bottom:20px;
+}
+#lcom_pop .option_completa {
+    border-top: 1px dotted #A0A5A1;
+    clear: both;
+    margin-top: 2px;
+    overflow: auto;
+    padding-bottom: 13px;
+    padding-top: 5px;}
+#lcom_pop .option_login {
+    float: left;
+    margin-bottom: 18px;
+    margin-top: 17px;
+    padding-top: 17px;
+	position:relative;
+}
+#lcom_pop .lost_pwd {
+    bottom: 8px;
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 165px;
+    text-decoration: underline;
+}
+#lcom_pop .lost_pwd_con {
+    bottom: 34px;
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    right: 210px;
+    text-decoration: underline;
+}
+#lcom_pop .next_bt_1_4 {
+    background-color: #518456;
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    height: 23px;
+    margin-top: 15px;
+    padding-top: 7px;
+    text-align: center;
+    width: 140px;
+}
+.completaReg .next_bt_1_4 {
+    float: right !important;
+}
+#lcom_pop #social_connect {
+	overflow:hidden;
+}
+#lcom_pop .okBT,
+#lcom_pop .waitBT {
+    display: inline !important;
+    position: absolute;
+    right: 1px;
+    top: 24px;
+}
+#lcom_pop .lcom_rel_title {
+    margin: 0 0 12px !important;
+    padding: 31px 0 11px 30px;
+    position: relative;
+	text-align:left !important;
+}
+#lcom_pop .container_link_u a {
+	text-decoration:underline !important;
+}
+#lcom_pop .container_link_u li {
+	list-style:square inside none;
+}
+#lcom_pop .lcom_sub_sm_title {
+    display: block;
+    font-size: 12px;
+}
+#lcom_pop .bottom_modifica_prof .next_bt_1_4 {
+	float:right;
+}
+#lcom_pop .option_completa .next_bt_1_4,
+#lcom_pop .option_login .next_bt_1_4 {
+	float:right;
+}
+#lcom_pop .lcom_disclaimer a {
+	color:#518456;
+	font-family:'BreraBold';
+}
+#lcom_pop .lcom_disclaimer li {
+    border-bottom: 1px dotted #A0A5A1;
+    color: #333333;
+    line-height: 18px;
+    padding: 8px 0;
+	overflow: hidden;
+}
+#lcom_pop .lcom_edizioni li {
+    border-bottom: 1px dotted #A0A5A1;
+    color: #333333;
+    line-height: 14px;
+    padding: 15px 0;
+	overflow: hidden;
+}
+
+.lcom_modifica_profilo .container_spacer {
+	display:none !important;
+}
+.lcom_modifica_profilo .lcom_cont_lab_act {
+	display:block !important;
+}
+.lcom_modifica_profilo .lcom_edizioni li .lcom_first_div {
+	float:left;
+	width:230px;
+}
+.lcom_modifica_profilo .lcom_edizioni li .lcom_sec_div {
+	float:left;
+	font-size:12px;
+	width:340px;
+}
+.lcom_modifica_profilo .lcom_edizioni li.first {
+	border-bottom:none !important;
+	padding:0 !important;
+}
+.lcom_modifica_profilo .lcom_edizioni li.lcom_last {
+	border-bottom:none !important;
+}
+.lcom_azienda {
+	display:none;
+}
+#lcom_pop .lcom_edizioni li.first {
+	font-family:'BreraBold';
+    padding: 0 0 13px 0;
+	font-size:12px;
+	color:#333333;
+}
+#lcom_pop .lcom_disclaimer li.first {
+    padding: 0 0 8px 0;
+}
+#lcom_pop .lcom_disclaimer li input {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 2px 14px 0 0;
+	outline:none;
+    width: auto;
+}
+#lcom_pop .lcom_disclaimer li div {
+    float: left;
+	width: 580px;
+}
+#lcom_pop .lcom_edizioni li.lcom_doub_line {
+    padding: 9px 0 !important;
+}
+#lcom_pop .lcom_edizioni li.lcom_doub_line input {
+    margin-top: 6px !important;
+}
+#lcom_pop .lcom_edizioni li.lcom_doub_line .lcom_first_div {
+    margin-top: 4px;
+}
+#lcom_pop .lcom_edizioni li.lcom_doub_line .lcom_sec_div {
+	line-height:normal;
+}
+#lcom_pop .lcom_edizioni li input {
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: auto;
+    margin: 0 14px 0 0;
+	padding-top:0;
+    outline: medium none;
+    width: auto;
+}
+
+#lcom_pop .lcom_edizioni li div {
+    float: left;
+}
+
+.lcom_modifica_profilo .lcom_edizioni li input {
+    margin: 2px 14px 0 0 !important;
+}
+.lcom_modifica_profilo .lcom_edizioni li {
+	overflow:auto;
+    padding: 14px 0 !important;
+}
+.lcom_modifica_profilo .lcom_edizioni li input.small {
+    margin: 11px 14px 5px 0 !important;
+}
+#lcom_newsletter {
+
+}
+#lcom_pop .captha_bottom {
+    float: left;
+    margin: 20px 0 13px;
+}
+#lcom_pop .captha_bottom .next_bt_1_4 {
+	margin-top: 42px;
+}
+#lcom_pop .captha_bottom .next_bt_concludi {
+	margin-top: 8px !important;
+}
+.cont_concludi {
+    height: 93px !important;
+    margin: 0 !important;
+    position: relative;
+}
+#lcom_pop .cont_concludi .next_bt_1_4 {
+    margin-top: 18px !important;
+}
+.cont_concludi #lcom_bt_link_comp {
+    bottom: 5px !important;
+    right: -9px !important;
+}
+#lcom_bt_link_comp {
+    bottom: 18px;
+    color: #518456;
+    display: block;
+    height: 26px;
+    position: absolute;
+    right: 26px;
+    width: 165px;
+    text-align: center;
+    padding-top: 7px;
+}
+#lcom_bt_link_comp a {
+    color: #518456;
+	text-decoration:underline;
+}
+#lcom_pop #recaptcha_widget {
+    background-color: #FFFFFF;
+    float: left;
+    margin-right: 20px;
+    padding: 6px 0;
+    width: 460px;
+}
+#lcom_pop #recaptcha_widget #recaptcha_image,
+#lcom_pop #recaptcha_widget #recaptcha_image img {
+    float: left;
+    width: 230px !important;
+}
+#lcom_pop #recaptcha_widget .options {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/bg_options.gif?v=1305151803) no-repeat scroll 0 0;
+    float: left;
+    width: 80px;
+}
+#lcom_pop #recaptcha_widget .options a {
+    display: block;
+    height: 15px;
+    margin-bottom: 5px;
+    text-indent: -5000px;
+    width: 53px;
+}
+#lcom_pop #recaptcha_widget .options a#rec_image {
+    display: none;
+}
+#lcom_pop #recaptcha_widget .cont_input {
+    color: #464646;
+    float: left;
+    font-family: "BreraRegular";
+    font-size: 14px;
+}
+#lcom_pop #recaptcha_widget .cont_input .recaptcha_only_if_incorrect_sol {
+    color: #CC0000;
+}
+#lcom_pop #recaptcha_widget .cont_input .recaptcha_bg_input {
+    border: 1px solid #C0C0C0;
+}
+#lcom_pop #recaptcha_widget .recaptcha_bg_input {
+    margin-top: 3px;
+}
+#lcom_pop #recaptcha_widget .cont_input .recaptcha_bg_input input {
+    margin: 0;
+    padding: 5px 10px;
+	width:100px;
+}
+#lcom_pop #recaptcha_widget .recaptcha_bg_input input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #8B8B8B;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    margin: 2px 0 0 10px;
+}
+#lcom_pop .display_none {
+	display:none;
+}
+#lcom_pop .avanti_bottom {
+    float: right;
+    margin: 0 0 13px;
+}
+#lcom_pop .avanti_bottom .next_bt_1_4 {
+    margin-top: 42px;
+}
+#lcom_pop .lcom_avanti_social {
+    float: right;
+    padding-bottom: 22px;
+    clear: both;
+}
+#lcom_pop .lcom_btn_annulla,
+#lcom_pop .lcom_btn_login {
+	margin-right:20px;
+}
+#lcom_pop .lcom_btn_annulla {
+	background-color:#bbb9b9 !important;
+	color:#ffffff !important;
+}
+#lcom_pop .lcom_input_div {
+    font-size: 11px;
+    margin: 6px 0 22px;
+}
+#lcom_pop .lcom_input_div label {
+    display: inline;
+    font-size: 11px;
+    width: 60px;
+}
+#lcom_pop .lcom_input_div input {
+    height: auto;
+    margin: 0 4px 0 14px;
+    vertical-align: -2px;
+    width: auto;
+}
+.lcom_obbligatori {
+    bottom: 13px;
+    color: #666666;
+    font-size: 12px;
+    left: 38px;
+    position: absolute;
+}
+#lcom_pop .upper_first {
+    text-transform: capitalize;
+}
+#lcom_pop img.logo_SN_twitter,
+#lcom_pop img.logo_SN_linkedin,
+#lcom_pop img.logo_SN_facebook,
+#lcom_pop img.logo_SN_google {
+	display:inline;
+    vertical-align: -6px;
+}
+#lcom_pop img.img_soc_top {
+    display: inline;
+    vertical-align: -8px;
+}
+#lcom_notifiche .lcom_label_div {
+	float:left;
+	margin-top:5px;
+	width: 430px;
+	padding-left:5px;
+}
+#lcom_notifiche .lcom_option_div {
+	float:left;
+	width:94px;
+}
+#lcom_notifiche .lcom_option_div div {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/bg_not_off.gif?v=1305151803) no-repeat scroll 0 0;
+	cursor:pointer;
+	height:28px;
+	width:94px;
+}
+#lcom_notifiche .lcom_option_div div.on {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/bg_not_on.gif?v=1305151803) no-repeat scroll 0 0;
+}
+#lcom_notifiche .lcom_option_div input {
+	display:none;
+}
+#lcom_notifiche .lcom_not_email {
+    float: left;
+    margin-top: 5px;
+    opacity: 0.4;
+    padding-right: 5px;
+    text-align: right;
+    width: 85px;
+	filter: alpha(opacity = 40);
+}
+#lcom_notifiche .lcom_visible {
+    opacity: 1 !important;
+	filter: alpha(opacity = 100) !important;
+}
+#lcom_pop #lcom_notifiche .lcom_not_email input {
+	float:none;
+    margin: 0 5px 0 0 !important;
+    vertical-align: -1px;	
+}
+#lcom_pop #lcom_notifiche li.first {
+    border-bottom: 1px dotted #A0A5A1 !important;
+    padding: 0 0 13px 0 !important;
+}
+#lcom_pop #lcom_notifiche li {
+    padding: 10px 0 !important;
+}
+#sendDataComm {
+	display:none;
+}
+/*FANCYBOX*/
+.fancybox-close, .fancybox-closeOptin {
+	background: transparent url(https://images2.corriereobjects.it/includes2007/ssi/boxes/community/login/images/close_pop.png?v=1305151803) no-repeat scroll 0 0 !important;	
+    height: 36px !important;
+    right: -18px !important;
+    top: -18px !important;
+    width: 36px !important;
+}
+#fancybox-bg-n,
+#fancybox-bg-ne,
+#fancybox-bg-e,
+#fancybox-bg-se,
+#fancybox-bg-s,
+#fancybox-bg-sw,
+#fancybox-bg-nw,
+#fancybox-bg-w {
+	background:none !important;
+	display:none;
+}
+#fancybox-wrap {
+	z-index: 214748364 !important;
+}
+#fancybox-overlay {
+	background-color:#000 !important;
+	opacity:0.5 !important;
+	z-index: 214748363 !important;
+}
+#fancybox-outer {
+	-webkit-box-shadow:  0 0 6px 1px #666666;
+	box-shadow:  0 0 6px 1px #666666;
+}
+
+
+@media only screen and (max-width: 501px) {
+    .fancybox-wrap {
+    margin: 5px 0 20px 0;
+    width: 320px;
+    }
+    .fancybox-overlay {
+            /* fix for scrol page*/
+            top:0px;
+            /*top: 50px;*/
+        }
+        #lcom_pop,  .lcom_pop_medium  {
+            width: 320px !important;
+           }
+        #lcom_pop h3 {
+            font-family: 'main-condensed_light';
+            font-size: 22px;
+            margin: 0 0 10px !important;
+            padding: 20px 0 0px 12px;
+            position: relative;
+            border-bottom: none;
+        }
+        #lcom_pop h3 em {
+            left: 12px;
+        }
+        #lcom_pop h4 {font-size: 16px; padding: 10px 0 12px;}
+
+        #lcom_pop p {
+            font-size: 12px;
+            height: 25px;
+            padding-top: 10px;
+            font-family: "main-regular";
+        }
+        #lcom_pop .container_spacer {padding: 5px 9px;}
+        #lcom_pop .lcom_line {background: none repeat scroll 0 0 rgba(0, 0, 0, 0); font-size: 14px; padding-top: 8px; height: 20px;}
+        #lcom_pop .container_spacer span:first-child {background: none repeat scroll 0 0 #c5d5c7 !important;}
+        #lcom_pop .lcom_box_social {
+        border-bottom: none;
+        margin-bottom: 4px;
+        padding: 20px 0 30px;
+        background-color: #c5d5c7;
+        }
+        #lcom_pop .lcom_line span {
+            padding: 0 0px;
+            color: #518456;
+        }
+        #lcom_pop .lcom_box_social a {
+            margin: 0 0px;
+            padding-top: 58px;
+            width: 75px;
+            font-size: 14px;
+        }
+        .fancybox-close, .fancybox-closeOptin {
+                right: -1px !important;
+                top: -23px !important;
+                background: transparent url(/includes2013/SSI/boxes/community/login/images/close_mobile.png?v=[an error occurred while processing this directive]) no-repeat scroll 0 0 !important;   
+            }
+
+            #lcom_pop input, #lcom_pop select {
+                margin: 1px 0px 10px 0;
+            }
+            #lcom_pop .div_2_big input {
+                width: 229px;
+            }
+            #lcom_pop .div_2_big_last input {
+                width: 229px;
+            }
+            #lcom_pop .option_login {
+                margin-top: 0px;
+            }
+            #lcom_pop .next_bt_1_4 {
+                padding-top: 7px;
+            }
+            #lcom_pop .lost_pwd {
+                bottom: 31px;
+                right: 182px;
+                position: static;
+            }
+            #lcom_pop .option_completa .next_bt_1_4, #lcom_pop .option_login .next_bt_1_4 {
+                float: left;
+                width: 100%;
+                height: 30px;
+            }
+            #lcom_pop .option_login {
+                width: 300px;
+                padding-top: 6px;
+            }
+            #lcom_pop .option_login label {
+                float: left;
+                display: block;
+                padding: 7px 5px 0 0;
+                width: 70px;
+            }
+            #lcom_avatar {
+            background: #bbb9b9 url(/includes2013/SSI/boxes/community/login/images/avatar.gif?v=1703101013) no-repeat scroll -20px -21px;    
+            height: 130px;
+            right: 0px;
+            top: 69px;
+            width: 94px;
+            }
+            #lcom_descrizione, #lcom_pop .div_1 input {
+                width: 300px;
+            }
+            #lcom_avatar .carica_foto, #lcom_avatar a {
+                width: 100%;
+            }
+            #lcom_pop .container_spacer span:first-child {
+                background: none repeat scroll 0 0 transparent;
+            }
+            #lcom_pop .container_spacer .lcom_text_small {
+                width: 300px;
+            }
+            #lcom_pop .lcom_height_63 {
+                height: 34px;
+            }
+            #lcom_pop .div_2_b, #lcom_pop .div_1 {
+                width: 300px;
+            }
+            #lcom_pop .div_2_b label {
+                float: left;
+                width: 100px;
+                }
+            #lcom_pop .div_2_b input {
+                width: 61px;
+                margin-left: 5px;
+            }
+            #lcom_pop .option_bottom {
+               border-top: none;
+                float: left;
+                margin-top: 0px;
+                padding-top: 0px;
+                width: 300px;
+                }
+                #lcom_descrizione {
+                margin-bottom: 10px;
+            }
+            #lcom_pop .div_3 {
+                width: 104px;
+            }
+            #lcom_pop .div_4 input, #lcom_pop .div_4 select {
+
+                width: 194px;
+            }
+            .lcom_pop_medium .container_small {
+                padding: 0 10px 7px !important;
+            }
+            #lcom_pop .div_2 {
+                width: 220px;
+            }
+            #lcom_pop .next_bt_1_4 {width: 290px;
+    height: 28px; float: left; margin-bottom: 7px;}
+            .lcom_obbligatori {
+                right: 8px;
+                left: auto;
+            }
+            #fb_form_cambia .next_bt_1_4 {width: 200px;}
+            #lcom_pop .bottom_modifica_prof {
+                top:-30px;
+                left: 20px;
+            }
+            #lcom_menu {padding: 55px 0 22px 0px; margin: 0 0 53px !important;}
+            #lcom_menu .lab_menu { padding: 0 13px 10px;}
+            .lcom_cont_lab_act .logout {right: 29px;}
+            #lcom_pop a.lcom_aiuto {
+                left: -21px;
+                top: -29px;
+                width: 140px;
+            }
+            #lcom_pop .lcom_disclaimer li div {font-size: 12px; width: 290px;}
+            #lcom_pop #recaptcha_widget {
+                width: 290px;
+            }
+            #lcom_pop #recaptcha_widget #recaptcha_image, #lcom_pop #recaptcha_widget #recaptcha_image img {
+                width: 100% !important;
+            }
+            #lcom_pop #recaptcha_widget .cont_input {
+                         width: 191px;
+            }
+            #lcom_bt_link_comp {
+                background-color: #518456;
+                color: #FFFFFF;
+                height: 30px;
+                margin-top: 20px;
+                overflow: auto;
+                position: inherit;
+                width: 290px;
+            }
+
+
+            #lcom_pop p.botRegistrati {
+                background-color: #518456;
+                color: #FFFFFF;
+                height: 30px;
+                margin-top: 5px;
+                overflow: auto;
+                position: inherit;
+                width: 290px;
+            }
+             #lcom_pop p.botAccedi {
+                background-color: #518456;
+                color: #FFFFFF;
+                height: 30px;
+                margin-top: 0px;
+                overflow: auto;
+                position: inherit;
+                width: 290px;
+            }
+            #lcom_pop p a.link_green {
+                color: #fff;
+                font-size: 15px;
+            }
+
+
+}   

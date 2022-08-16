@@ -1,0 +1,7628 @@
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+<!--  CAPTION  -->
+<!-- CAPTIONS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--REGISTRAZIONE-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--REGISTRAZIONE-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  DEFAULT per SEZIONE, SOTTOSEZIONE, TIPOLOGIA  -->
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+	
+	
+	<!-- Check Cookie policy - true -->
+	<!-- Cookie policy :: 0 -->
+
+
+	
+*/
+
+/* ================================================ */
+/* ================================================ */
+/* ============= LAYOUT AND TYPHOGRAPHY =========== */
+/* ================================================ */
+/* ================================================ */
+
+
+
+html, body {
+	eight: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%; /* 1em = 10px */
+	line-height: 1;
+	background: transparent none;
+	margin: 0 auto 0 auto; /*Centratura Local 20090724*/
+	/*margin-top:10px;*/ /*Centratura Local 20090724*/
+	padding-bottom:20px;
+	/*margin-left:2px;*/ /*Centratura Local 20090724*/
+}
+#wrapper {
+    margin: 0 auto;
+    width: 991px;
+	background-color:#ffffff;
+	position: relative;
+}
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p a,
+cite a {
+	text-decoration: underline;
+	color: #404040;
+}
+
+p a:hover,
+cite a:hover {
+	text-decoration: none;
+}
+
+br.clear {
+	height: 1px;
+	clear: both;
+}
+
+.clear {
+	clear: both !important;
+}
+
+.left {
+	float: left !important;
+}
+
+.right {
+	float: right !important;
+}
+.center{
+	text-align:center;
+}
+
+.spacer_bottom {
+	margin-bottom:10px;
+}
+.uppercase {
+	text-transform:uppercase;
+}
+
+.capitalize  {
+	text-transform:capitalize;
+}
+
+#header {
+	width: 986px;
+	clear: both;
+	margin: 0 auto; /*Centratura Local 20090724*/
+}
+
+.container-header {
+	position:relative; /*autocomplete*/
+}
+
+#main {
+	background: white url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-y scroll 629px 0px;
+	margin: 11px auto;
+	width: 943px;
+	overflow: hidden visible;
+}
+
+#main-blank {
+	margin:11px auto auto;
+	width:961px;
+}
+
+html body#home div#main{
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_doppio_verticale.gif?v=201005050942) repeat-y scroll 410px 0px;
+	/*margin: 11px 0 11px 25px;*/ /*Centratura Local 20090724*/
+	margin: 11px auto!important; /*Centratura Local 20090724*/
+	overflow: hidden visible;
+}
+#articolo #main, #agenda #main, #piaceri #main, #ugc #main, #ricerca #main, #homesez #main  {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-y scroll 630px 0px;
+	/*margin: 11px 0 11px 25px;*/ /*Centratura Local 20090724*/
+	margin: 11px auto!important; /*Centratura Local 20090724*/
+	overflow: visible!important;
+}
+
+#col-sx {
+	width: 630px;
+}
+
+#col-dx {
+	width: 286px;
+}
+
+#home-2col {
+	width: 210px;
+	margin-left: 0;
+	overflow: hidden;
+	padding:0 0 0 10px;
+}
+
+#home-2col_speciale  {
+    width: 210px;
+	margin-left: 0;
+	overflow: hidden;
+	padding:0 1px 0 10px;
+    font-family: Arial, Helvetica, sans;
+   font-size: 1.3em;
+   line-height: 1.16;
+ }
+ #home-2col_speciale #home-2col {
+    background:#fff;
+	padding:0px;
+ }
+#home-2col_speciale .col2-home {
+
+
+ }
+#home-2col_speciale ul.zappingnews li.zapping-news-box {
+margin-right:9px;
+}
+
+
+.articles-home {
+	width: 401px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: Georgia, Palatino, serif;
+}
+
+.hour, .section {
+	font-weight: bold;
+	font-family: Georgia, Palatino, serif;
+}
+
+.hour {
+	color: #CC2026;
+}
+
+.section {
+	font-size: 80%;
+	text-transform: uppercase;
+	color: #2F5EB1;
+	border-right: 1px solid #AFB2B2;
+	border-left: 1px solid #AFB2B2;
+	padding: 0 0.5em;
+	margin-right: 0.3em;
+}
+/*PADDING E BORDO SISNISTRO DELLA SECTION VIENE MESSA SULLO SPAN DELL'ORA PER ESSERE GESTITA DALLE SSI SE NASCONDO IN AUTOMATICO L'ORA PER GLI ARTICOLI PIU' VECCHI DI 24 ORE*/
+.data_hour {
+	margin-right:4px;
+  background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/riga_gr_hour.gif) no-repeat scroll right 3px;
+}
+.section_categoria {
+  border-left:none !important;
+  display:none;
+  padding:0 0.5em 0 0 !important;
+}
+.vivi {
+	font-size: 80%;
+	text-transform: uppercase;
+	color: #2F5EB1;
+	border-right: 1px solid #AFB2B2;
+	border-left: 1px solid #AFB2B2;
+	padding: 0 0.5em;
+	margin-right: 0.3em;
+}
+.vivi img {
+margin-bottom: -3px !important;
+}
+
+.italiaoggi .section {
+	margin-left: 0.6em;
+}
+
+.vivi_hpsez {
+	font-size: 80%;
+	text-transform: uppercase;
+	color: #2F5EB1;
+	border-right: 1px solid #AFB2B2;
+	padding: 0 0.5em;
+	margin-right: 0.3em;
+}
+
+a#skip_to_content {
+	display:block;
+	position:absolute;
+	top:-30px;
+}
+
+a#boxiphone {
+position:absolute;
+margin-left:-10px;
+margin-top:10px;
+
+}
+
+
+/* ================================================ */
+/* ================================================ */
+/* ==================== HEADER ==================== */
+/* ================================================ */
+/* ================================================ */
+
+#header-leaderboard  {
+	width: 986px;
+	margin:0 auto;
+	background:#EFEFEF none repeat scroll 0 0;
+	text-align: center;
+}
+
+.leaderboard#Top_wp  img {
+	display: inline !important;
+}
+
+#header-bar{
+	text-indent:-5000px;
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_header.png) repeat-x scroll left top;
+	height:64px;
+}
+
+#header-bar .logohome{
+	float:left;
+	text-indent:-5000px;
+	height:64px;
+	display:block;
+	background:scroll transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/logo_corriere_mezzoggiorno.jpg) no-repeat 15px 12px;
+	width:530px;
+}
+
+#box-search{
+	background: #3A3A3A url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_header_tool.gif) repeat-x left top;
+	padding: 1px 0 5px 7px;
+}
+
+#searchtool {
+	color:#CCCCCC;
+	font-size:1.1em;
+	width: 270px;
+	float: left;
+}
+
+#headBoxLogin {
+	float: right;
+	font-size:11px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:right;
+	color: #CCCCCC;
+	padding: 8px 0 5px 0;
+	margin-top: 2px;
+}
+
+div.login span {
+	display: inline;
+	padding: 4px 5px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_verticale.gif) repeat-y right top
+}
+
+div.login span.hide {
+	display:none;
+}
+
+div.login span a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+div.login span.span-registrati a {
+	color: #CCCCCC;
+	text-transform: uppercase;
+}
+
+div.login span a.headLogout {
+	text-transform: none;
+	font-weight: normal;
+}
+
+.bookmark {
+	float:right;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.bookmark li {
+	float:left;
+}
+
+.bookmark a.go-scrivi {
+	background-image:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:16px;
+	margin-left:5px;
+	width:17px;
+	background-position: -497px -48px;
+}
+
+.bookmark a.go-home {
+	background-image:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:16px;
+	margin-left:5px;
+	width:17px;
+	background-position: -480px -48px;
+}
+
+.bookmark a.go-rss {
+	background-image:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:16px;
+	margin-left:5px;
+	width:17px;
+	background-position: -515px -48px;
+}
+
+.bookmark a.go-fb {
+	background-image:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png);
+    background-position: -90px -3px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    margin-left: 5px;
+    width: 55px;
+}
+.bookmark a.go-twitter {
+    background-image: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png);
+    background-position: -143px -3px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    margin-left: 5px;
+    width: 58px;
+}
+#box-search #searchtool .go{
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -480px 3px;
+	border:medium none;
+	height:25px;
+	text-indent:-5000px;
+	width:22px;
+	cursor:pointer;
+}
+
+#box-search #searchtool .searchinput {
+	background:white url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_input.gif) repeat-x scroll left bottom;
+	padding-bottom:2px;
+	padding-left:2px;
+	width:205px;
+	border: 1px solid #000000;
+	height:16px;
+}
+
+#box-search #searchtool input, #box-search #searchtool select {
+	background:#EEEEEE none repeat scroll 0%;
+	border-color:#4E4E4E rgb(192, 192, 192) rgb(192, 192, 192) rgb(78, 78, 78);
+	border-style:solid;
+	border-width:1px;
+	font-size:12px;
+	margin-right:0pt;
+}
+
+#header-bar-section{
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_header.png) repeat-x scroll left top;
+	height:64px;
+}
+
+
+#nav-subsection {
+	padding:0px;
+	clear:both;
+	margin-top: 2px;
+}
+
+#menu-bar #nav-subsection li {
+	padding:3px 5px;
+	float:left;
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_verticale.gif) repeat-y right top;
+	color:#505050;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:13px;
+	line-height: 20px;
+}
+#menu-bar #nav-subsection li#mn_sport{
+	padding:0px 3px;
+	line-height: 11px;
+}
+
+#menu-bar #nav-subsection li.first {
+	background:transparent none;
+}
+
+#menu-bar #nav-subsection li a {
+	color:#505050;
+	text-decoration:none;
+}
+
+#menu-bar #nav-subsection .selected {
+	background-color:#E0E0E0;
+}
+
+#menu-bar #nav-subsection .selected a{
+	color:#505050;
+	font-style:italic;
+}
+#menu-bar #nav-subsection #mn_meteo{
+	background: 0 none;
+}
+#menu-bar #nav-subsection #mn_meteo span {
+	text-transform:capitalize;
+}
+
+#menu-bar #nav-subsection #mn_meteo img.icona_meteo {
+	height: 15px;
+}
+
+
+#testata-dinamica-new {
+	float:left;
+	font-family:Georgia,Palatino,serif;
+	height:62px;
+	overflow:hidden;
+	padding-top:0;
+	text-align:center;
+}
+
+#testata-dinamica-new li {
+	color:#252525;
+	display:block;
+	float:left;
+	font-size:1.2em;
+}
+
+#testata-dinamica-new li.sezione-sottosezione {
+	color:#A6A6A6;
+	float:left;
+	font-size:41px;
+	letter-spacing:-1px;
+	margin:8px 0 0 -50px;
+	width:500px;
+	height:50px;
+}
+
+#testata-dinamica-new li.sezione-sottosezione a{
+	color:#A6A6A6;
+	text-decoration:none;
+}
+
+#testata-dinamica-new li.sezione-sottosezione strong {
+	color:#737372;
+	line-height:44px;
+}
+
+#testata-dinamica-new li.sezione-sottosezione strong a {
+	color:#737372;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#testata-dinamica-new li.sezione-sottosezione strong a.nocapitalize {
+ text-transform: none !important;
+ }
+
+#testata-dinamica-new li.sezione-sottosezione img.logovivi{
+	margin-bottom:-13px;
+}
+
+#testata-dinamica-new li.logo-small a {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/logo_corriere_small.gif) no-repeat scroll 5px 18px;
+	display:block;
+	height:57px;
+	text-indent:-5000px;
+	width:310px;
+}
+
+
+/* ================================================ */
+/* ================================================ */
+/* ==================== FOOTER ==================== */
+/* ================================================ */
+/* ================================================ */
+
+#footer {
+	clear: both;
+	width: 966px;
+	height: 53px;
+	/*margin-top: 2em;*/ /*Centratura Local 20090724*/
+	margin: 2em auto 0 auto; /*Centratura Local 20090724*/
+	padding: 12px 0 0 20px;
+	font-size: 1.2em;
+	font-family: Georgia, Palatino, Times, serif;
+	background: #3a3a3a url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_footer_extra.gif) repeat-x scroll left top;
+}
+.container-footer {
+	position: relative;
+}
+
+#footer select optgroup { font-style: normal; color: #fff; background: #000 none;}
+#footer select optgroup option { padding: 0 2px; color: #000; background: #fff none;}
+#footer ul.links li { float: left; padding-right: 10px;}
+#footer ul.links li strong { color: #fff;}
+#footer ul.links li a { font-style: italic; font-weight: bold; color: #e8e8e8;}
+#footer p { padding-top: 10px; color: #B8B8B8;}
+#footer p.copyright { padding-top: 16px; color: #B8B8B8; font-size: 1.0em;}
+#footer p.copyright a,
+#footer .websites a { color: #e8e8e8;}
+#footer .websites { position: absolute; top: 10px; right: 20px;}
+#footer .websites p { color: #B8B8B8;}
+
+/*------- nuovo footer --------*/
+
+#footer ul.nostri-siti li{
+	float: left;
+	padding-right:5px;
+	color:#FFFFFF;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#footer ul.nostri-siti li.right {
+	float: right !important;
+}
+
+#footer ul.nostri-siti li a {
+	color:#FFFFFF
+}
+
+#footer ul.copyright {
+	padding-right: 10px;
+	font-size:12px;
+	color:#B8B8B8;
+	padding-top:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#footer ul.copyright a {
+	color:#ffffff;
+}
+
+#footer ul.copyright li {
+	float: left;
+}
+
+#footer ul.copyright li.right {
+	float: right;
+}
+#footer {height: auto;padding-bottom: 10px;}
+#footer ul li p {font-size: 11px; padding-top: 3px; line-height:16px;}
+#footer ul.copyright {padding-top: 8px;}
+#footer .noprint {
+display:block !important;
+}
+/* ================================================ */
+/* ================================================ */
+/* =============== I COLONNA HOME ================= */
+/* ================================================ */
+/* ================================================ */
+
+	/* --------------------  BOX flash rosso -------------------- */
+
+	#flash-rosso {
+		width: 620px;
+		background-color: white;
+		background-image: url(//images2-milano.corriereobjects.it/images/flash_rosso_pix.jpg);
+		background-repeat: repeat-x;
+		background-position: left bottom;
+	}
+
+	#flash-rosso .testa {
+		background-color: transparent;
+		background-image: url(//images2-milano.corriereobjects.it/images/flash_rosso.jpg);
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		font-family: Georgia, Palatino, serif;
+		font-size: 1.2em;
+		color: #CA1F30;
+		padding-left: 88px;
+		padding-top: 10px;
+		height: 20px;
+		font-weight: bold;
+	}
+
+	#flash-rosso .testa strong {
+		color: #5D8AC5;
+		font-size: 0.9em;
+	}
+
+	#flash-rosso .corpo {
+		color: #333333;
+		background-color: transparent;
+		background-image: url(//images2-milano.corriereobjects.it/images/flash_rosso_pix.jpg);
+		background-repeat: repeat-x;
+		background-position: left top;
+		padding-top: 15px;
+		padding-bottom: 25px;
+		padding-left: 10px;
+	}
+
+	#flash-rosso h1 {
+		font-family: Georgia, Palatino, serif;
+		font-size: 2.6em;
+		color: #B63635;
+	}
+
+	#flash-rosso p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.2em;
+		color: #333333;
+		padding-top: 5px;
+		line-height: 1.5em;
+	}
+
+
+	.articles-home {
+			font-family: Arial, Helvetica, sans;
+			font-size: 1.3em;
+			line-height: 1.16;
+	}
+
+	/* ------------------- / BOX flash rosso -------------------- */
+
+
+	/* --------------- strilli alti, lista canale --------------- */
+
+
+	.articles-home img {
+		margin-bottom: 0.5em;
+	}
+	.articles-home img.img-inline {
+		margin-bottom: 1px;
+	}
+	.articles-home .left {
+		margin-right: 1em;
+	}
+	.articles-home .right {
+		margin-left: 0.7em;
+	}
+	.articles-home h2 .left {
+		margin-right: 0.5em;
+	}
+	.articles-home h2 .right {
+		margin-left: 0.5em;
+	}
+
+	.articles-home h2 img.right {
+		margin-left: 0 !important;
+		padding-left: 0.5em;
+	}
+	.img.quadratino_rosso {
+		display: inline;
+		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.articles-home p a.azzurro {
+		color: #2F5EB1;
+	}
+	.articles-home p .azzurro {
+		color: #2F5EB1;
+		text-decoration: none;
+	}
+	.articles-home p a.azzurro:hover {
+		text-decoration: underline;
+	}
+	.articles-home p a.nero {
+		color: #000000;
+		text-decoration: none;
+	}
+	.articles-home p.nero {
+		color: #000000;
+	}
+	.articles-home p a.nero:hover {
+		text-decoration: underline;
+	}
+	.articles-home p a.rosso {
+		color: #CC2026;
+		text-decoration: none;
+	}
+	.articles-home p.rosso {
+		color: #CC2026;
+	}
+	.articles-home p a.rosso:hover {
+		text-decoration: underline;
+	}
+
+	.articles-home p a {
+		text-decoration: none;
+	}
+	.articles-home p a:hover {
+		text-decoration: underline;
+	}
+
+	.articles-home h1 {
+		clear:both;
+		color:#231F20;
+		font-size:2.65em;
+		line-height:1.03em;
+		margin-bottom:0.25em;
+		padding-top:12px;
+		letter-spacing: -1px;
+		word-spacing:-0.1em !important;
+	}
+
+	.articles-home h1 a {
+		color: #231F20;
+	}
+	.articles-home h3 {
+		margin-bottom: 0.5em;
+		font-size: 1.2em;
+		line-height: 1.2;
+	}
+	.homearticle-box {
+		padding-top: 3px;
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-x left top;
+		clear: both;
+		color: #787a7a;
+	}
+	.homearticle-box a {
+		color: #787a7a;
+	}
+
+	.homearticle-box h3 a {
+		color: #565656;
+	}
+
+	.homearticle-box a:hover {
+		text-decoration: underline;
+	}
+
+	div.homearticle-box img.img-inline {
+		margin-left: 2px;
+		margin-right: 4px;
+	}
+
+	div.homearticle-box img.quadratino_rosso {
+		display: inline;
+		margin-bottom: 2px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	.homearticle-box a:hover span {
+		text-decoration: underline;
+	}
+
+	div.homearticle-box p.subtitle {
+		font-family: Arial, Helvetica, sans;
+		font-size: 0.85em;
+		letter-spacing: normal;
+		margin-bottom: 0;
+		padding: 0.4em 0 0 1em;
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_headtitle.gif) repeat-x left top;
+	}
+	div.homearticle-box p.subtitle-image {
+        font-family: Arial, Helvetica, sans;
+        font-size: 0.85em;
+        height: 14px;
+        letter-spacing: normal;
+        margin-bottom: 0;
+        overflow: hidden;
+        padding: 4px 2px 2px 11px;
+        width: 388px;
+    }
+
+	div.homearticle-box p.subtitleBorsa {
+		font-family: Arial, Helvetica, sans;
+		font-size: 0.85em;
+		letter-spacing: normal;
+		margin-bottom: 0;
+		padding: 0.4em 0 0 1em;
+		background: #D6E6F6 none;
+	}
+
+	.articles-home p span.firmaBorsa {
+		display: block;
+		font-style: italic;
+		font-family: Arial, Helvetica, sans;
+		font-size: 0.85em;
+		font-weight: bold;
+	}
+
+	div.homearticle-box .firma {
+		font-size: 0.90em;
+		font-family: Georgia, Palatino, serif;
+		color: #333333;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	div.homearticle-box .firma-editoriale {
+		font-size: 0.90em;
+		font-family: Georgia, Palatino, serif;
+		color: #333333;
+		padding-top: 10px;
+		padding-bottom: 25px;
+	}
+
+	.homearticle-box .firma span {
+		font-size: 0.95em;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #666666;
+	}
+
+	.articles-home h2 {
+		clear:both;
+		color:#5B5B5B;
+		font-size:2em;
+		line-height:1.05;
+		margin-bottom:0.5em;
+		padding-top:12px;
+		letter-spacing: -1px !important;
+		word-spacing:-0.03em !important;
+	}
+
+	.articles-home h2.testo-editoriale {
+		clear:both;
+		color:#5B5B5B;
+		font-size:2em;
+		letter-spacing: -1px;
+		line-height:1.05;
+		margin-bottom:0.3em;
+		padding-top:12px;
+		word-spacing:-0.03em;
+	}
+
+	.articles-home h2 a {
+		color: #5b5b5b;
+	}
+
+	.articles-home p {
+		margin-bottom: 1em;
+		color: #606163;
+		padding-right:3px;
+	}
+
+	.articles-home h1 a:hover,
+	.articles-home h2 a:hover
+	{
+		text-decoration: underline;
+		color: #2f5eb1;
+	}
+
+	ul.linkbar {
+		display: block;
+		font-family: Georgia, Palatino, serif;
+		margin: 0 0 1em 0;
+	}
+	ul.linkbar li {
+		display: inline;
+		line-height: 1.2;
+		padding: 0 6px 0 0;
+		font-size: 0.93em;
+		color: #CC2026;
+	}
+	ul.linkbar li a {
+		color: #2f5eb1;
+	}
+
+	ul.linkbar li a.grey_home {
+		color: #606163;
+	}
+
+	ul.linkbar li a.red_home {
+		color: rgb(204, 32, 38); /* rosso */
+	}
+	ul.linkbar a:hover {
+		text-decoration: underline;
+	}
+
+	/* --------------- / strilli alti, lista canale --------------- */
+
+	/* --------------- edizione straordinaria --------------- */
+
+	.edizione-straordinaria {
+		font-family: Arial, Helvetica, sans;
+		font-size: 1.3em;
+		line-height: 1.16;
+		background: #ffffff none;
+		margin-right: 1px;
+	}
+
+	.edizione-straordinaria img {
+		margin-bottom: 0.5em;
+	}
+
+	.edizione-straordinaria img.img-inline {
+		margin-bottom: 1px;
+	}
+
+	.edizione-straordinaria .left {
+		margin-right: 1em;
+	}
+	.edizione-straordinaria .right {
+		margin-left: 0.7em;
+	}
+	.edizione-straordinaria h1 {
+		font-size: 2.9em;
+		letter-spacing: -1px;
+		color: #231F20;
+		margin-bottom: 0.25em;
+	}
+
+	.edizione-straordinaria h1 a
+	{
+		color: #231F20;
+	}
+
+	.edizione-straordinaria h3 {
+		margin-bottom: 0.5em;
+		font-size: 1.2em;
+		line-height: 1.2;
+	}
+
+	.edizione-straordinaria p {
+		margin: 1.7em 0;
+	}
+
+	div.edizione-straordinaria .homearticle-box h2 {
+		font-family: Arial, Helvetica, sans;
+		font-size: 0.85em;
+		letter-spacing: normal;
+		margin-bottom: 0;
+		padding: 0.4em 0 0 1em;
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_headtitle.gif) repeat-x left top;
+	}
+	div.edizione-straordinaria .homearticle-box h2.testatina_edizione_speciale {
+        height: 10px;
+        margin: 0 !important;
+        padding: 5px 5px 5px 10px !important;
+        width: 605px;
+    }
+
+	div.edizione-straordinaria .homearticle-box p.subtitle {
+		margin-top: 0;
+	}
+
+
+	.edizione-straordinaria h1 a:hover
+	{
+		text-decoration: underline;
+		color: #2f5eb1;
+	}
+
+	/* --------------- / edizione straordinaria --------------- */
+
+
+	/* --------------- strilli bassi --------------- */
+
+	.articles-home .box2colonne {
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-y scroll 202px top;
+	}
+	.articles-home .box2colonne-top{
+		border-top: 1px solid #E1E1E1;
+	}
+	.articles-home .box2colonne div {
+		display: block;
+		float: left;
+		width: 190px;
+		padding: 0;
+		color: #5b5b5b;
+		font-size: 1.1em;
+		padding-top: 10px;
+		padding-right:15px;
+	}
+
+	.articles-home .box2colonne .last {
+		padding-right:5px;
+		padding-left:10px;
+	}
+
+	.articles-home .box2colonne img.img-inline {
+		padding-bottom: 0;
+	}
+
+	.articles-home .box2colonne div h5 {
+		font-size: 0.8em;
+		font-style: italic;
+		padding: 0 0 2px 2px;
+		color: #8F8F8F;
+	}
+
+	.articles-home .box2colonne div img {
+		margin: 8px 0 8px 0;
+	}
+
+	.articles-home .box2colonne div span.azzurro {
+		color: #009ACA;
+	}
+
+	.articles-home .box2colonne div h3 {
+		font-size:1.05em;
+		letter-spacing:-1px;
+		font-weight: bold;
+	}
+
+	.articles-home .box2colonne div p {
+		font-size: 0.9em;
+		line-height: 1.2em;
+	}
+
+	.articles-home .box2colonne div ul.linkbar {
+		font-size: 0.9em;
+	}
+
+	.articles-home .box2colonne div ul.linkbar img {
+		margin:0 0 1px 0;
+	}
+
+
+	.articles-home .box2colonne img.quadratino_rosso {
+		margin:0 2px 2px 0 !important;
+	}
+
+	/* --------------- / strilli bassi --------------- */
+
+	/* --------------- vaschetta corriere tv --------------- */
+
+
+	h4.corriere-tv {
+		color: #B1B4BD;
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/sfondo_corrieretv.gif) repeat-x scroll left top;
+		padding: 4px 0 2px 10px;
+		text-transform: uppercase;
+		font-size:0.9em;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+	}
+
+	h4.corriere-tv a {
+		color: #5B6378;
+	}
+
+	h4.corriere-tv strong {
+		font-size:1.5em;
+		line-height:1em;
+		text-transform: lowercase;
+	}
+
+	h4.corriere-tv span{
+		font-size:0.9em;
+		font-weight: bold;
+		padding-left:5px;
+	}
+
+	ul.corriere-tv {
+		clear: both;
+		color: #CBCAD0;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 5px 0 0 10px;
+		height: 120px;
+		overflow: hidden;
+	}
+
+	ul.corriere-tv li {
+		float:left;
+		width: 90px;
+		margin-right: 6px;
+		font-size: 11px;
+		line-height: 1.2;
+	}
+
+	ul.corriere-tv a {
+		color: #000000;
+	}
+
+	ul.corriere-tv img {
+		display: inline;
+		vertical-align:top;
+	}
+
+/* --------------- / vaschetta corriere tv --------------- */
+
+
+
+
+/* ================================================ */
+/* ================================================ */
+/* =============== II COLONNA HOME ================ */
+/* ================================================ */
+/* ================================================ */
+
+	/* --------------- zapping news ------------ */
+
+	.col2-home {
+		font-family: Arial, Helvetica, sans;
+		font-size: 1.3em;
+		line-height: 1.16;
+		margin-right:10px;
+	}
+
+	ul.zappingnews li.zapping-news-box a {
+		text-decoration: none;
+		color:#5E6265;
+	}
+
+	ul.zappingnews li.zapping-news-box {
+		background:#EDF2F5 none repeat scroll 0 0;
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin-bottom:2px;
+		padding:8px 5px;
+	}
+
+	ul.zappingnews li.lbig {
+		background:#DFECF4 none repeat scroll 0 0;
+	}
+
+	ul.zappingnews li.zapping-news-box img {
+		margin-bottom:8px;
+		width:auto;
+	}
+
+	ul.zappingnews li.zapping-news-box img.img-inline {
+		display:inline;
+		margin-bottom:0;
+		width:auto;
+		margin-left:2px;
+		margin-right:2px;
+	}
+
+	ul.zappingnews li.zapping-news-box p.mini-head-small {
+		color:#6091C9;
+		font-family:Georgia,Palatino,serif;
+		font-size:0.85em;
+		font-weight:bold;
+		margin-bottom:8px;
+		margin-top:-1px;
+	}
+
+	ul.zappingnews li.zapping-news-box h5.hbig {
+		font-size:1.70em;
+		letter-spacing:-0.02em;
+		line-height:1.1;
+		word-spacing:-0.07em;
+	}
+	ul.zappingnews li.zapping-news-box h5 {
+		font-size:1.45em;
+		letter-spacing:-0.02em;
+		line-height:1;
+		margin-bottom:7px;
+		margin-top:-3px;
+		word-spacing:-0.07em;
+	}
+
+	ul.zappingnews li.zapping-news-box h6 {
+		line-height:1em;
+		font-size: 1.3em;
+		margin-bottom:8px;
+		margin-top:-4px;
+		word-spacing:-0.05em;
+		font-weight: normal;
+	}
+
+	ul.zappingnews li.zapping-news-box p {
+		color:#7F8488;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:1em;
+		line-height: 1.3em;
+		margin-top:-2px;
+	}
+
+	ul.zappingnews li h6 a:hover,
+	ul.zappingnews li h5 a:hover,
+	ul.zappingnews li p a:hover  {
+		text-decoration: underline;
+	}
+
+	/* --------------- metabox mereghetti ------------ */
+
+	ul.zappingnews li.box-forum {
+		background: #F5F5F5;
+		padding: 0 0 8px 0;
+		margin-bottom: 10px;
+		word-spacing: normal;
+		color: #868787
+		font-size: 1em;
+		font-family: Georgia, Palatino, serif;
+		text-align: right;
+		line-height: 1em;
+	}
+
+	ul.zappingnews li.box-forum h5 {
+		margin-top: 0;
+		font-size: 1em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #2F5EB1;
+		background-color: #D6E6F6;
+		margin-bottom: 5px;
+		border-bottom: 2px solid #FFFFFF;
+		padding: 0;
+		height: 37px;
+		float: left;
+		width: 158px;
+	}
+
+	ul.zappingnews li.box-forum .foto {
+		display: block;
+		width: 35px;
+		height: 37px;
+		text-indent: -15000px;
+		text-align: left;
+		overflow: hidden;
+		margin-left: 0;
+		background-position: left 1px;
+		background-repeat: no-repeat;
+		background-color: #D6E6F6;
+		border-bottom: 2px solid #FFFFFF;
+	}
+
+	li.box-forum a {
+		padding-right: 6px;
+		display: block;
+	}
+
+	li.box-forum h5 a {
+		color: #2F5EB1;
+		display: block;
+		text-align: right;
+		padding-top: 5px;
+	}
+
+	li.box-forum h5 span{
+		font-size: .72em;
+		font-weight: normal;
+		color: #8E999D;
+		text-transform: uppercase;
+		line-height: 1.4em;
+	}
+
+
+
+	/* --------------- strilli editoriali ------------ */
+
+	.col2-home .col2home-box {
+		margin-bottom: 1em;
+		color: #5D6266;
+	}
+
+	.col2-home .col2home-box a{
+		color: #5D6266;
+		text-decoration: none;
+	}
+
+	.col2-home .col2home-box h5 {
+		font-size: 0.85em;
+		font-style: italic;
+		padding: 0 0 2px 2px;
+		color: #8F8F8F;
+	}
+
+	.col2-home .col2home-box img {
+		margin: 8px 0 8px 0;
+	}
+
+	.col2-home .col2home-box img.quadratino_rosso {
+		margin: 0 2px 1px 2px;
+	}
+
+	.col2-home .col2home-box img.img-inline {
+		margin: 0 2px 1px 2px;
+	}
+
+	.col2-home .col2home-box span.azzurro {
+		color: #009ACA;
+	}
+
+	.col2-home .col2home-box h3 {
+		font-size:1.15em;
+		font-weight: bold;
+		line-height:1.2;
+		margin-bottom:0.5em;
+		letter-spacing:-1px;
+	}
+
+	.col2-home .col2home-box p {
+		font-size: 0.9em;
+		line-height: 1.2em;
+	}
+
+	/* --------------- / strilli editoriali ------------ */
+
+	/* --------------- box edicola ------------ */
+	ul.box-inedicola li {
+		float: left;
+		width: 100px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #5E6367;
+	}
+
+	ul.box-inedicola li a {
+		color: #5E6367;
+	}
+
+	ul.box-inedicola li.testatina {
+		width: 200px;
+		text-align: left;
+	}
+
+	ul.box-inedicola li.testatina h6{
+		text-indent: -5000px;
+		width:72px; height:12px;
+		background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) 0 -110px;
+		margin-bottom: 12px;
+	}
+
+	ul.box-inedicola li img {
+		display: block;
+		margin: auto;
+		border: 1px solid #E3E3E3;
+		padding: 3px;
+		margin-bottom: 5px;
+	}
+	/* --------------- / box edicola ------------ */
+
+	/* --------------- box servizi ------------ */
+
+	div.box-servizi {background: #D3D3D3 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_boxservizi.gif) repeat-x top left; padding-bottom: 10px;}
+	ul.box-servizi li {float: left; width: 88px; padding: 0 5px 0 5px; border-right: 1px solid #C3C3C3;}
+	ul.box-servizi li.ultimo {border-right: 0;}
+	ul.box-servizi li a {display: block; color: #292929; font-size: 0.85em;}
+	ul.box-servizi li img.img {margin-top:10px; margin-bottom:3px;}
+	div.box-servizi-new {background: #D3D3D3 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_boxservizi.gif) repeat-x top left; padding-bottom: 10px;}
+	ul.box-servizi-new {width: 100px; float: left;}
+	ul.dx {width: 88px; border-right: 0; float: left;}
+	ul.box-servizi-new li {padding: 0 0 15px 5px;}
+	ul.box-servizi-new li a {display: block; color: #292929; font-size: 0.85em;}
+	ul.box-servizi-new li img.img {margin-top:10px; margin-bottom:3px;}
+
+
+	/* --------------- / box servizi ------------ */
+
+	/* --------------- Box ugc --------------- */
+
+	#box-ugc-container{ background-color:#E8F6FF; padding:1px 0px 0px 0px; font-family: Arial, Helvetica, sans-serif}
+	#home-2col .dilatua {
+		background:#E8F6FF url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -270px -153px;
+
+		height:33px;
+		text-indent:-5000px;
+		width:200px;
+		color:#858587;
+		display:block;
+	}
+	#box-ugc-container .pulsante { height:20px; background:#E8F6FF url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_ucg.png) repeat-x scroll left bottom;
+ width:200px;}
+ 	#box-ugc-container .pulsante a { float:right; margin:0px 10px 0px 0px;}
+
+	#box-ugc-container #blog #all, #box-ugc-container #cronisti #all{
+		background:#C6DEEE;
+		margin-left:-5px;
+		text-align:right;
+		padding:2px 5px 1px 0px;
+		height:14px;
+	}
+	#box-ugc-container #blog {
+		padding:0px 0px 10px 5px;
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_ucg.png) repeat-x scroll left bottom;
+	}
+	#box-ugc-container h4.tit-blog {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -572px -70px;
+		margin: 0px 0px 5px 0;
+		text-indent:-5000px;
+		display:block;
+		width:95px;
+		height:21px;
+	}
+	#box-ugc-container h4.tit-blog a {
+		display:block;
+		width:95px;
+		height:21px;
+	}
+
+	 #box-ugc-container #blog li{
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/blog_go.png) no-repeat scroll 3px 2px;
+		padding:0px 0px 0px 22px;
+		height:32px;
+		cursor:pointer;
+		display:block;
+		line-height:1em;
+		color: #5D6164;
+	}
+	#box-ugc-container #blog li a {
+		color: #5D6164;
+	}
+	#box-ugc-container #all strong{ color:#2594E1; font-weight:bold; font-size:0.9em;}
+
+	#box-ugc-container #blog li span{
+		 font-size:0.85em;
+		 color: #5D6164;
+		 font-style: italic;
+	}
+	#box-ugc-container #blog .forum{
+		 font-size:1em;
+		 color: #2594E1;
+		 text-transform:uppercase;
+		 font-weight:bold;
+	}
+	#box-ugc-container #blog .forum span{
+		 font-size:0.85em;
+		 color:#5D6164;
+		 text-transform: none;
+		 font-weight:normal;
+		 font-style: italic;
+	}
+	#box-ugc-container #ugc-cronisti {display:block; overflow:hidden; padding: 0px 0px 5px 5px;
+	}
+	#box-ugc-container h5.tit-ugc-cronisti {
+		margin: 10px 0px 0px 7px;
+		display:block;
+		color:#2594E1;
+		font-family: trebuchet MS, arial;
+		font-size:0.85em;
+		text-transform: uppercase;
+	}
+
+	#box-ugc-container span.riga {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_ucg.png) repeat-x scroll left bottom;
+		height:22px;
+		text-indent:-5000px;
+		color: none;
+		display:block;
+	}
+
+	#box-ugc-container a.invia {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -578px -145px;
+		margin: 0px 0px 5px 75px;
+		text-indent:-5000px;
+		display:block;
+		width:120px;
+		height:21px;
+	}
+	#box-ugc-container h4.tit-scrivi {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -572px -90px;
+		margin: 5px 0px 5px 0;
+		text-indent:-5000px;
+		display:block;
+		width:95px;
+		height:20px;
+	}
+	box-ugc-container h4.tit-scrivi a {
+		display:block;
+		width:95px;
+		height:20px;
+	}
+		#box-ugc-container h4.tit-forum {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -572px -50px;
+		margin: 5px 0px 5px 0;
+		text-indent:-5000px;
+		display:block;
+		width:95px;
+		height:20px;
+	}
+
+	#box-ugc-container #ugc-cronisti li{float:left; padding:0px 6px 0px 3px}
+	#box-ugc-container #ugc-cronisti li img{border:1px solid #2594E1}
+	#box-ugc-container #cronisti{padding: 0px 0px 0px 5px}
+	#box-ugc-container h4.tit-cronisti {
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat scroll -571px -121px;
+		margin: 5px 0px 5px 0;
+		text-indent:-5000px;
+		display:block;
+		width:128px;
+		height:17px;
+	}
+
+	#box-ugc-container h4.tit-cronisti a {
+		display:block;
+		width:128px;
+		height:17px;
+	}
+
+	#box-ugc-container #cronisti li{
+		background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/blog_go.png) no-repeat scroll 3px 2px;
+		padding:0px 0px 0px 22px;
+		height:32px;
+		cursor:pointer;
+		display:block;
+		line-height:0.9em;
+	}
+		#box-ugc-container #cronisti li span{
+		 font-size:0.9em;
+		 color:#5D6164;
+		 font-style: italic;
+	}
+
+    /* nuovo box forum milano*/
+
+	#box-ugc-container.forum  {
+		background:none;
+	}
+	#box-ugc-container.forum ul#forum {
+
+	}
+
+	#box-ugc-container.forum ul#forum li {
+		margin-bottom: 10px;
+	}
+	#box-ugc-container.forum ul#forum li a.forum_block {
+		
+	}
+	#box-ugc-container.forum ul#forum li a.forum_block .title {
+		display: block;
+	}
+
+	#box-ugc-container.forum ul#forum li a.forum_block .title {
+		border-bottom: 1px dotted black;
+		padding-bottom: 5px;
+		font-family:"BreraRegular";
+		font-size:17px;
+		color: #666666;
+	}
+
+	#box-ugc-container.forum ul#forum li .autore {
+		display: block;
+		padding-top: 5px;
+		font-size: 12px;
+		color: #333333;
+		
+	}
+
+
+/* ================================================ */
+/* ================================================ */
+/* ================= TERZA COLONNA ================ */
+/* ================================================ */
+/* ================================================ */
+
+.tabs-agenda {
+			margin: 0 0 10px 0;
+			padding:5px 10px;
+			background: #edeeee none;
+			max-height:230px;
+			overflow:hidden;
+			background: #EDEEEE url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg-tabs_agenda-small_corner.gif) no-repeat left top;
+		}
+
+
+		/*
+		.tabs-agenda div.testatina {
+			background:#ffffff url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/label-agenda.gif) no-repeat;
+			height: 29px;
+		}
+
+		.tabs-agenda div.testatina h2 {
+			float: left;
+		}
+		*/
+
+		#main .tabs-agenda div.testatina {
+			background: #edeeee url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x left bottom;
+			line-height:25px;
+		}
+		.tabs-agenda span.sponsor_agenda{
+			margin-left:430px !important;
+			margin-bottom:-30px;
+			margin-top:-2px;
+		}
+
+		.tabs-agenda div.testatina h4 {
+			color: #5b6378;
+			font-size: 20px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			line-height: 25px;
+			padding-left: 10px;
+		}
+
+		.tabs-agenda div.testatina h4 span{
+			color: #cc2026;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.tabs-agenda div.testatina h4.logo-vivi {
+			color: #5b6378;
+			background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/logo-vivi.gif) no-repeat;
+			height: 30px;
+			width: 90px;
+			display: block;
+			text-indent: -5000px;
+			margin:5px 0 0 0;
+			padding-bottom: 1px;
+			padding-left: 0;
+		}
+
+		.tabs-agenda h3 {
+			border-top:1px solid #DADADA;
+			color:#808894;
+			font-family:Georgia,"Times New Roman",Times,serif;
+			font-size:16px;
+			padding:6px 0 0 0;
+			line-height: 20px;
+		}
+
+		.tabs-agenda ul.elenco-tab {
+
+			padding: 10px 0 0 0;
+
+		}
+
+		#col-sx .tabs-agenda ul.elenco-tab {
+			/*margin:10px 0 0 -15px;*/
+			margin:10px 0 0 -5px;
+		}
+
+		#col-sx .tabs-agenda ul.elenco-tab li {
+			text-align: center;
+		}
+		.tabs-agenda ul.elenco-tab li {
+			color: #5B6378;
+			float: left;
+			font-family: Arial,Helvetica,sans-serif;
+			font-size: 12px;
+			font-weight: bold;
+			height: 25px;
+			padding: 0 12px;
+		}
+		/*.tabs-agenda ul.elenco-tab li {
+			color: #5b6378;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 12px;
+			float: left;
+			width: 75px;
+			height: 25px;
+		}*/
+
+		.tabs-agenda ul.elenco-tab li.tab-sport {
+			width: 125px;
+		}
+
+		.tabs-agenda ul.elenco-tab li a {
+			display:inline;
+			padding:2px 5px;
+			color: #5b6378;
+			text-align: center;
+			text-decoration: none;
+			line-height: 16px;
+		}
+		.tabs-agenda ul.elenco-tab li.tab-fuorisalone a {
+			background-color:#ff3399;
+			color: #ffffff;
+		}
+		.tabs-agenda ul.elenco-tab li.ui-tabs-selected a {
+			margin:0;
+			background:#5B6378 none;
+			color:#EDEDED;
+		}
+
+		.tabs-agenda ul.elenco-tab li.selected a {
+			margin:0;
+			background:#5B6378 none;
+			color:#EDEDED;
+		}
+
+		.tabs-agenda #agenda,
+		.tabs-agenda #locali,
+		.tabs-agenda #ristoranti,
+		.tabs-agenda #teatri,
+		.tabs-agenda #sport,
+		.tabs-agenda #cinema {
+			height: 140px;
+		}
+
+		.tabs-agenda form {
+			padding: 10px 0;
+			position: relative;
+		}
+
+		.tabs-agenda form .submit {
+			background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bt-trova.gif) no-repeat;
+			height: 20px;
+			width: 60px;
+			text-indent: -5000px;
+			border: 0;
+			cursor: pointer;
+			padding-bottom: 4px;
+		}
+
+		.tabs-agenda form input {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			margin-bottom: 5px;
+		}
+
+		.tabs-agenda form select {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			height: 20px;
+			margin-bottom: 5px;
+		}
+
+
+		/* riadattamento per la colonna centrale */
+
+		#main #col-sx .tabs-agenda {
+			padding: 5px 10px;
+			margin: 0 10px 0 0;
+			max-height: 130px;
+			overflow: hidden;
+			border-bottom: 10px solid #ffffff;
+		}
+
+		#main #col-sx .tabs-agenda {
+			background: #EDEEEE url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg-tabs_agenda_corner.gif) no-repeat left top;
+		}
+
+		#main #col-sx .tabs-agenda h3 {
+			display: none;
+		}
+
+		#main #col-sx .tabs-agenda div.testatina h4 {
+			line-height:25px;
+			text-align:left;
+			width:auto;
+			float: none;
+			margin: 0;
+		}
+
+		#main #col-sx .tabs-agenda form {
+			padding:10px 0 0 0;
+		}
+
+
+		#main #col-sx .tabs-agenda #agenda,
+		#main #col-sx .tabs-agenda #locali,
+		#main #col-sx .tabs-agenda #ristoranti,
+		#main #col-sx .tabs-agenda #cinema,
+		#main #col-sx .tabs-agenda #teatri,
+		#main #col-sx .tabs-agenda #sport {
+			height:60px;
+		}
+
+       #palestre_button {
+       background:url("//images2-milano.corriereobjects.it/libs/css/default_theme/assets/active_bg.jpg") no-repeat scroll 0 0 transparent;
+       height:110px;
+       margin-left:-10px;
+       margin-top:20px;
+       position:absolute;
+       width:200px;
+       }
+       #palestre_button ul {
+       float:right;
+       height:auto;
+       margin:0;
+       position:relative;
+       top:15px;
+       width:100px;
+}
+#palestre_button ul li {
+height:13px;
+list-style-type:none;
+text-align:right;
+}
+#palestre_button ul li a {
+display:block;
+padding-bottom:0;
+padding-right:4px;
+height:13px;
+width:100px;
+text-decoration:none;
+}
+a#virgin_active_milano {
+height:167px;
+margin-left:-10px;
+margin-top:20px;
+position:absolute;
+width:200px;
+text-decoration:none;
+}
+
+
+		/* definizione select e input per terza colonna e colonna centrale */
+
+		/* eventi */
+		#col-dx .tabs-agenda .form-search_agenda .text-input {width: 275px;}
+		#col-sx .tabs-agenda .form-search_agenda .text-input {width:180px;}
+
+		#col-dx .tabs-agenda .form-search_agenda .select {width: 280px;}
+		#col-sx .tabs-agenda .form-search_agenda .select {width:185px;}
+
+		#col-dx .tabs-agenda .form-search_agenda .select-small {width: 218px;}
+		#col-sx .tabs-agenda .form-search_agenda .select-small {width:150px;}
+
+		/* locali */
+		#col-dx .tabs-agenda .form-search_locali .text-input {width: 210px;}
+		#col-sx .tabs-agenda .form-search_locali .text-input {width: 170px;}
+
+		#col-dx .tabs-agenda .form-search_locali .select {width: 280px;}
+		#col-sx .tabs-agenda .form-search_locali .select {width: 170px;}
+
+		/* ristoranti */
+		#col-dx .tabs-agenda .form-search_ristoranti .text-input {width: 100px;}
+		#col-sx .tabs-agenda .form-search_ristoranti .text-input {width: 120px;}
+
+		#col-dx .tabs-agenda .form-search_ristoranti .select {width: 105px;}
+		#col-sx .tabs-agenda .form-search_ristoranti .select {width: 130px;}
+
+		/* cinema */
+		#col-dx .tabs-agenda .form-search_cinema .film {width:282px !important;}
+		#col-sx .tabs-agenda .form-search_cinema .film {width:282px !important;}
+
+		#col-dx .tabs-agenda .form-search_cinema .citta {width:199px !important;}
+		#col-sx .tabs-agenda .form-search_cinema .citta {width:199px !important;}
+
+		#col-dx .tabs-agenda .form-search_cinema .provincia {width:80px;}
+		#col-sx .tabs-agenda .form-search_cinema .provincia {width:80px;}
+
+		#col-dx .tabs-agenda .form-search_cinema .genere {width:282px !important;}
+		#col-sx .tabs-agenda .form-search_cinema .genere {width:139px !important;}
+
+		#col-dx .tabs-agenda .form-search_cinema .cinema {width:210px;}
+		#col-sx .tabs-agenda .form-search_cinema .cinema {width:140px;}
+
+		/* teatri */
+		#col-dx .tabs-agenda .form-search_teatri .text-input {width: 275px;}
+		#col-sx .tabs-agenda .form-search_teatri .text-input {width: 380px;}
+
+		#col-dx .tabs-agenda .form-search_teatri .select1 {width: 139px;}
+		#col-sx .tabs-agenda .form-search_teatri .select1 {width: 205px;}
+
+		#col-dx .tabs-agenda .form-search_teatri .select2 {width: 139px;}
+		#col-sx .tabs-agenda .form-search_teatri .select2 {width: 385px;}
+
+		#col-dx .tabs-agenda .form-search_teatri .select3 {width: 219px;}
+		#col-sx .tabs-agenda .form-search_teatri .select3 {width: 144px;}
+
+		/* sport-benessere */
+		#col-dx .tabs-agenda .form-search_sport-benessere .text-input {width: 130px;}
+		#col-sx .tabs-agenda .form-search_sport-benessere .text-input {width: 180px;}
+
+		#col-dx .tabs-agenda .form-search_sport-benessere .select {width: 210px;}
+		#col-sx .tabs-agenda .form-search_sport-benessere .select {width: 150px;}
+
+		/* concerti */
+		#col-dx .tabs-agenda .form-search_concerti .text-input {width: 275px;}
+		#col-sx .tabs-agenda .form-search_concerti .text-input {width:180px;}
+
+		#col-dx .tabs-agenda .form-search_concerti .select {width: 280px;}
+		#col-sx .tabs-agenda .form-search_concerti .select {width:185px;}
+
+		#col-dx .tabs-agenda .form-search_concerti .select-small {width: 218px;}
+		#col-sx .tabs-agenda .form-search_concerti .select-small {width:150px;}
+
+		/* layer indirizzo vicino a */
+		.layer-indirizzo {
+			display: none;
+			background: #eeeeee none;
+			position:absolute;
+			top: -60px;
+			width: 300px;
+			padding: 10px;
+			border: 1px solid #5B6378;
+			color: #5B6378;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			left: 280px;
+		}
+		#col-dx .layer-indirizzo {
+			left: 0px;
+			top:-37px;
+			width:260px;
+		}
+		#col-dx .layer-indirizzo .citta {
+			width:255px;
+		}
+
+		#col-dx .layer-indirizzo .nome-via {
+			width:119px;
+		}
+
+		.layer-indirizzo p {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.layer-indirizzo input {
+			margin: 0;
+			font-size: 11px;
+			vertical-align: middle;
+		}
+
+		.layer-indirizzo .toponimo {
+			width: 59px;
+		}
+
+		.layer-indirizzo .nome-via {
+			width: 150px;
+		}
+
+		.layer-indirizzo .civico {
+			width: 30px;
+		}
+
+		.layer-indirizzo .citta {
+			width: 285px;
+		}
+
+		.hide-layer-indirizzo,
+		.close-layer-indirizzo {
+			cursor: pointer;
+			color: #5B6378;
+			margin-top: 5px;
+			margin-right: 15px;
+			font-weight:bold;
+			display: block;
+			float: left;
+		}
+
+
+/* ================================================ */
+/* ================================================ */
+/* ==================== ARTICOLO ================== */
+/* ================================================ */
+/* ================================================ */
+
+/* --------------- Tipogragia --------------- */
+
+.spalla {  /*  seconda colonna  */
+	width: 200px;
+	padding-left: 11px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_verticale.gif) repeat-y scroll left top;
+	font-size: 1.2em;
+	line-height: 1.35;
+	margin-left: 0.5em;
+	margin-bottom:10px;
+}
+.spalla .testo {  /*  seconda colonna  */
+	font-size: 0.8em !important;
+}
+.testopiaceri {
+	width:398px !important;
+	height:auto !important;
+}
+
+.article {
+	font-family: Georgia, Palatino, serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	color: #464646;
+	padding-right: 10px;
+}
+
+.article h1 {
+	font-size: 2.5em;
+	letter-spacing: -1px;
+	color: #231F20;
+	line-height: 1.3;
+}
+
+.article h2 {
+	margin: 0.2em 0 0.9em 0;
+	font-style: italic;
+	color: #535A5B;
+	font-size: 1.7em;
+	line-height: 1.4;
+	width: 615px;
+}
+
+.article h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	color: #5B5B5B;
+}
+
+.article p,
+.footnotes {
+	margin-bottom: 1em;
+}
+.footnotes {
+font-weight:bold;
+}
+.article p {
+	font-size: 1em;
+}
+
+.toolbar {
+	font-family: Georgia, Palatino, serif;
+	text-align: right;
+	height: 25px;
+	padding: 0 10px;
+	background: #fafafa url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/tb_grad.gif) repeat-x left bottom;
+	margin: 0 0 1em 0;
+	position:relative;
+}
+body.itinerarivisentin .toolbar {
+	float:left;
+	width:600px;
+}
+.toolbar li {
+	display: inline;
+	margin: 0 3px;
+	line-height: 20px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.FBConnectButton_Small, .FBConnectButton_RTL_Small {
+vertical-align:top;
+margin:1px;
+}
+.fb_share_count_right {
+vertical-align:top;
+margin-top:1px;
+}
+.fb_share_no_count {
+
+margin-top:1px;
+}
+.twitter-share-button {
+width:130px;
+height:20px;
+}
+
+#trova_esplora .trova {
+	margin:-4px -1px 0 0 !important;
+	float:left;
+	cursor:pointer;
+	height: 20px;
+}
+#trova_esplora {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding-top:5px;
+	float:left;
+	border-right: 1px solid #999999;
+	padding-right:7px
+}
+#trova_esplora span {
+	cursor:pointer;
+}
+
+.rss-button {
+	border-left: 1px solid #999999;
+	padding-left:7px
+}
+
+.footnotes strong {padding: 0 5px 0 0;}
+
+.footnotes .copy {
+	color:#999999;
+	display:block;
+	font-family:trebuchet MS;
+	font-size:9px;
+	font-weight:normal;
+	padding-top:3px;
+}
+
+/* --------------- formica --------------- */
+
+.formichina {
+	width: 940px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) scroll repeat-x left bottom;
+	padding: 5px 0 2px 0;
+	margin: 0 auto;
+	}
+
+.formichina img {
+	display: inline;}
+
+.formichina li {
+	display: inline;
+	font-size: 1.3em;
+	font-family: Georgia, Palatino, serif;
+}
+
+.formichina li a,
+.formichina li em {
+	color: #333333;
+	text-transform:capitalize;
+}
+
+.formichina span {
+	font-size: 0.7em;
+	font-family: Arial, Helvetica, sans;
+}
+
+/* --------------- formica --------------- */
+
+
+/* --------------- Pi� letti --------------- */
+
+.box-piuletti {
+	background: #EEEEEE none;
+	border: 1px solid #cccccc;
+	color: #2668AD;
+	font-family: Georgia, Palatino, serif;
+	padding: 10px;
+	font-size: 0.70em;
+	text-indent: 12px;
+	line-height: 1.4em;
+}
+
+.box-piuletti li {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/piu.gif) no-repeat left 5px;
+
+}
+
+.box-piuletti a {
+	color: #2668AD;
+}
+
+/* --------------- / Pi� letti --------------- */
+
+/* --------------- Notizie correlate --------------- */
+
+.notizie-correlate {
+	background: #EEEEEE none;
+	border: 1px solid #cccccc;
+	color: #2668AD;
+	font-size:15px;
+	font-family: Georgia, Palatino, serif;
+	padding: 10px;
+	line-height: 0.8;
+	margin-bottom: 1em;
+}
+
+.notizie-correlate a {
+	text-decoration: none;
+	color: #2668AD;
+	margin-bottom:5px;
+	font-size:12px;
+	line-height:14px;
+}
+
+.notizie-correlate li h5 {
+	font-size:0.7em;
+	color: #A53038;
+	padding: 0 0 10px 0;
+
+}
+
+.notizie-correlate li {
+	list-style: none;
+	padding: 0;
+	font-size:14px;
+}
+
+.notizie-correlate li h6 {
+	font-size: 0.70em;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/piu.gif) no-repeat left 5px;
+	text-indent: 12px;
+	line-height: 1.4em;
+}
+
+.notizie-correlate li img {
+margin-bottom:5px;
+display:block;
+}
+
+/* --------------- / Notizie correlate --------------- */
+
+/* --------------- foto nelle notizie correlate --------------- */
+
+.foto-correlate {
+	background: #EEEEEE none;
+	border: 1px solid #cccccc;
+	color: #555555;
+	padding: 4px 4px 0 4px;
+}
+
+.foto-correlate img {
+	padding-bottom: 10px;
+}
+
+.foto-correlate p {
+	font-family: Georgia, Arial, Helvetica, sans;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+/* --------------- / foto nelle notizie correlate --------------- */
+
+
+/* --------------- Foto articolo --------------- */
+.foto-h-left, .foto-h-right,
+.foto-v-left, .foto-v-right {
+	background: #ededed;
+	border: 1px solid #919292;
+	margin-top: 1em;
+}
+
+.foto-h-left td, .foto-h-right td,
+.foto-v-left td, .foto-v-right td {
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 1.4;
+	padding: 0.5em;
+}
+
+.article .didascalia {
+	padding-top: 0;
+	padding-bottom: 1em;
+}
+
+.foto-h-left {
+	float: left;
+	clear: left;
+	margin-right: 1em;
+}
+
+.foto-h-right {
+	float: right;
+	clear: right;
+	margin-left: 1em;
+}
+
+.foto-v-left {
+	float: left;
+	margin-right: 1em;
+}
+
+.foto-v-right {
+	float: right;
+	margin-left: 1em;
+}
+
+/* --------------- / Foto articolo --------------- */
+
+/* ----------------  parole chiave --------------- */
+ul.box_parolechiave {background: #F5F5F5 none; border: 1px solid #D6D5D5;}
+
+ul.box_parolechiave li {float: left;font-family: "Trebuchet Ms", arial; color: #2F5EB1; padding: 7px 9px 7px 9px;}
+ul.box_parolechiave li.titolo {font-weight: bold; width: 98.5%; border-bottom: 1px solid #D6D5D5; padding: 2px 0 3px 9px;}
+ul.box_parolechiave li a {color: #2F5EB1;}
+/* --------------- / parole chiave --------------- */
+
+
+/* ---------------- Di la tua --------------- */
+
+div.box-dilatua {
+	padding: 8px 10px 8px 10px;
+	background: #E3E5E4 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_grey_box.jpg) repeat-x top left;
+	width:600px;
+	overflow:hidden;
+}
+
+div.box-dilatua h4 {
+	color: #CC2026 !important;
+	font-weight: bold;
+	font-size: 14px !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+div.box-dilatua h4 strong {
+	color: #4D5562;
+	font-weight: normal !important;
+	font-size: 20px;
+}
+
+div.box-dilatua p {
+	color: #4D5562;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div.box-dilatua a.btn_write {
+	float: right;
+	display: block;
+	width: 64px;
+	height: 21px;
+	margin-top: -15px;
+	text-indent: -5000px;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) -684px -2px;
+}
+
+
+#box-dilatua-article h2 {font-size: 1.5em; color: #54595C; font-style: normal; margin-bottom: 5px;}
+#box-dilatua-article div.img {float: left; margin: 6px 10px 0 3px;}
+#box-dilatua-article .data-dilatua {font-size: 0.8em; color: #9B000B;}
+#box-dilatua-article .data-dilatua span  {color: #4B4E8A;}
+/*modifica dell'h1 del titolo commenti*/
+#box-dilatua-article  span.commento-heading{
+	color: #54595C;
+    display: block;
+    font-size: 1.5em;
+}
+#box-dilatua-article p {color: #54595C; font-family: arial; font-size: 0.9em;}
+.all-message {text-align: right;}
+.all-message img {
+	float: left;
+	margin:5px 10px 0 462px;
+}
+/* --------------- / Di la tua --------------- */
+/* ---------------- Di la tua NEW --------------- */
+.all-message .img {
+	float:left;
+}
+.toolbar li.commenti_tool_dlt {
+	margin-right:0;
+	position:absolute;
+	right:105px;
+}
+.toolbar li.commenti_tool_dlt a {
+	background:url("//images2-milano.corriereobjects.it/libs/css/default_theme/assets/nuvola_dlt.gif") no-repeat scroll left 4px transparent;
+	border-right:1px dotted #919292;
+	color:#2F5EB1;
+	display:inline-block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:23px;
+	padding-left:23px;
+	padding-right:6px;
+	position:absolute;
+	right:0;
+	text-decoration:none;
+	top:0;
+	white-space:nowrap;
+	height:21px;
+}
+.toolbar li.commenti_tool_dlt a strong {
+	font-size:11px;
+}
+.box-dlt #commenta {
+	display:none;
+}
+.box-dlt {
+	padding: 8px 10px;
+	background: #E3E5E4 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_dlt.gif) repeat-x top left;
+	width:600px;
+	overflow:hidden;
+	color:#000000;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	line-height:13px;
+	position:relative;
+}
+.dlt_small {
+	background: #E3E5E4 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_small_dlt.gif) repeat-x top left;
+}
+.dlt_small a {
+	color:#000000;
+	text-decoration:underline;
+}
+.box-dlt h4 {
+	color: #8d96a7;
+	font-size: 24px;
+	font-family: Georgia, Arial, Helvetica, sans;
+	line-height:24px;
+}
+.box-dlt span.heading {
+	color: #8d96a7;
+	font-size: 24px;
+	font-family: Georgia, Arial, Helvetica, sans;
+	line-height:24px;
+	display:block;
+}
+
+.box-dlt p.sub_title {
+	font-size: 11px;
+	color:#2f5eb1;
+	margin:4px 0;
+}
+.box-dlt p.sub_comment {
+	color:#666565;
+	font-size: 10px;
+}
+#submit-commento .error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:red;
+	display:none;
+}
+.box-dlt .form_conatiner_dlt {
+  color:#666565;
+  border-top:1px solid #cccccc;
+  padding-top:10px;
+  margin-top:8px;
+  padding-bottom:25px;
+}
+.box-dlt .form_conatiner_dlt label {
+  font-weight:bold;
+}
+.box-dlt .form_conatiner_dlt input {
+  width:557px;
+  margin:4px 0 8px 0;
+}
+.box-dlt .form_conatiner_dlt textarea {
+  width:595px;
+  margin:4px 0 4px 0;
+}
+.box-dlt .box_commenti_dlt {
+  position:absolute;
+  right:0px;
+  top:11px;
+  color:#2f5eb1;
+  font-size:10px;
+  background: url("//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif") repeat-y scroll left top transparent;
+  padding:0 7px;
+}
+.box-dlt .box_commenti_dlt strong {
+  font-weight:normal;
+  font-size:30px;
+  display:block;
+  margin-bottom:4px;
+  line-height:24px;
+  text-align:center;
+}
+.box-dlt .box_commenti_dlt span {
+  display:block;
+  position:absolute;
+  width:27px;
+  height:23px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/nuovole_dlt.gif) no-repeat top left;
+	text-indent:-5000px;
+	left:-33px;
+	top:0;
+}
+.article p.reminder_dlt {
+  color:#333333;
+  font-size:12px;
+  line-height:17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.article p.reminder_dlt a {
+  color:#2f5eb1;
+}
+.box-dlt .previw_dlt {
+  display:block;
+  text-indent:-5000px;
+  background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/preview_dlt.gif) no-repeat top left;
+  width:84px;
+  height:20px;
+  position:absolute;
+  left:235px;
+  bottom:12px;
+}
+.box-dlt .box-dlt-article {
+  margin:20px 0 55px 0;
+}
+.box-dlt .back_com_dlt {
+  display:block;
+  text-indent:-5000px;
+  background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/back_com_dlt.gif) no-repeat top left;
+  width:135px;
+  height:20px;
+  position:absolute;
+  left:181px;
+  bottom:12px;
+}
+.box-dlt .send_com_dlt {
+  display:block;
+  text-indent:-5000px;
+  background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/send_com_dlt.gif) no-repeat top left;
+  width:105px;
+  height:20px;
+  position:absolute;
+  left:327px;
+  bottom:12px;
+}
+.box-dlt .send_dlt {
+  display:block;
+  text-indent:-5000px;
+  background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/send_dlt.gif) no-repeat top left;
+  width:53px;
+  height:20px;
+  position:absolute;
+  left:325px;
+  bottom:12px;
+}
+.box-dlt .send_dlt {
+  color:#666666;
+  font-size:10px;
+}
+.box-dlt-article h1 {
+	font-size: 20px;
+	color: #54595c;
+	font-style: normal;
+	margin-bottom: 5px;
+}
+.box-dlt-article div.img {
+	float: left;
+	margin: 6px 10px 0 3px;
+}
+.box-dlt-article .data-dilatua {
+	font-size: 11px;
+	color: #9b000b;
+}
+.box-dlt-article .data-dilatua span {
+	color: #4b4e8a;
+}
+.box-dlt-article p {
+	color: #54595c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:18px;
+}
+/* --------------- / Di la tua NEW --------------- */
+
+
+/* ================================================ */
+/* ================================================ */
+/* ================ HOME PAGE SEZIONE ============= */
+/* ================================================ */
+/* ================================================ */
+
+.articles-home-hpsez {
+	width: 410px;
+	font-family: Arial, Helvetica, sans;
+	font-size: 1.2em;
+	color: #656565;
+	line-height: 1.3;
+}
+
+div.articles-home-hpsez div.apertura p.subtitle {
+	display: none;
+}
+
+div.articles-home-hpsez div.apertura .homearticle-box {
+	background:none;
+}
+
+div.articles-home-hpsez div.apertura img.left {
+	margin-right:8px;
+	margin-top:3px;
+
+}
+
+div.articles-home-hpsez div.apertura h2 {
+	clear:both;
+	color:#5B5B5B;
+	font-size:2em;
+	letter-spacing: -1px !important;
+	line-height:1.05;
+	margin-bottom:0.5em;
+	padding-top:12px;
+	text-align:left;
+	font-weight: normal;
+	background: none;
+}
+
+div.articles-home-hpsez div.apertura h2 a {
+	color: #5b5b5b;
+}
+
+div.articles-home-hpsez div.apertura p {
+	margin-bottom: 1em;
+	color: #606163;
+	padding-right:3px;
+}
+
+.articles-home-hpsez .piede {
+	margin-right:10px;
+}
+
+.articles-home-hpsez a {
+	color: #656565;
+	text-decoration: none;
+}
+
+.articles-home-hpsez ul {
+	margin-top: -3px;
+}
+
+.articles-home-hpsez h2 {
+	font-family: Georgia, Palatino, serif;
+	color: #333333;
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-x left top;
+	margin-top:3px;
+	padding-top:5px;
+}
+
+.articles-home-hpsez h2 img.foto {
+	margin: 0 10px 10px 0;
+	width:100px;
+}
+
+.articles-home-hpsez p {
+	margin-bottom:15px;
+}
+
+.articles-home-hpsez h3.date {
+	color: #D52228;
+	font-size: 1.2em;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-x left top;
+	font-weight: bold;
+	margin-top:15px;
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+
+
+/* vecchie classi archivio */
+
+.archivio {
+	font-size: 1.2em;
+	color: #656565;
+	line-height: 1.3;
+}
+
+.archivio a {
+	color: #656565;
+	text-decoration: none;
+}
+
+.archivio .paging {
+	text-align: right;
+	margin-top:5px;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+
+
+.archivio .paging a.freccia_pre{
+	margin-right:540px;
+}
+
+.archivio .paging a.freccia_pre_ultima{
+	margin-right:590px;
+}
+
+.archivio ul {
+	margin-top: -10px;
+	margin-right: 20px;
+}
+
+.archivio h2 {
+	font-family: Georgia, Palatino, serif;
+	color: #333333;
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/dots.gif) repeat-x left top;
+	margin-top:3px;
+	padding-top:5px;
+}
+
+.archivio h2 img.foto {
+	margin: 0 10px 10px 0;
+	width:100px;
+}
+
+.archivio p {
+	margin-bottom:15px;
+}
+
+.archivio h3.date {
+	color: #D52228;
+	font-size: 1.2em;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/dots.gif) repeat-x left top;
+	font-weight: bold;
+	margin-top:15px;
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+
+/* vecchie classi archivio */
+
+/* box pdf */
+
+.pdf-economia {background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/sfondo_boxpdf.gif) repeat-x left bottom; padding: 10px;}
+.pdf-economia h3 {font-weight: bold; margin: 0 0 5px 0; font-size: 1.1em; padding-top: 10px;}
+.pdf-economia h3 img {float: left; margin: -10px 10px 0 0; border: 1px solid #DDDDDD; border-right: 3px solid #E6E5E5; border-bottom: 3px solid #E6E5E5;}
+.pdf-economia .pdf {display: block; margin: 7px 0 0 0;}
+
+/* / box pdf */
+
+/* paginazione */
+div.navigator {
+	margin: 10px 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div.navigator div.nav_left,
+div.navigator div.nav_right,
+div.navigator div.nav_pages {
+	float: left;
+}
+
+div.navigator div.nav_left,
+div.navigator div.nav_right {
+	width: 30px;
+}
+
+div.navigator div.nav_left img,
+div.navigator div.nav_right img {
+	width: 10px;
+	height:10px;
+	border:none;
+}
+
+div.navigator div.nav_right {
+	text-align: right;
+}
+
+div.navigator div.nav_pages {
+	width: 559px;
+	text-align: center;
+}
+
+div.navigator div.nav_pages a {
+	color: #666666;
+	margin: 0 3px;
+}
+
+div.navigator div.nav_pages a.current {
+	color: #FEA700;
+	font-weight: bold;
+}
+
+div.navigator div.nav_pages a strong {
+	color: #FEA700;
+	font-weight: bold;
+}
+
+/* fine paginazione */
+
+/* datepicker agenda */
+#j-calendar {
+	margin-bottom: 15px;
+}
+
+#j-calendar h2 {
+	text-transform: lowercase;
+
+
+	font-family:"Trebuchet MS";
+font-size:2em;
+line-height:1em;
+margin:0 0 15px;
+}
+
+#j-calendar h2:first-letter {
+	text-transform: uppercase;
+}
+
+.dp-nav-prev-month {
+	position: absolute;
+	top: -40px;
+	left: 0;
+}
+
+.dp-nav-next-month {
+	position: absolute;
+	top: -40px;
+	left: 282px;
+}
+
+table.jCalendar {
+	width: 294px;
+	border: none;
+	border-collapse: collapse !important;
+	border-spacing: 0 0 !important;
+	margin: -15px 0 0 0;
+}
+
+table.jCalendar thead tr {
+	background: #FFE288;
+}
+
+table.jCalendar thead tr th {
+	color: #495A58;
+	background: #FFE288 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/vertical_separator.gif) no-repeat right;
+	text-align:center;
+	font-size:1em;
+	width: 42px;
+	height: 20px;
+	vertical-align: middle;
+	padding: 0;
+	border: none;
+}
+
+table.jCalendar tbody tr td {
+	color: #3E4C5B;
+	text-align: center;
+	font-size:1.2em;
+	font-weight:bold;
+	vertical-align:middle;
+	height: 25px;
+	width: 40px;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/calendar_cell_bg.gif) bottom right no-repeat;
+	padding: 0 2px 2px 0;
+}
+
+table.jCalendar td.other-month {
+	color: #aaa;
+}
+
+table.jCalendar td.today {
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/calendar_cell_bg_current.gif) bottom right no-repeat;
+	color: #4D4D4D;
+}
+
+table.jCalendar td.selected {
+	color: #4D4D4D;
+	border: none;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/calendar_cell_bg_sel.gif) bottom right no-repeat;
+	padding: 0;
+}
+
+table.jCalendar td.selected:hover {
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/calendar_cell_bg_sel.gif) bottom right no-repeat;
+	color: #fff;
+}
+
+table.jCalendar td:hover, table.jCalendar td.dp-hover {
+	background-color: #fff;
+	color: #BBBBBB;
+	text-decoration: underline;
+}
+
+table.jCalendar td.disabled, table.jCalendar td.disabled:hover {
+	color: #D8D8D8;
+}
+
+table.jCalendar td.disabled:hover {
+	text-decoration: none;
+}
+
+/* For the popup */
+
+/* NOTE - you will probably want to style a.dp-choose-date - see how I did it in demo.css */
+
+div.dp-popup {
+	position: relative;
+	font-size: 10px;
+	font-family: arial, sans-serif;
+	padding: 2px;
+	line-height: 1.2em;
+	color:#495A58;
+	text-transform: uppercase;
+}
+
+div#dp-popup {
+	position: absolute;
+	z-index: 199;
+}
+
+div.dp-popup h2 {
+	font-size: 12px;
+	text-align: center;
+	margin: 2px 0;
+	padding-bottom:6px;
+}
+
+a#dp-close {
+	font-size: 11px;
+	padding: 4px 0;
+	text-align: center;
+	display: block;
+}
+
+a#dp-close:hover {
+	text-decoration: underline;
+}
+
+div.dp-popup a {
+	color: #000;
+	text-decoration: none;
+	padding: 3px 2px 0;
+}
+
+div.dp-popup div.dp-nav-prev {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 100px;
+}
+
+div.dp-popup div.dp-nav-prev a {
+	float: left;
+}
+
+/* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
+
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a {
+	cursor: pointer;
+}
+
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled {
+	cursor: default;
+}
+
+div.dp-popup div.dp-nav-next {
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	width: 100px;
+}
+
+div.dp-popup div.dp-nav-next a {
+	float: right;
+}
+
+div.dp-popup a.disabled {
+	cursor: default;
+	color: #aaa;
+}
+
+div.dp-popup td {
+	cursor: pointer;
+}
+
+div.dp-popup td.disabled {
+	cursor: default;
+}
+/* fine datepicker agenda */
+
+
+/* pannello di ricerca piaceri */
+div.box_piaceri {
+	width: 619px;
+	margin-bottom: 30px;
+}
+
+div.box_piaceri div.box_top {
+	width: 619px;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat 0 -191px;
+	height: 4px;
+	font-size: 0;
+}
+
+div.box_piaceri div.box_bottom {
+	width: 619px;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat 0 -208px;
+	height: 8px;
+	font-size: 0;
+	padding: 0;
+}
+
+div.box_piaceri div.box_body {
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/search_box_bg.gif) right repeat-y;
+	padding: 22px 10px 10px 10px;
+}
+
+div.box_piaceri div.box_body_simple {
+	padding-bottom: 25px;
+}
+
+div.box_piaceri div.box_body ul.options {
+	background: #FFE288;
+	height: 19px;
+	width: 594px;
+	padding: 0;
+	margin: 0 0 12px 0;
+}
+
+div.box_piaceri div.box_body ul.options li {
+	float: left;
+	width: 99px;
+}
+
+div.box_piaceri div.box_body ul.options a.opt {
+	display: block;
+	text-transform: uppercase;
+	height: 19px;
+	font-size: 0.9em;
+	line-height: 19px;
+	text-align: center;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/vertical_separator.gif) right no-repeat;
+}
+
+div.box_piaceri div.box_body ul.options a.last {
+	background: none !important;
+}
+
+div.box_piaceri div.box_body ul.options a.selected {
+	background: #FEA700;
+	font-weight: bold;
+}
+
+div.box_piaceri div.box_body h4.piacere_napoli {
+	text-indent: -5000px;
+	width: 136px;
+	height: 22px;
+	margin-right: 10px;
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) no-repeat -125px -82px;
+}
+
+div.box_piaceri div.box_body form input,
+div.box_piaceri div.box_body form select {
+	border: 1px solid #FFEFC1;
+	background: #FFFAEC;
+	margin: 2px 0;
+}
+
+div.box_piaceri div.box_body form select.type1 {
+	width: 294px;
+	margin-right: 3px;
+}
+
+div.box_piaceri div.box_body form select.type2 {
+	width: 294px;
+}
+
+div.box_piaceri div.box_body form select.location {
+	width: 240px;
+	margin-right: 3px;
+}
+
+div.box_piaceri div.box_body form input.address {
+	width: 290px;
+	margin-right: 3px;
+}
+
+div.box_piaceri div.box_body form input.key {
+	width: 445px;
+	margin-bottom: 5px;
+}
+
+div.box_piaceri div.box_body form input.key_simple {
+	width: 367px;
+	margin: 2px 10px 2px 0;
+}
+
+div.box_piaceri div.box_body form div.fields {
+	width: 594px;
+	border-top: 1px solid #E4E4E4;
+	margin-top: 4px;
+	padding-top: 5px;
+}
+
+div.box_piaceri div.box_body form input.search_btn {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) 0 -130px no-repeat;
+	border: none;
+	width: 48px;
+	height: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.titolo{
+	font-size:1em;
+}
+
+#foto_giorno {
+	background-color: #464646;
+	background-image: url(//images2-milano.corriereobjects.it/images/title_foto.png);
+	background-repeat: no-repeat;
+	background-position: 5px 10px;
+	padding: 30px 0px 5px 0px;
+}
+
+#foto_giorno img {
+ margin:10px 0px 0px 5px;
+}
+
+#foto_giorno .title {
+	background-image: url(//images2-milano.corriereobjects.it/images/back_foto.png);
+	background-repeat: repeat;
+	position:absolute;
+	margin:-40px 0px 0px 5px;
+	/*margin:-57px 0px 0px 5px;*/
+	width:180px;
+	padding: 11px 0px 10px 9px;
+	color:#fff;
+	font-size:1.1em;
+	opacity: 0.70;
+	filter: Alpha(Opacity=70,);
+}
+
+.riga_separatore{
+	border-bottom:1px solid #d8d8d8;
+	height:1px;
+	margin:5px 0px 10px 0px;
+	width:310px;
+}
+.search_piaceri, .search_indirizzi, .meteo, .search_cinema, #box-trovolavoro-casa-auto, div.italiaoggi, #swf-agenda{
+	margin-left:10px;
+/*	width:302px; */
+	padding:0px;
+	display:block;
+}
+
+.search_piaceri .form-container, .search_indirizzi .form-container, .search_cinema .form-container {
+	background: #F0EAE4 none;
+	padding: 10px 0 10px 7px;
+	width:295px;
+}
+
+.logo_vivi{
+	padding-left:10px;
+}
+
+
+
+/* --------------- / banner header ------------ */
+#superbox {width: 1002px; min-height: 30px; height: auto !important; height: 30px; margin: 0; text-align: left;}
+#bannerone {float: left; width: 730px; border: 1px solid #ffffff;}
+#bigbox {float: left; border: 0px solid; width: 260px; margin: 2px 0 0 0;}
+#boxtop {float: left; padding: 0;}
+#boxmiddle {float: left; border: 0px solid red; border-top: 1px solid #F9CDE8;}
+#boxbottom {float: left; border: 0px solid black; padding: 0;}
+#boxbottom form {margin: 0; padding: 0;}
+#boxbottom select {width: 60px; font: 10px arial;}
+/* --------------- / banner header ------------ */
+
+
+/* --------------- / vaschetta 3 ------------ */
+.articles-home .vaschetta3 {
+
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_threenote.gif) repeat-y scroll 130px top;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.articles-home .vaschetta3 li {
+	display: block;
+	float: left;
+	width: 120px;
+	padding: 0;
+	color: #5b5b5b;
+	font-size: 1.1em;
+	margin-right: 20px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x left top;
+	padding-top: 10px;
+}
+
+.articles-home .vaschetta3 .last {
+	margin: 0;
+}
+
+.articles-home .vaschetta3 img {
+	padding-bottom: 8px;
+}
+
+.articles-home .vaschetta3 img.img-inline {
+	padding-bottom: 0;
+}
+.articles-home .vaschetta3 .section {
+	border: none;
+	padding: 0;
+	line-height: 1.2;
+	margin-right: 0;
+}
+.articles-home .vaschetta3 .section.bg_img {
+    height: 11px;
+    padding: 4px 5px;
+}
+.articles-home .vaschetta3 .section a {
+	border: none;
+	padding: 0;
+	line-height: 1.2;
+}
+/* --------------- / vaschetta 3 ------------ */
+
+.col2-home .cerca-libri{
+	background-color:#EDEDED;
+	margin-bottom:10px;
+}
+
+.col2-home .cerca-libri h3{
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) repeat-y scroll -265px -222px;
+	height:22px;
+	text-indent:-5000px;
+	width:195px;
+}
+
+.col2-home .cerca-libri .bt-cerca{
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/css_sprite.png) repeat-y scroll -462px -223px;
+	height:20px;
+	text-indent:-5000px;
+	width:60px;
+	cursor:pointer;
+	border:none;
+}
+
+.col2-home .cerca-libri .input{
+	background-color:#DEDEDE;
+	display:block;
+	padding:5px 5px 5px 5px;
+	margin:0px 5px 0px 5px;
+	font-size:1em;
+}
+
+.col2-home .cerca-libri .input li{
+	float:left;
+	padding-right:5px;
+}
+
+.col2-home .cerca-libri input{
+	width:110px;
+	margin-bottom:5px;
+	font-size:1em;
+}
+
+.col2-home .cerca-libri select{
+	width:128px;
+	font-size:1em;
+}
+.col2-home .cerca-libri p{
+	padding:5px 5px 5px 5px;
+	font-size:0.8em;
+}
+
+ .box_schiavi{
+	background-image: url(//images2-milano.corriereobjects.it/images/sfondotabella.gif);
+	overflow:hidden;
+	display:block;
+	padding:5px;
+}
+.box_schiavi .immagine{
+	float:left;
+	width:143px;
+}
+
+.topschiavi{
+	background: transparent url(//images2-milano.corriereobjects.it/images/top_contornotabella.gif) no-repeat;
+	height:5px;
+	display:block;
+}
+
+.bottomschiavi{
+	background: transparent url(//images2-milano.corriereobjects.it/images/bottom_contornotabella.gif) no-repeat;
+	height:10px;
+	display:block;
+	margin-bottom:20px;
+}
+
+.casogiorno{
+	width:400px;
+}
+
+.container_schiavi .casodelgg_dida {
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	float:left;
+	width:145px;
+}
+
+.casodelgg_foto {
+	margin:3px 10px 3px 0;
+}
+
+.casodelgg_testo {
+	font-family:georgia;
+	font-size:11px;
+	line-height:16px;
+	float:left;
+}
+
+.casodelgg_testo a {
+	font-family:georgia;
+	font-size:11px;
+	line-height:16px;
+	text-decoration:underline;
+}
+
+
+/* --------------------- NUOVA VSCHETTA ---------------------------- */
+
+#img_bordo_tv {
+ height: 66px;
+ width: 89px;
+background: transparent url(//images2.corriereobjects.it/images/static/common/css_sprite-1.1.png) no-repeat scroll -103px -225px;
+}
+
+#img_bordo_tv a img {
+	width: 75px;
+	height: 60px;
+}
+
+#allinea_dx{
+float:left;
+}
+
+.corriere_content_tv{
+	width:auto;
+	}
+
+.corriere-tv-bottom_new div.icona {
+ 	height: 7px;
+ 	width: 11px;
+	background: transparent url(//images2.corriereobjects.it/images/static/common/css_sprite-1.1.png) no-repeat scroll left -225px;
+	display: block;
+	height: 7px;
+}
+
+#corriere-tv-mid_new {
+    border: 1px solid #d7dae1;
+    background: #cbc7c8 url(//images2.corriereobjects.it/images/static/common/sfondo_tv.jpg) repeat-x left top;
+	width:620px;
+	overflow: hidden;
+	margin-bottom: 11px;
+	height:195px;
+}
+
+#corriere-tv-mid_small {
+	 background-color:#ddded5;
+	width:402px;
+	overflow: hidden;
+	margin-bottom: 11px;
+	height:172px;
+}
+
+
+
+#corriere-tv-mid_small div {
+	position:relative;
+}
+#corriere-tv-mid_small span {
+	font-size:0.9em;
+	font-weight: bold;
+	padding-left:5px;
+}
+#corriere-tv-mid_small span.icona_foto {
+	clear:both;
+	background: url(//images2-milano.corriereobjects.it/global/images/fotoIco.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 13px;
+    position: absolute;
+    top: 47px;
+    width: 74px;}
+	#corriere-tv-mid_small span.icona_video {
+	clear:both;
+	 background: url(//images2-milano.corriereobjects.it/global/images/videoIco.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 13px;
+    position: absolute;
+    top: 47px;
+    width: 74px;}
+	#corriere-tv-mid_small span.icona_audio {
+	clear:both;
+	 background: url(//images2-milano.corriereobjects.it/global/images/videoIco.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 13px;
+    position: absolute;
+    top: 47px;
+    width: 74px;}
+.corriere-tv-top_new li.macro-section {
+	background: url(//images2-milano.corriereobjects.it/global/images/logo_TV.png) no-repeat scroll 0 0 transparent;
+	text-indent:-5000px;
+	display:block;
+}
+
+
+
+
+.salute-tv-mid_small {
+    background: transparent url(//images2.corriereobjects.it/images/static/common/sfondo_salute_tv_superslim.jpg) no-repeat left top !important;
+}
+
+.corriere-tv-top_new {
+	height: 20px !important;
+	background: url(//images2-milano.corriereobjects.it/global/images/bg-pattern.png) repeat scroll 0 0 transparent;
+}
+.corriere-tv-top_new li.visti {
+	display: block;
+	float: right;
+	margin-left: 9px;
+}
+
+.corriere-tv-top_new li a.link_visti {
+background: transparent url(//images2.corriereobjects.it/images/static/common/css_sprite-1.1.png) no-repeat scroll -451px -257px;
+	display: block;
+	height: 20px;
+	width:55px;
+	text-indent: -5000px;
+}
+
+.corriere-tv-top_new li {
+	display: block;
+	margin-left: 5px;
+	color: #F8AA00;
+	font-size: 1.2em;
+}
+
+.corriere-tv-top_new li a {
+	color: #F8AA00;
+	text-decoration: none;
+	font-weight: bold;
+}
+ul.angoli_bottom{
+position:absolute;
+width: 622px;
+margin-left:-1px;
+}
+ul.angoli_bottom_small{
+	display: none;
+}
+ul.angoli_bottom li.angoli_bottom_sx, ul.angoli_bottom_small li.angoli_bottom_sx{
+float:left;
+}
+ul.angoli_bottom li.angoli_bottom_dx, ul.angoli_bottom_small li.angoli_bottom_dx{
+float:right;
+}
+ul.angoli_top{
+position:absolute;
+width: 622px;
+margin-left:-1px;
+margin-top:-1px;
+}
+ul.angoli_top_small{
+	display: none;
+}
+ul.angoli_top li.angoli_top_sx, ul.angoli_top_small li.angoli_top_sx{
+float:left;
+}
+ul.angoli_top li.angoli_top_dx, ul.angoli_top_small li.angoli_top_dx{
+float:right;
+}
+#corriere-tv-mid_new .symbol, #corriere-tv-mid_small .symbol {
+	font-size: 16px;
+}
+
+.corriere-tv-top_new li.macro-section a{
+	display: block;
+	height: 27px;
+	width: 107px;
+}
+
+.corriere-tv-top_new li.macro-section strong {
+	color: #c2d0dd;
+	font-family: Georgia, Palatino, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.corriere-tv-top_new li.macro-section a strong {
+	color: #A4B4D6;
+}
+
+#corriere-tv-mid_new ul.corriere-tv-bottom_new {
+	clear: both;
+	color: #CBCAD0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 6px 0 5px 6px;
+	height: 132px;
+	width:auto;
+	position:relative;
+}
+
+#corriere-tv-mid_small ul.corriere-tv-bottom_new {
+	clear: both;
+	color: #CBCAD0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 6px 0 0 12px;
+	margin-right: 2px;
+	height: 128px;
+	position:relative;
+}
+
+.corriere-tv-bottom_new a {
+	float:left;
+	color: #000000;
+}
+
+.corriere-tv-bottom_new h4 {
+	color: #A1B6D5;
+	font-family: Arial, Helvetica, sans;
+	margin-top: 3px;
+	margin-bottom: 2px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.corriere-tv-bottom_new h4 a {
+	color: #A1B6D5;
+}
+
+.corriere-tv-bottom_new img {
+	display: inline;
+	vertical-align:top;
+}
+
+.corriere-tv-bottom_new .anteprima {
+	border: 1px solid #626473;
+	display: inline;
+}
+
+ul.corriere-tv-bottom_new li p a {
+color:#000000;
+
+}
+
+#corriere-tv-mid_new ul.corriere-tv-bottom_new li {
+	float:left;
+	width: 86px;
+	margin-right: 12px;
+	font-size: 1.1em;
+	line-height: 1.2;
+	display: none;
+}
+
+#corriere-tv-mid_small ul.corriere-tv-bottom_new li {
+	float:left;
+	width: 86px;
+	margin-right: 6px;
+	/*font-size: 1.1em;*/
+	/* LA DIMENSIONE DEL FONT E' DEFINITO IN PX IN QUANTO LA VASCHETTA SMALL VERRA' INSERITA IN DIVERSE PARTI DELLA HP E IL FONT-SIZE DEFINITO IN em SI PROPORZIONEREBBE AGLI STILI DEGLI ELENTI IN CUI E' INSERITO */
+	font-size: 11px;
+	line-height: 1.2;
+	display: none;
+
+}
+
+#corriere-tv-mid_small a#mycarousel-prev_new {
+	background: url("//images2-milano.corriereobjects.it/global/images/prev_tv.png") no-repeat scroll 0 0 transparent;
+}
+
+#corriere-tv-mid_small a#mycarousel-next_new {
+	background: url("//images2-milano.corriereobjects.it/global/images/next_tv.png") no-repeat scroll 0 0 transparent;
+}
+
+.corriere-tv-bottom_new li.last {
+	margin-right: 0;
+}
+
+.corriere-tv-bottom_new li p {
+	line-height: 15px;
+	margin-bottom: 0px;
+	height: 60px;
+	overflow: hidden;
+}
+
+#corriere-tv-mid_new .content_separatore{
+height:1px;
+margin-left: 10px;
+float: left;
+}
+#corriere-tv-mid_new .content_separatore li{
+height:1px;
+width: 600px;
+background: transparent url(//images2.corriereobjects.it/images/static/common/css_sprite-1.1.png) no-repeat scroll -92px -293px;
+display:block;
+}
+
+#corriere-tv-mid_new .freccevaschetta {
+	height: 17px;
+	padding-top: 6px;
+	margin: 0px 10px 0px 10px;
+	background: transparent url(//images2.corriereobjects.it/images/static/common/css_sprite-1.1.png) no-repeat scroll -92px -293px;
+}
+
+#corriere-tv-mid_small .freccevaschetta {
+	margin: 0px 10px;
+	background: transparent none;
+}
+#corriere-tv-mid_new .freccevaschetta li, #corriere-tv-mid_small .freccevaschetta li {
+	float: left;
+	display: block;
+	width: 82px;
+}
+
+#corriere-tv-mid_new .freccevaschetta li a, #corriere-tv-mid_small .freccevaschetta li a {
+	display: block;
+	height: 15px;
+}
+
+#corriere-tv-mid_new .freccevaschetta li.avanti, #corriere-tv-mid_small .freccevaschetta li.avanti  {
+	float: right;
+}
+
+
+
+/* --------------------- FINE NUOVA VASCHETTA ---------------------------- */
+
+/* Paginazione Start */
+ul.ul-paging {}
+ul.ul-paging li {display:block;float:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:center;line-height:30px}
+ul.ul-paging li.meno-recenti-pag {text-align:left;width:57px}
+ul.ul-paging li.numero-pagine-pag {width:423px;font-style:italic}
+ul.ul-paging li.piu-recenti-pag {text-align:right}
+/* Paginazione Stop */
+
+#pushbar {
+text-align:center;
+margin-top:5px;
+}
+
+
+
+
+
+
+
+#vxFlashPlayer {left:-17px!important} /*Centratura Local 20090724*/
+
+/* pagina di errore */
+
+p.error-page {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color:#999999;
+	line-height: 30px;
+	text-align: center;
+}
+
+p.error-page strong {
+	font-weight: normal;
+	color:#cc3333;
+}
+
+p.error-page a {
+	text-decoration: underline;
+	color:#336699;
+}
+
+
+/* mappe */
+#localMap {
+	width:620px !important;
+	height:400px  !important;
+	position:relative;
+	border: 1px solid #D1D1D2  !important;
+	margin: 20px 0;
+	clear: both;
+}
+
+#localMap li,
+.pushpin-entita ul.pushpin-info,
+.pushpin-evento ul.pushpin-info {
+	display:none;
+}
+
+#localMap a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#localMap .map-pin-icon {
+	font-size:11px;
+	font-weight:bold;
+	height:29px;
+	line-height:22px;
+	overflow:hidden;
+	text-align:center;
+	width:25px;
+	z-index:500;
+	display: block;
+}
+
+#localMap .map-pin-icon .VE_PushpinImage {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.VE_Pushpin_Popup_Title {
+	font-size:14px;
+	padding-bottom:0 !important;
+}
+
+.infobox {
+	border:1px solid #5D6476;
+	background-color:#ffffff;
+	position:absolute;
+	padding:8px;
+	z-index:1500;
+	width: 200px;
+	margin-left: 20px;
+}
+.customInfoBox-with-leftBeak {
+	width:220px !important;
+	margin: 10px 0 0 12px;
+}
+
+.map-pin-title {
+	font-family: "trebuchet MS", arial;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #5d6476;
+	margin-bottom: 7px;
+	display: block;
+	padding: 0 5px;
+}
+
+.title-green {
+	/*color: #fe0000;*/
+	color: #ffffff;
+	background: #7be18e none;
+}
+
+.title-orange {
+	/*color: #eb6a13;*/
+	color: #ffffff;
+	background: #ffc095 none;
+}
+
+.title-red {
+	/*color: #eb6a13;*/
+	color: #ffffff;
+	background: #fd9999 none;
+}
+.title-pink,
+body.fuorisalone .title-red {
+	color: #ffffff;
+	background: #ff3399 none;
+}
+
+.title-blu {
+	/*color: #0d5f97;*/
+	color: #ffffff;
+	background: #75c1f6 none;
+}
+
+
+.title-rosso {
+	/*color: #eb6a13;*/
+	color: #ffffff;
+	background: #cc2026 none;
+}
+
+.map-pin-description {
+	font-family: "trebuchet MS", arial;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5d6476;
+	line-height: 18px;
+}
+
+.map-pin-description a.map-pin-link {
+	font-family: "trebuchet MS", arial;
+	font-size: 14px;
+	font-weight: normal;
+	color: #68a8d4;
+	display: block;
+	text-decoration: underline;
+	padding-top: 5px;
+}
+body.fuorisalone .map-pin-description a.map-pin-link {
+	color: #939d99;
+}
+
+#map {
+    background: none repeat scroll 0 0 #EFEDE8;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+#main #map .MSVE_Map{
+	position: relative !important;
+}
+
+#main #romeMap .MSVE_Map{
+	position: relative !important;
+}
+
+.second-column-rappresentanti #map div {
+    margin: 0;
+    padding: 0;
+}
+
+#dettagli-comune #mappa-comune-link {
+    margin-top: 18px;
+    padding: 0;
+}
+
+
+/* info politico */
+div.info-politico h1{
+	border-bottom: 1px solid #dbd5c6;
+	color: #2f5eb1;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	font-family:Arial,Helvetica,Sans-serif;
+}
+
+div.info-politico div.incarichi .incarichi-testo{
+	margin-left: 116px;
+	font-family:Arial,Helvetica,Sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+div.info-politico div{
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	padding-right: 0pt;
+	padding-bottom: 10px;
+	padding-left: 0pt;
+	font-family:Arial,Helvetica,Sans-serif;
+	color: #666666;
+}
+
+div.info-politico div.incarichi{
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dbd5c6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbd5c6;
+	margin-bottom: 5px;
+	line-height: 24px;
+	font-family:Arial,Helvetica,Sans-serif;
+}
+/* fine info politico */
+
+/* popup alert js */
+
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	width: 360px !important;
+	height: 160px !important;
+	overflow: hidden;
+	color: #767676;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_alert.gif) no-repeat 0 0;
+	/*background: #eeeeee;
+	border: 5px solid #5c5c5c;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;*/
+}
+
+#popup_title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #eeeeee;
+	background: #5c5c5c none;
+	cursor: default;
+	padding: 3px 0 5px 0;
+	margin: 3px 2px 0 2px;
+}
+
+#popup_message {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: Arial, sans-serif;
+}
+
+#popup_content {
+	padding: 10px 20px;;
+	margin: 0em;
+}
+
+#popup_ok {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bt-chiudi.gif) no-repeat scroll 0 0;
+	border:0 none;
+	cursor:pointer;
+	height:20px;
+	padding-bottom:4px;
+	text-indent:-5000px;
+	width:60px;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+.manchette-dx {
+float:right !important;
+text-align:right;
+width:270px;
+padding:3px 0px 0px 0px;
+
+}
+
+.thumb-list div {
+	text-align:center;
+}
+
+
+/* striscia fotogallery accessibile */
+
+.striscia-fotogallery {
+	height: 90px;
+	display: block;
+	padding-bottom: 4px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x scroll left bottom
+}
+
+.striscia-fotogallery span.title {
+	display: block;
+	font-family:verdana;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 0;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x scroll left top;
+}
+
+.striscia-fotogallery img.image {
+	display: inline !important;
+	margin: 0px;
+	padding: 0;
+}
+.striscia-fotogallery .gallery5 {
+	
+}
+.striscia-fotogallery .gallery5 li{
+	 float: left;
+    width: 80px;
+}
+
+.striscia-fotogallery .gallery5 a {
+  float: left;
+    height: 50px;
+    overflow: hidden;
+}
+.striscia-fotogallery-testo span.box-image {
+	float: left;
+	margin: 8px 10px 0 0;
+}
+
+.striscia-fotogallery-testo span.box-image img {
+	display: block;
+}
+
+.striscia-fotogallery-testo {
+	display: block;
+	padding-bottom: 8px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x scroll left bottom;
+	line-height: 18px;
+}
+
+.striscia-fotogallery-testo img.graf-foto{
+	margin:-13px 0 0 62px;
+}
+
+.striscia-fotogallery-testo span.title {
+	font-weight: bold;
+	color: #464646;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x scroll left top;
+	margin-bottom: 8px;
+}
+
+.striscia-fotogallery-testo span.sommario {
+	color: #464646;
+	text-decoration: none;
+	display: block;
+}
+
+/*Player*/
+
+span.Embed-Player {
+  float:left;
+  margin: 0 10px 0 0;
+}
+
+.Embed-Player .Embed-Player {
+	margin:0;
+}
+div.testata_player_190,
+div.testata_player_300,
+div.testata_player_400,
+div.testata_player_620,
+.Embed-Player div.testata_player {
+	background-color:#262525;
+	color:#FFFFFF;
+	line-height:17px;
+	padding:3px 6px 5px 8px;
+}
+div.testata_player_190 {
+	width:176px;
+}
+div.testata_player_300 {
+	width:286px;
+}
+div.testata_player_400 {
+	width:386px;
+}
+div.testata_player_620 {
+	width:606px;
+}
+.homearticle-box .Embed-Player {
+	float:left;
+	margin:1px 10px 10px 0;
+}
+.player_artview_dx .Embed-Player {
+	float:right !important;
+	margin:0 0 0 10px !important;
+}
+
+.player_artview_dx .Embed-Player {
+  float:right;
+  margin: 0 0 0 10px;
+}
+#altri-titoli {
+	background-color:transparent;
+	background-image:url(//images2.corriereobjects.it/images/static/common/punto_orizzontale.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+	padding-top:7px;
+}
+#altri-titoli h4 {
+	color:#BB1612;
+	font-size:1.15em;
+	font-weight:bold;
+	letter-spacing:normal;
+	margin-bottom:0.6em;
+}
+#altri-titoli ul {
+	list-style-type:disc;
+	margin-bottom:1em;
+	padding-left:1.2em;
+}
+#altri-titoli div {
+	color:#BB2737;
+	font-family:Georgia,Palatino,serif;
+	font-size:1.1em;
+	margin-bottom:5px;
+	text-decoration:none;
+}
+#altri-titoli li {
+	color:#C91D37;
+	font-family:Georgia,Palatino,serif;
+	padding:1px 0;
+}
+#altri-titoli li a {
+	font-size:1em;
+}
+
+#altri-titoli li a {
+	color:#767778;
+	font-size:0.9em;
+	text-decoration:none;
+}
+#altri-titoli h4 span {
+	color:#4D5562;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+/* location switch autocomplete */
+#switch-loc {
+	display: none;
+	position: absolute;
+	top: 33px;
+	right: 60px;
+	z-index: 9000;
+	width: 350px;
+	padding: 5px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg-switch.gif) no-repeat 0 0;
+}
+
+#switch-loc p {
+	position: relative;
+	padding: 3px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #eee;
+}
+
+#switch-loc p a {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	font-size: 10px;
+	color: #fff;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/btn-chiudi.gif) no-repeat right 2px;
+	font-weight: normal;
+	text-transform:capitalize;
+	padding-right: 12px;
+	padding-bottom: 2px;
+}
+
+#switch-loc form {
+	overflow: hidden;
+	height: 58px;
+}
+
+#switch-loc fieldset {
+	margin-top: 13px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+#switch-loc input {
+	float: left;
+	width: 250px;
+	margin: 0 10px 0 15px;
+	border: 1px solid #a5acb2;
+}
+
+#switch-loc .check {
+	width: 14px;
+	border: 0;
+}
+
+#switch-loc a#gotoloc {
+	float: left;
+	display: block;
+	width: 59px;
+	height: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #eee;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bt-vai.gif) no-repeat 0 0;
+	text-align: center;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/*
+	if width will be 100% horizontal scrollbar will apear
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/*
+	it is very important, if line-height not setted or setted
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+/* fine location switch autocomplete */
+/* Container ADVERTISE */
+#simplemodal-overlay {background-color:#000;}
+.popup_advertise {display:none;}
+#simplemodal-advertise {position:relative;color:#737372;font-size:12px;font-family: Arial, Helvetica, sans-serif;height:125px; width:425px;padding:40px 20px 30px 20px;overflow:hidden;background-color: #FFFFFF;border:7px solid #efeff0;}
+#simplemodal-advertise span {text-decoration:underline;cursor:pointer;}
+#simplemodal-advertise .simplemodal-wrap {padding:0;}
+#simplemodal-advertise a.modalCloseImg {background:url(//images2.corriereobjects.it/images/static/common/x.gif) no-repeat; width:25px; height:25px; display:inline; z-index:3200; position:absolute; top:-4px; right:-3px; cursor:pointer;}
+
+/* jscrollpane default */
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #aaa;
+}
+
+.jScrollPaneDrag {
+	position: absolute;
+	background: #666;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background-color: #666;
+	height: 9px;
+}
+
+a.jScrollArrowUp:hover {
+	background-color: #f60;
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background-color: #666;
+	height: 9px;
+}
+
+a.jScrollArrowDown:hover {
+	background-color: #f60;
+}
+
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-color: #f00;
+}
+
+/* scrollbars personalizzate */
+
+#box-news .jScrollPaneTrack {
+	background: url(//images2.corriereobjects.it/images/static/common/windows_track.gif) repeat-y;
+}
+
+#box-news .jScrollPaneDrag {
+	background: url(//images2.corriereobjects.it/images/static/common/windows_drag_middle.gif) no-repeat 0 50%;
+}
+
+#box-news .jScrollPaneDragTop {
+	background: url(//images2.corriereobjects.it/images/static/common/windows_drag_top.gif) no-repeat;
+	height: 4px;
+}
+
+#box-news .jScrollPaneDragBottom {
+	background: url(//images2.corriereobjects.it/images/static/common/windows_drag_bottom.gif) no-repeat;
+	height: 4px;
+}
+
+#box-news a.jScrollArrowUp {
+	height: 17px;
+	background: url(//images2.corriereobjects.it/images/static/common/windows_arrow_up.gif) no-repeat 0 0;
+}
+
+#box-news a.jScrollArrowUp:hover {
+	background-position: 0 -20px;
+}
+
+#box-news a.jScrollArrowDown {
+	height: 17px;
+	background: url(//images2.corriereobjects.it/images/static/common/windows_arrow_down.gif) no-repeat 0 0;
+}
+
+#box-news a.jScrollArrowDown:hover {
+	background-position: 0 -20px;
+}
+
+#box-news a.jScrollActiveArrowButton,
+#box-news a.jScrollActiveArrowButton:hover {
+	background-position: 0 -40px;
+}
+
+/* box flash-news */
+
+#box-news {
+	background: #EDEEEE none;
+	padding: 0 10px;
+	background: #f8f8fa url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/sfondo_flash.gif) repeat-x scroll left top;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+}
+
+#box-news h3.box-heading {
+	color:#CC2026;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:14px;
+	height:24px;
+	line-height:24px;
+	margin-bottom:5px;
+	padding-bottom:2px;
+	font-weight:bold;
+}
+
+#box-news h3.box-heading a {
+	color:#CC2026;
+}
+
+#box-news h3.box-heading span  {
+	color:#5B6378;
+	font-size:20px;
+	font-weight:normal;
+}
+
+#box-news .bt-allnews {
+	background: transparent url(http://static.8100.corriereobjects.it/img/bt-allnews-grey.gif) no-repeat left top;
+	display:block;
+	height:19px;
+	text-indent:-5000px;
+	margin-top: 5px;
+}
+
+#box-news h3.box-heading em  {
+	display: none;
+}
+
+#flash-news {
+    width: 180px;
+    overflow: hidden;
+    height: 170px;
+}
+
+#flash-news ul li {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+	line-height: 18px;
+	background: transparent none;
+	padding: 0;
+}
+
+#flash-news ul li a {
+    color: #666666;
+}
+
+#flash-news ul li span {
+    color: #CC2026;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+#flash-news ul li span.section {
+    color: #2e66d0;
+	font-size: 12px;
+	text-transform: capitalize;
+    padding: 0 2px 0 4px;
+	margin: 0;
+	border: 0;
+	border-left:1px solid #666666;
+}
+
+.link-piuletti {
+	margin-bottom:10px;
+	background: #dfe1e0 url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/freccia_flash.gif) no-repeat right 4px;
+	border-top: 1px solid #E9EAEC;
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	padding: 2px 0;
+}
+
+.link-piuletti a {
+	color:#BB1612;
+	font-family:Georgia,Palatino,serif;
+	font-size:1em;
+	font-weight:bold;
+	padding-left:5px;
+	text-align:left;
+	text-decoration: none;
+}
+
+.link-piuletti a span {
+	color:#566173;
+	font-family:Georgia,Palatino,serif;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+p.reader  {
+	display:none;
+}
+#xp1 table {
+	margin-bottom: 15px;
+}
+
+#xp1 object,
+#xp1 embed {
+	width: 188px !important;
+}
+		/*NUOVI CSS TESTATINA MAPPE*/
+		#main #col-sx .tabs-agenda .title-tabs-abenda {
+      color:#5B6378;
+      font-size:18px;
+      font-weight:bold;
+      padding:6px 0 2px;
+      position:relative;
+		}
+		#main #col-sx .tabs-agenda .title-tabs-abenda a {
+      color:#5B6378 !important;
+		}
+		#main #col-sx .tabs-agenda .title-tabs-abenda span {
+		display:none;
+		  font-size:12px;
+		  color:#5b6378;
+		  font-family:Georgia,"Times New Roman",Times,serif;
+		  font-style:italic;
+		  font-weight:normal;
+		  position:absolute;
+		  right:0;
+		  top:11px;
+		}
+  body.itinerarivisentin .push-desc-baloon {
+      display:block;
+  }
+  body.itinerarivisentin ul.ris-agenda li h2 span a {
+	color:#FFFFFF;
+	display:block;
+	margin-left:3px;
+	padding:0;
+	text-align:center;
+	width:20px;
+	}
+  body.itinerarivisentin .push-desc-baloon a,
+  body.itinerarivisentin .push-desc-baloon {
+      color:#d72227;
+		  font-size:10px !important;
+		  font-family:Georgia,"Times New Roman",Times,serif;
+		  display:block;
+		  text-transform:uppercase;
+		  /*letter-spacing:-0.05em !important; */
+  }
+  body.itinerarivisentin .push-desc-baloon a {
+		  text-decoration:underline;
+		  display:inline;
+  }
+  body.itinerarivisentin .push-desc-baloon a.map-pin-link {
+		  font-size:10px !important;
+  }
+  body.itinerarivisentin #localMap {
+    width:618px !important;
+    margin:-10px 0 0 !important;
+  }
+  body.itinerarivisentin .localMap {
+    padding-bottom:20px;
+    background-color:#FFFFFF;
+    width:620px;
+    position:relative;
+  }
+  ul.ris-agenda li .pin-image,
+  ul.ris-agenda li .pin-tel,
+  ul.ris-agenda li .pin-link,
+  ul.ris-agenda li .pin-email,
+  .hide-box {
+  	display: none;
+  }
+  body.itinerarivisentin .infobox {
+	 width: 234px !important;
+	 font-size:13px !important;
+	 line-height:18px;
+	 color:#767676;
+  }
+  body.itinerarivisentin .map-pin-link {
+	 display:block;
+	 line-height:1px;
+	 text-decoration:none;
+  }
+  body.itinerarivisentin .customInfoBox-with-leftBeak {
+  	width:252px !important;
+  	margin: 10px 0 0 2px;
+  	/*margin: 10px 0 0 -20px;*/
+  }
+  body.itinerarivisentin .img_push_pin{
+  	margin-bottom:10px;
+  }
+  body.itinerarivisentin ul.ris-agenda li {
+    background:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto_orizzontale.gif) repeat-x scroll left top transparent;
+  }
+ /* body.itinerarivisentin div.evento div.corpo-centrale {
+  	width:400px !important;
+  }   */
+  #scheda_entita div.titolazione {
+    width:400px;
+  }
+  #scheda_entita div.img-dettaglio {
+    width:400px;
+    background:none;
+    border:none;
+    padding:0;
+    margin-top:5px;
+  }
+  .space_itinerari {
+    letter-spacing:-0.05em;
+  }
+  .VEAPI_Pushpin {
+    cursor:pointer;
+  }
+
+		/*FINE NUOVI CSS TESTATINA MAPPE*/
+
+
+
+/* box temporeale home */
+#box-temporeale {
+	background: #464646 none;
+	padding: 5px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#box-temporeale  a#logo_scommesse{
+	display:block;
+	width:65px;
+	height:27px;
+	float:right;
+}
+
+#box-temporeale em {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #fff;
+	font-style: normal;
+	padding: 2px 0;
+	display: block;
+}
+
+#box-temporeale ul  {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/bg_temporeale.gif) no-repeat 0 0;
+	overflow: auto;
+	margin-top: 17px;
+	padding: 5px;
+}
+
+#box-temporeale ul li {
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px dotted #fff;
+	overflow: auto;
+}
+
+#box-temporeale ul li.last {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+#box-temporeale ul li a,
+#box-temporeale ul li a span {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#box-temporeale ul li span {
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 13px;
+	padding: 1px 0;
+}
+
+#box-temporeale ul li span.squadra {
+	width: 80px;
+	color: #fff;
+}
+
+#box-temporeale ul li span.ris {
+	width: 20px;
+	text-align: center;
+	color: #ffff00;
+}
+
+#box-temporeale ul li span.status {
+	width: 80px;
+	text-align: right;
+	font-size: 9px;
+	font-weight: regular;
+	color: #ffff00;
+}
+
+#box-temporeale ul li span.link {
+	width: 80px;
+	text-align: right;
+	font-size: 9px;
+	font-weight: regular;
+	color: #fff;
+}
+
+/* ==============  / tabelle audiovideo   ============= */
+table.graf_tab_AV { margin: 0 0 20px 0;}
+table.graf_tab_AV td { vertical-align: top; padding: 0 5px 0 0;}
+table.graf_tab_AV td b { display: block; }
+table.graf_tab_AV td a { color: #464646 !important; }
+/*
+table.graf_tab_AV .graf-foto {
+	position: relative;
+	z-index:20;
+	top: -13px; left: 62px;
+	border: 0px solid black;
+	padding: 0;
+	margin: 0;
+}
+*/
+table.graf_tab_AV .graf-foto {
+	border: 0px solid black;
+	padding: 0;
+	margin: -13px 0 0 67px;
+}
+
+table.graf_tab_AV_small { margin: 0 0 20px 0;}
+table.graf_tab_AV_small td { vertical-align: top; padding: 0 5px 0 0;}
+table.graf_tab_AV_small td b { display: block; }
+table.graf_tab_AV_small td a { color: #464646 !important; }
+/*
+table.graf_tab_AV .graf-foto {
+	position: relative;
+	z-index:20;
+	top: -13px; left: 62px;
+	border: 0px solid black;
+	padding: 0;
+	margin: 0;
+}
+*/
+table.graf_tab_AV_small .graf-foto {
+	border: 0px solid black;
+	padding: 0;
+	margin: -13px 0 0 67px;
+}
+
+/* ==============  / tabelle audiovideo   ============= */
+
+#tassello {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #545454;
+}
+
+#tassello img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#tassello p {
+	position: absolute;
+	left: 60px;
+	top: 40px;
+	padding-right: 15px;
+	font-size: 13px;
+	color: #5E6265;
+}
+
+#tassello p span {
+	font-style: italic;
+}
+.mt-enclosure {
+	display:block;
+}
+
+.toolbar li.rs_skip, #trova_esplora {
+    display: block;
+    float: left;
+}
+
+#comune-lat, #comune-long {
+	display : none;
+}
+
+/*IN EDICOLA NEW*/
+ .box-inedicolaNew {
+    background-color: #EDEEEE;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.box-inedicolaNew li.testaEdicola {
+    font-size: 11px;
+    font-weight: bold;
+}
+.testaEdicola span {
+    color: #D3494E;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ul.box-inedicolaNew li {
+    background: none repeat scroll 0 0 transparent;
+    color: #5E6367;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 0;
+}
+ul.box-inedicolaNew li a {
+    color: #5E6367;
+}
+ul.box-inedicolaNew li img {
+    border: 1px solid #D1D2D2;
+    width: 178px;
+}
+ul.box-inedicolaNew li.EconomiaMezzo strong {
+    color: #016C34;
+}
+ul.box-inedicolaNew li.EconomiaMezzo {
+    background: url(//images2-milano.corriereobjects.it/images/pix_edicola.gif) repeat-x scroll left top transparent !important;
+    margin: 5px 0;
+    padding: 5px 0 0;
+}
+/*NUOVI ELEMENTI TERZA COLONNA*/
+#tabs-agenda_new span#sponsor_link_home {
+    background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/mercedes_logo.png) no-repeat scroll 0 0 transparent;
+    height: 44px;
+    margin-left: 120px;
+    margin-top: -5px;
+    position: absolute;
+    width: 168px;
+    display:none;
+
+}
+ span#sponsor_link_home {
+ display:none;
+    margin-left: 120px;
+    margin-top: -5px;
+    height: 44px;
+    width: 168px;
+    position: absolute;
+    background:url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/mercedes_logo.png) no-repeat  0px 3px !important;
+  
+}
+ span#sponsor_link_home h4{
+    width: 168px;
+    height:40px;
+    margin-top: -5px;
+    position: relative;
+}
+ span#sponsor_link_home h4 a{
+    display: block;
+    float: right;
+    height: 30px;
+    text-decoration: none;
+    width: 168px;
+}
+#tabs-agenda_new div.testatina h4.logo-vivi {
+    background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/logo-vivi_loc.gif) no-repeat scroll 0 0 transparent;
+    color: #5B6378;
+    display: block;
+    height: 30px;
+    margin: 5px 0 0;
+    padding-bottom: 1px;
+    padding-left: 0;
+    text-indent: -5000px;
+    width: 90px;
+}
+
+#utilita_box_local {
+	background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/box_utility_loc_2.gif) no-repeat scroll 0 0 transparent;
+    height: 86px;
+    margin:0 0 10px;
+    padding-left: 33px;
+    width: 271px;
+}
+#utilita_box_local a {
+	float:left;
+	width:58px;
+	height:84px;
+	position:relative;
+	text-decoration:none !important;	
+}
+#utilita_box_local span {
+    background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/baloon_mappe.png) no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 94px;
+    left: -60px;
+    line-height: 12px;
+    padding: 16px 20px 0;
+    position: absolute;
+    top: -94px;
+    width: 121px;
+	text-decoration:none !important;
+}
+#utilita_box_local span strong {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	display:block;
+}
+
+/* info politico */
+div.info-politico h1{
+	border-bottom: 1px solid #dbd5c6;
+	color: #2f5eb1;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	font-family:Arial,Helvetica,Sans-serif;
+}
+
+div.info-politico div.incarichi .incarichi-testo{
+	margin-left: 116px;
+	font-family:Arial,Helvetica,Sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+div.info-politico div{
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	padding-right: 0pt;
+	padding-bottom: 10px;
+	padding-left: 0pt;
+	font-family:Arial,Helvetica,Sans-serif;
+	color: #666666;
+}
+
+div.info-politico div.incarichi{
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dbd5c6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbd5c6;
+	margin-bottom: 5px;
+	line-height: 24px;
+	font-family:Arial,Helvetica,Sans-serif;
+}
+/* fine info politico */
+
+
+
+/* CSS COMUNI A TUTTI GLI SNIPPET DEI BLOG */
+/* ========================================================================== */
+
+ul.zappingnews li.box-forum-desc .ora {
+	display: none;
+}
+
+ul.zappingnews li.box-forum-desc .data {
+	display: block;
+	position: relative;
+	top: 67px;
+	left: 50px;
+	font-size: 11px;
+	color: #7c7c7c;
+	font-family: arial;
+}
+
+ul.zappingnews li.box-forum-desc h5 {
+	padding: 0 !important;
+	font-weight: normal !important;
+}
+
+ul.zappingnews li.box-forum-desc h5 a {
+	padding: 0px;
+}
+
+
+ul.zappingnews li.box-forum-desc h5 a .blog {
+	display: block;
+	width: 200px;
+	background-color: #cc2026;
+	font-family: 'BreraCondensedRegular' !important;
+	color: #ffffff !important;
+	padding: 10px 0 5px 5px;
+	font-size: 18px !important;
+}
+
+ul.zappingnews li.box-forum-desc h5 a .forum {
+	display: block;
+	width: 200px;
+	background-color: #2f5eb1;
+	font-family: 'BreraCondensedRegular' !important;
+	color: #ffffff !important;
+	padding: 10px 0 5px 5px;
+	font-size: 18px !important;
+	text-transform:capitalize;
+}
+
+ul.zappingnews li.italians h5 a .forum {
+	display: block;
+	width: 200px;
+	background-color: #2f5eb1;
+	font-family: 'BreraCondensedRegular' !important;
+	color: #ffffff !important;
+	padding: 10px 0 5px 5px;
+	font-size: 18px !important;
+	text-transform:lowercase;
+}
+
+ul.zappingnews li.italians h5 a .forum:first-letter{
+		text-transform: uppercase !important;
+}
+
+
+
+ul.zappingnews li.box-forum-desc h5 a .autore {
+    margin: 4px 0 0 50px;
+    text-transform: capitalize;
+	font-size: 11px !important;
+	color:#7c7c7c !important;
+}
+
+ul.zappingnews li.box-forum-desc h6 {
+	margin: 35px 0 0 50px !important;
+	background-color: #ffffff !important;
+	padding: 0 !important;
+	line-height: 1.5em !important;
+}
+
+ul.zappingnews li.box-forum-desc h6 a {
+	color: #2f5eb1;
+	font-size: 14px;
+	font-family: Georgia;
+}
+
+ul.zappingnews li.box-forum-desc p {
+	display: none;
+}
+
+
+
+.zappingnews .fedrigotti p {
+display:none;
+}
+/*.milano {
+    background: url("http://milano.corriere.it/images/static/common/duomo.jpg") no-repeat scroll left 28px transparent !important;
+    border-bottom: 1px dotted #2F5EB1;
+    display: block;
+    margin: 8px 0 !important;
+    padding: 0 0 8px !important;
+    position: relative;
+	height:120px;
+}*/
+.mi-mangiare {
+    background: url(//images2-milano.corriereobjects.it/images/static/common/mangiare.jpg) no-repeat scroll left 28px transparent !important;
+    border-bottom: 1px dotted #2F5EB1;
+    display: block;
+    margin: 8px 0 !important;
+    padding: 0 0 8px !important;	
+    position: relative;
+		height:120px;
+}
+.italians {
+    background: url(//images2-milano.corriereobjects.it/images/static/common/bossi-fedrigotti.jpg) no-repeat scroll left 28px transparent !important;
+    border-bottom: 1px dotted #2F5EB1;
+    display: block;
+    margin: 8px 0 !important;
+    padding: 0 0 8px !important;
+    position: relative;
+		height:124px;
+}
+
+ul.zappingnews li.box-forum-desc h5 a .blog {
+    background-color: #CC2026;
+    color: #FFFFFF !important;
+    display: block;
+    font-family: 'BreraCondensedRegular' !important;
+    font-size: 18px !important;
+    padding: 10px 0 5px 5px;
+    width: 200px;
+}
+ul.zappingnews li.box-forum-desc h5 a .autore {
+    color: #7C7C7C !important;
+    font-size: 11px !important;
+    margin: 4px 0 0 50px;
+    text-transform: capitalize;
+}
+ul.zappingnews li.box-forum-desc h5 a {
+    padding: 0;
+}
+ul.zappingnews li.box-forum-desc h5 {
+    font-weight: normal !important;
+    padding: 0 !important;
+}
+ul.zappingnews li.box-forum-desc h5 {
+    background-position: right 3px;
+    background-repeat: no-repeat;
+    color: #2F5EB1;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 38px;
+    letter-spacing: 0;
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: left;
+}
+ul.zappingnews li.box-forum-desc .data {
+    color: #7C7C7C;
+    display: block;
+    font-family: arial;
+    font-size: 11px;
+    left: 50px;
+    position: relative;
+    top: 59px;
+}
+
+
+.zappingnews .milano p, .zappingnews .italians p, .zappingnews .mi-mangiare p {
+display:none;
+}
+
+/*facebook toolbar*/
+#main .addthis_counter.addthis_pill_style{
+	background-color: transparent !important;
+}
+#main .addthis_counter a.atc_s{
+	background: url(//images2-milano.corriereobjects.it/images/nsc01-addthis.gif) no-repeat scroll 0 0 transparent;
+}
+/*amo italia box*/
+#amoitalia_box_col {
+	background: transparent url(//images2-milano.corriereobjects.it/img/obiettivo_italia_box.gif) no-repeat;
+	width:300px;
+	height:200px;
+	position:relative;
+	margin-bottom:10px;
+}
+#amoitalia_box_col a {
+	width:300px;
+	height:200px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-5000px;
+	display:block;
+}
+
+
+/*SPECIALI*/
+
+ body.font_speciali h1,body.font_speciali h2,body.font_speciali h4,body.font_speciali h5,body.font_speciali h6,body.font_speciali .articles-home p,body.font_speciali .article p,body.font_speciali .article,body.font_speciali .section {
+ 	font-family: Tahoma;
+ }
+ body.font_speciali h3 {
+ 	font-family:Geneva;
+ }
+ 
+ 
+ /*BOX AMOITALIA HP*/
+/*BOX AMOITALIA HP*/
+#box_last_obiettivo {
+	position: relative;
+	display:none;
+	width:300px;
+	background-color:#424242;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	margin-bottom:10px;
+}
+#box_last_obiettivo .title_top {
+    color: #939393;
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 11px;
+    padding: 8px 0 0 8px;
+    margin-bottom: 5px;
+}
+#box_last_obiettivo .title_top strong {
+	font-weight:normal;
+	font-size:13px;
+	color:#ffffff;
+}
+#box_last_obiettivo .all_foto {
+	display:block;
+	position:absolute;
+	top:10px;
+	right:8px;
+	color:#ffffff;
+	text-decoration:underline;
+}
+#box_last_obiettivo .foto_ob {
+	display:block;
+}
+#box_last_obiettivo .foto_ob img {
+	max-width:285px;
+	max-height: 190px;
+}
+#box_last_obiettivo .imgCont {
+	padding-top:9px;
+	border-top:1px dotted #919191;
+	width:285px;
+	margin: auto;
+	height: 190px;
+	position: relative;
+}
+#box_last_obiettivo .text_ob {
+	margin: 5px 0 4px 8px;
+	line-height: 15px;
+}
+#box_last_obiettivo .text_ob .comune_ob {
+	text-transform:uppercase;
+}
+#box_last_obiettivo .box_bottom_ob {
+    background: url(//images2-milano.corriereobjects.it/img/bottom_ob.gif) no-repeat scroll 0 0 #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 55px;
+    line-height: 15px;
+    padding: 6px 0 0 10px;
+    position: relative;
+    width: 290px;
+}
+#box_last_obiettivo .box_bottom_ob a {
+	color:#24aadf;
+}
+#box_last_obiettivo .box_bottom_ob a.partecipa_ob {
+	display:block;
+	text-indent:-5000px;
+	width:93px;
+	height:43px;
+	top:12px;
+	right:14px;
+	position:absolute;
+}
+
+#box_last_obiettivo_little {
+	display:none;
+	width:200px;
+	background-color:#424242;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	margin-bottom:10px;
+}
+#box_last_obiettivo_little .title_top {
+    color: #939393;
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 11px;
+    padding: 8px 0 0 8px;
+}
+#box_last_obiettivo_little .title_top strong {
+	font-weight:normal;
+	font-size:13px;
+	color:#ffffff;
+}
+#box_last_obiettivo_little .all_foto {
+	display:block;
+	position:absolute;
+	top:10px;
+	right:8px;
+	color:#ffffff;
+	text-decoration:underline;
+}
+#box_last_obiettivo_little .foto_ob {
+    display: block;
+}
+#box_last_obiettivo_little .foto_ob img {
+	max-height: 125px;
+    max-width: 185px;
+}
+#box_last_obiettivo_little .text_ob { 
+    background: none repeat scroll 0 0 #000000;
+    height: 40px;
+    left: 0;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    position: absolute;
+    top: 94px;
+    width: 185px;
+}
+#box_last_obiettivo_little .text_obTxt {
+    left: 6px;
+    line-height: 15px;
+    position: absolute;
+    top: 100px;
+}
+#box_last_obiettivo_little .text_obTxt .comune_ob {
+	text-transform:uppercase;
+}
+#box_last_obiettivo_little .box_bottom_ob {
+    background: url(//images2-milano.corriereobjects.it/img/bottom_obLitt.gif) no-repeat scroll 0 0 #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 49px;
+    line-height: 12px;
+    padding: 5px 5px 0;
+    position: relative;
+    width: 190px;
+}
+#box_last_obiettivo_little .box_bottom_ob a {
+	color:#24aadf;
+}
+#box_last_obiettivo_little .box_bottom_ob a.partecipa_ob {
+	display:block;
+	text-indent:-5000px;
+	width:93px;
+	height:43px;
+	top:12px;
+	right:14px;
+	position:absolute;
+}
+#box_last_obiettivo_little .imgCont {
+	border-top: 1px dotted #919191;
+	width: 185px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 125px;
+	padding-top: 9px;
+}
+ /*FINE BOX AMOITALIA HP*/
+ /************************** article new ***********************/
+#article_sh_box span.Embed-Player {
+    float: left;
+    padding: 0 0 15px;
+}
+#main-article {
+	overflow: auto;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_verticale.gif) repeat-y 410px 0;
+}
+
+#main-article .first-col {
+	float: left;
+	width: 400px;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+#main-article .second-col {
+	float: right;
+	position: relative;
+	width: 200px;
+	padding-right: 0;
+}
+#main-article .second-col #correlate li {
+	float: none !important;
+}
+.article #main-article .dida_bt_libera span,
+.article #main-article .dida_bt_libera {
+	background:#464646 none !important;
+	color: #ffffff;
+}
+.article #main-article .dida_bt_article span,
+.article #main-article .dida_bt_article {
+	background:#464646 none !important;
+	position:relative !important;
+}
+.article #main-article .foto-libera-left,
+.article #main-article .foto-libera-right {
+	background:#464646 none !important;
+}
+.article #main-article .foto-libera-left .dida_bt_libera,
+.article #main-article .foto-libera-right .dida_bt_libera {
+	background:#464646 none !important;
+    bottom: 0 !important;
+    color: #FFFFFF !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    left: 0 !important;
+    width: 100% !important;	
+}
+.article #main-article .foto-libera-left .dida_bt_libera span,
+.article #main-article .foto-libera-right .dida_bt_libera span {
+    padding: 4px 4px 4px 6px !important;
+	background:#464646 none !important;
+    bottom: 0 !important;
+    color: #FFFFFF !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    left: 0 !important;
+	float:left;
+	display:block;
+}
+.article #main-article .dida190,
+.article #main-article .dida190 img {
+	width:190px;
+	display: block;
+}
+.article #main-article .dida170,
+.article #main-article .dida170 img {
+	width: 170px;
+    display: block;		
+}
+#main-article .second-col .toolbar-2col {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+}
+
+#main-article .second-col .toolbar-2col li {
+	width: 35px;
+	height: 30px;
+	float: left;
+}
+
+#main-article .striscia-fotogallery img.image {
+	margin-left: -6px;
+}
+/*ZOOM AL CLICK SULLA FOTO*/
+/*CSS FOTO ZOOM*/
+#main-article #content-to-read .thumb-dida .ingrandisci-lightbox{
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/lente.png) no-repeat 0 0;
+	position: absolute;
+	top:0;
+	right: 0;
+	height:18px;
+	width:18px;
+}
+
+#main-article .thumb-dida .box-img{
+	clear: both;
+	text-align: left;
+}
+
+#main-article div.left{
+	float: left;
+	display: inline;
+	margin: 0 10px 10px 0;
+}
+
+#main-article div.right{
+	float: right;
+	display: inline;
+	margin: 0 0 10px 10px;
+}
+
+#main-article .thumb-dida {
+	position: relative;
+	clear: both;
+	border: 1px solid #9c9d9d;
+	background: #000 none;
+}
+
+#main-article .thumb-dida p {
+	margin: 0;
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	clear: both;
+	max-width: 132px; 
+}
+
+#main-article .thumb-zoom {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#main-article .Embed-Player {
+	background: transparent none;
+	margin-bottom: 5px;
+}
+
+#main-article .testata_player_400 {
+
+}
+
+div.testata_player_190 {
+	margin-top: 5px;
+}
+
+#main-article .second-col h5 {
+	/*margin: 6px 0;*/
+	padding: 9px 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_orizzontale.gif) repeat-x left bottom;
+}
+#main-article .date_modification {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#464646;
+
+}
+#main-article .date_modification strong {
+	color:#cc2026;
+	font-weight:normal !important;
+}
+#main-article #correlate {
+	padding: 15px 0 0 15px;
+	list-style: square;
+	list-style-position: outside;
+	color: #CC2026;
+	float:right;
+	margin-bottom:10px;
+	width:185px;
+}
+
+#main-article #correlate.grey {
+	color: #9d9d9d;
+}
+
+#main-article #correlate li {
+	position: relative;
+	margin-bottom: 14px;
+	float:right;
+}
+
+#main-article #correlate h6 {
+	display: inline;
+}
+#main-article #multimedia span.date_pub,
+#main-article #correlate span.date_pub {
+	font-style:normal;
+	color:#3966B4;
+	white-space:nowrap;
+}
+#main-article #correlate span {
+	color: #464646;
+	font-style: italic;
+}
+
+#main-article #correlate h6 a, #main-article #multimedia h6 a {
+	color: #3966b4;
+}
+#main-article #correlate h6 a:hover, #main-article #multimedia h6 a:hover {
+	text-decoration:underline;
+}
+#main-article #multimedia {
+	padding-left: 46px;
+	padding-top:15px;
+	float:left;
+	margin-bottom:10px;
+	width:153px;	
+}
+
+#main-article #multimedia li {
+	position: relative;
+	margin-bottom: 15px;
+	padding-top: 18px;
+	float:left;
+}
+
+#main-article #multimedia li img {
+	display: inline;
+}
+
+#main-article #multimedia .art-section {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-article #multimedia .multimedia-icon  {
+	position: absolute;
+	left: -50px;
+	top: 18px;
+}
+
+#main-article #multimedia .multimedia-thumb  {
+	/*width: 75px;*/
+}
+
+#main-article #multimedia h6 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#3966B4;	
+}
+
+#main-article .btn-more {
+	display: block;
+	width: 199px;
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: 23px;
+	float:right;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/btn_2a.gif) no-repeat left bottom;
+}
+#main-article .footnotes { /* article new */
+	margin-top: 25px;
+	color: #000000;
+}
+
+#main-article .footnotes .author { /* article new */
+	color: #000000;
+	display: block;
+	margin-bottom: 15px;
+}
+
+#main-article .footnotes .author a { /* article new */
+	color: #000000;
+	text-decoration: none;
+}
+#main-article .footnotes .twitter-author {
+    background: url("//images2-milano.corriereobjects.it/global/images/ico_twetter.png") no-repeat scroll 0 0 transparent;
+    color: #019AD2;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-indent: 18px;
+}
+#main-article .footnotes strong {
+	font-weight: bold;
+	color: #CC2026;
+}
+
+#main-article .footnotes .date { /* article new */
+	font-size: 12px;
+	line-height: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #cc2026;
+}
+
+#main-article .footnotes .modified { /* article new */
+	font-size: 12px;
+	line-height: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #464646;
+}
+
+#main-article .footnotes-archivio {
+	font-weight:normal;
+	color: #787878;
+	font-size: 0.85em;
+}
+
+#main-article .footnotes-archivio strong {
+	font-weight: bold;
+}
+
+#main-article .footnotes .copy {  /* article new */
+	color:#464646;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	line-height: 12px;
+
+}
+
+/*MODAL ARTICLE ZOOM*/
+#img_to_zoom {
+	background-color:#ffffff;
+	position:relative;
+	border:12px solid #ffffff;
+	border-radius: 10px;
+}
+#img_to_zoom img {
+	display:block;
+    margin: 0 auto;
+}
+.dim_modal_420 {
+	width:420px;
+	height:620px;
+}
+.dim_modal_620 {
+	height:420px;
+	width:620px;
+
+
+}
+#img_to_zoom span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+	display:block;
+	color:#ffffff;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/bg_dida_article.png) repeat 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;	
+	padding:5px;
+}
+#containerZoom .w610 span {
+	width:610px;
+}
+#containerZoom .w410 span {
+	width:410px;
+}
+#containerZoom a.modalCloseImg {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/x.png) no-repeat 0 0;	
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:-2px;
+	right:-2px;
+	cursor:pointer;
+}
+/*DLT NEW*/
+
+#comment_box_article {
+	float:left;
+	border-top:22px solid #e7e7e7;
+	margin-top:40px;
+	padding-top:25px;
+	width:620px;
+}
+#testatina_dlt {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:32px;
+	color:#464646;
+	margin-bottom:35px;
+	position:relative;
+}
+#testatina_dlt span.subtitle {
+    display: block;
+    font-size: 9px;
+    margin: -4px 0 0 3px;
+
+
+
+}
+#testatina_dlt span.no-comment {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/no_comment.gif) no-repeat scroll 0 0;	
+    display: block;
+    height: 21px;
+	overflow:hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -5000px;
+    top: 18px;
+    width: 64px;
+}
+#testatina_dlt span.red_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/cloud_red_dlt.gif) no-repeat scroll right 12px;
+	color:#cc2026;
+	padding-right:27px;
+}
+#testatina_dlt a {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/no_comment.gif) no-repeat scroll 0 0;	
+    display: block;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    text-indent: -5000px;
+    top: 18px;
+    width: 64px;
+}
+#testatina_dlt a.login_btn_a {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/scrivi_dlt.gif) no-repeat scroll right top !important;
+}
+#testatina_dlt a#commenta {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/scrivi_dlt.gif) no-repeat scroll right top !important;
+	display:none;
+}
+#body_dlt {
+	position:relative;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_verticale.gif) repeat-y scroll 56px top;
+	padding-left:67px;
+
+}
+#body_dlt span.num_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/cloud_med_dlt.gif) no-repeat scroll 0 0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:47px;
+	height:45px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#5b5b5b;
+	padding-top:9px;
+	text-align:center;
+}
+#box_dlt_article {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	margin-bottom:35px;
+    line-height: 18px;	
+}
+#box_dlt_article span.title_dlt {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	display:block;
+}
+#box_dlt_article .data_dlt span {
+	color:#2f5eb1;
+	padding-left:8px;
+}
+#box_dlt_article p {
+	display:block;
+	font-size:12px !important;
+}
+.all_comment_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/piu-dilatua.gif) no-repeat scroll 0 4px;
+    color: #000000;
+    float: right;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding-left: 22px;
+}
+#box_login_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/bg_login_dlt.jpg) no-repeat scroll 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#464646;
+	line-height:17px;
+	margin-bottom:40px;
+	padding:20px 0 0 80px;
+	width: 473px;
+	height:56px;
+	float:left;
+
+}
+#box_login_dlt .login_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/bg_bt_sm.png) no-repeat scroll 0 0;
+	color:#464646;
+	width:57px;
+	height:23px;
+	display:inline-block;
+	text-align:center;
+	padding-top:5px;
+	cursor:pointer;
+}
+#box_login_dlt .reg_dlt {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/bg_bt_med.png) no-repeat scroll 0 0;
+	color:#464646;
+	width: 75px;
+	height:23px;
+	display:inline-block;
+	text-align:center;
+	padding-top:5px;	
+}
+#submit-commento .error {
+    color: red;
+    display: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+	position:absolute;
+	right:20px;
+}
+#submit-commento .errorTitolo {
+	top:61px;
+}
+#submit-commento .errorTesto {
+	top:100px;
+}
+#popup_log_dlt div.container {
+    padding: 0;
+}
+#popup_log_dlt {
+    display: none;
+
+
+}
+#popup_message_dlt h3,
+#popup_log_dlt h3 {
+    color: #4D5562;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+#popup_message_dlt p,
+#popup_log_dlt p {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+	letter-spacing:-0.05em;	
+}
+#popup_log_dlt .registrazione-form li {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;	
+}
+#popup_log_dlt .registrazione-form input {
+    display: inline;
+    padding: 3px 2px;
+    vertical-align: bottom;
+    width: 190px;
+}
+#popup_log_dlt .registrazione-form input#username-login {
+	margin-left: 27px;
+
+}
+#popup_log_dlt .registrazione-form li a {
+	color:#565656;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    padding-left: 70px;
+    text-decoration: underline;
+}
+#popup_log_dlt .registrazione-form input.submit {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/invia_dlt.gif) no-repeat scroll left top;	
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+	display:block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 21px;
+    margin-right: 27px;
+    padding: 3px 2px;
+    width: 65px;
+
+
+
+}
+#popup_log_dlt .registrazione-form a.submit {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/invia_dlt.gif) no-repeat scroll left top;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 21px;
+    line-height: 13px;
+    margin-right: 31px;
+    padding: 3px 2px;
+    text-align: center;
+    width: 60px;
+}
+#modal-message-dlt {
+    background-color: #FFFFFF;
+    border: 7px solid #EFEFF0;
+    color: #737372;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 120px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 380px;
+}
+#modal-login-dlt {
+    background-color: #FFFFFF;
+    border: 7px solid #EFEFF0;
+    color: #737372;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 200px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 325px;
+}
+#modal-login-dlt span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#modal-message-dlt .simplemodal-wrap,
+#modal-login-dlt .simplemodal-wrap {
+    padding: 0;
+
+
+}
+#modal-message-dlt a.modalCloseImg,
+#modal-login-dlt a.modalCloseImg {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/x.gif) no-repeat scroll left top;		
+    cursor: pointer;
+    display: inline;
+    height: 25px;
+    position: absolute;
+    right: -3px;
+    top: -4px;
+    width: 25px;
+    z-index: 3200;
+}
+#paging_msg_dlt {
+    color: #A2A2A2;
+	margin-bottom:30px;
+}
+#paging_msg_dlt .next_dlt a,
+#paging_msg_dlt .prev_dlt a {
+
+    display: block;
+    height: 16px;
+    text-indent: -5000px;
+    width: 15px;
+}
+#paging_msg_dlt li.numero-pagine-pag {
+    width: 380px;
+
+}
+#paging_msg_dlt .next_dlt a {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/next.gif) no-repeat scroll left top;
+	margin: 7px 0 0 7px;
+}
+#paging_msg_dlt .prev_dlt a {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/prev.gif) no-repeat scroll left top;
+    margin: 7px 7px 0 0;
+
+
+}
+#box_send_msg_dlt {
+	background-color:#e5e5e5;
+	padding:22px 0 0 12px;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	position:relative;
+}
+#box_send_msg_dlt input.titolo_dlt {
+	width: 517px;
+	margin:24px 0 10px 0;
+	padding:5px;
+	color:#989797;
+}
+#box_send_msg_dlt textarea {
+	width: 517px;
+	margin-bottom:20px;
+	padding:5px;
+	color:#989797;
+}
+#box_send_msg_dlt a.submit {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/dlt/scrivi_dlt.gif) no-repeat scroll left top;
+    border: 0 none;
+    cursor: pointer;
+    margin: 20px 12px 20px 0;
+    height: 21px;
+    width: 64px;
+}
+#article_sh_box {
+	font-family: Georgia, Palatino, serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	margin-bottom:10px;
+	color: #464646;
+/*	padding-right: 10px;  */
+}
+
+#article_sh_box h1 { /* article new */
+	font-size: 31px;
+	letter-spacing: -1px;
+	color: #231F20;
+	line-height: 1.3;
+	margin: 14px 0 0 0;
+}
+
+#article_sh_box p a {
+	color: #003366;
+	text-decoration: underline;
+}
+
+#article_sh_box h2 { /* article new */
+	margin: 0.2em 0 0.9em 0;
+	font-style: italic;
+	color: #535A5B;
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+#article_sh_box h3 { /* article new */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #5B5B5B;
+}
+
+#article_sh_box p,
+#article_sh_box .footnotes { /* article new */
+	margin-bottom: 15px;
+}
+
+
+
+#article_sh_box p span.firma {
+	font-family: arial;
+	font-size: 0.8em;
+	padding: 2px 50px 2px 2px;
+	background: transparent url(//images2-milano.corriereobjects.it/images/static/common/dots_firma.gif) repeat-x;
+}
+/*NEW ARTCILE SHARE*/
+#article_sh_box {
+	margin-top:10px !important;
+}
+#article_sh_box .footnotes .author {
+    font-weight: bold !important;
+}
+#article_sh_box #main-article .second-col h5 {
+  
+}
+#article_sh_box #main-article #correlate h6 a span,
+#article_sh_box #main-article #multimedia h6 a span {
+	color: #464646 !important;
+	font-style:italic !important;
+}
+#article_sh_box #main-article .second-col h4.box-heading {
+	color: #4d5562 !important;
+	font-size:14px !important;
+}
+#article_sh_box #main-article .second-col h4.box-heading span {
+	color: #677ca4 !important;
+	font-size: 20px !important;
+}
+#article_sh_box #main-article .second-col .box-content-news p {
+	font-family:Arial, Helvetica, sans-serif;
+}
+#article_sh_box .dida_bt_article {
+	background: transparent url(//images2-milano.corriereobjects.it/images/static/common/bg_dida_article.png) repeat scroll 0 0 !important;
+    color: #FFFFFF !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+	bottom:0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    width: 100% !important;	
+}
+#article_sh_box .dida_bt_article span {
+    padding: 4px 4px 4px 6px !important;
+	display:block !important;
+	font-weight:normal;	
+}
+#article_sh_box #main-article .thumb-dida {
+	position:relative !important;
+}
+#article_sh_box h2 {
+    color: #798081 !important;
+    font-size: 22px !important;
+    margin: 10px 0 24px !important;
+}
+/*BOX ARTOCLE SHARE SECONDA COLONNA*/
+#article_sh_box #all-column-article {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_verticale.gif) repeat-y scroll 411px top;
+    margin-bottom: 30px;		
+}
+#article_sh_box #all-column-article #content-to-read {
+    display: inline;
+    float: left;	
+	width:401px;
+    padding-right: 10px;	
+}
+#article_sh_box #col-article-option {
+	float:right;
+    overflow: hidden;
+    width: 200px;
+}
+#article_sh_box #share-article-box {
+	background: #eeeeee url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/tool_top.gif) no-repeat scroll 0 0;
+	margin-bottom: 13px;
+	padding:6px 3px 6px 4px;
+}
+#article_sh_box #share-article-box a {
+	float:left;
+	text-indent:-5000px;
+}
+#article_sh_box #share-article-box img.trova_bt {
+
+	cursor:pointer;
+	float:left;
+	height:26px;
+	width:33px;
+}
+#article_sh_box #share-article-box a.ascolta_bt {
+
+	height: 26px;
+	margin-bottom:7px;
+	width: 32px;
+}
+#article_sh_box #share-article-box a#print_tba_bt {
+	height: 26px;
+	width: 30px;
+	margin-bottom:7px;	
+}
+#article_sh_box #share-article-box a#smaller-text-bt {
+	height: 26px;
+	width: 49px;
+}
+#article_sh_box #share-article-box a#bigger-text-bt {
+	height: 26px;
+	width: 48px;
+}
+#article_sh_box #share-article-box .comment-box {
+	background: #eeeeee url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/bg_comment.gif) no-repeat scroll left  top;
+	float:left;
+	margin: 0 0 8px 0;
+}
+#article_sh_box #share-article-box .comment-box .comment {
+	float:left;
+	width:144px;
+	height:26px;
+}
+#article_sh_box #share-article-box .comment-box span span {
+	float:left;
+	height: 21px;
+	width:48px;
+	text-align:center;
+	font-size:10px;
+	color:#464646;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+#article_sh_box #share-article-box .share_box {
+    float: left;
+    width: 193px;
+}
+#article_sh_box #share-article-box .share_box a {
+	text-indent:0;
+	float:none;
+}
+#article_sh_box .share_box .hidden {
+	display:none;
+}
+#article_sh_box .share_box #fb_share {
+    float: left;
+   /* overflow: hidden;*/
+	height:62px;
+    width: 69px;
+}
+
+.fb_edge_comment_widget iframe {
+    right: 206px;
+}
+#article_sh_box .share_box #tw_share {
+	width: 58px;
+	overflow:hidden;
+	float:left;	
+}
+#article_sh_box .share_box #plus1_share {
+	overflow:hidden;
+	float:left;	
+	margin: 0 7px;
+	padding-top:0px;
+}
+#article_sh_box #addt_share {
+	float:left;	
+}
+#article_sh_box #addt_share .addthis_counter a.atc_s span {
+    background: none;
+	display:block;
+	text-indent: -5000px;
+	padding:0;
+	margin:0;
+}
+#article_sh_box #addt_share .addthis_counter a.atc_s {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/share_btt.gif) no-repeat scroll left top !important;
+	height:19px;
+	width:55px;
+	padding:0;	
+}
+#article_sh_box .share_box #fb_share .fb_share_count_inner {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/bg_cloud.png) no-repeat scroll left top !important;
+    border: medium none;
+    color: #2A7090;
+    font: bold 16px/34px Arial,Helvetica,sans-serif;
+    height: 40px;
+    margin-bottom: 2px;
+	padding:0;
+    width: 55px;
+}
+#article_sh_box .share_box #fb_share .fb_share_count_inner:hover {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/bg_cloud.png) no-repeat scroll left -41px !important;
+}
+#article_sh_box .share_box #fb_share .fb_share_count_nub_top {
+	display:none !important;
+}
+#article_sh_box .share_box #fb_share .fb_share_count_top {
+    border: none !important;
+	display:block !important;
+    margin-bottom: 0 !important;
+	background: none !important;
+}
+#article_sh_box .share_box #fb_share .FBConnectButton_Small .FBConnectButton_Text {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/fb_btt_img.gif) no-repeat scroll left top !important;
+    border: 0 none;
+    height: 20px;
+    margin: 0;
+    padding: 0 !important;
+    text-indent: -5000px;
+    width: 54px;	
+}
+#article_sh_box .share_box #fb_share .FBConnectButton,
+#article_sh_box .share_box #fb_share .FBConnectButton_RTL {
+    background: none !important;
+	line-height:24px;
+    padding:0 !important;
+}
+#article_sh_box .share_box #fb_share .FBConnectButton_Small .FBConnectButton_Text .fb_share_count_wrapper .FBConnectButton_Small .FBConnectButton_Text {
+	background:transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/fb_btt.gif) no-repeat scroll left top !important;
+    border: 0 none;
+    height: 19px;
+    margin: 0;
+    padding: 0 !important;
+    text-indent: -5000px;
+    width: 55px;
+}
+#article_sh_box img.img-inline {
+    display: inline;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0;
+}
+
+#main-article .second-col h4.box-heading span {
+    color: #cc2026;
+    font-size: 20px;
+}
+#main-article .second-col h4.box-heading {
+    color: #2f5eb1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    padding: 9px 0;
+    line-height: 20px;
+    background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_orizzontale.gif) repeat-x left bottom;
+}
+
+#main-article .second-col h4.box-heading span {
+    color: #cc2026;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#main-article .second-col ul.box-content-news {
+    margin-bottom: 0;
+    padding: 15px 0 0 2px;
+}
+
+#main-article .second-col ul.box-content-news li {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+#main-article .second-col ul.box-content-news li span, #main-article .second-col ul.box-content-news li span a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #2f5eb1;
+    display: none;
+}
+
+#main-article .second-col ul.box-content-news li h6, #main-article .second-col ul.box-content-news li h6 a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #1e1e1e;
+}
+
+#main-article .second-col ul.box-content-news li h6 a:hover {
+    text-decoration: underline;
+}
+
+#main-article .second-col ul.box-content-news li p, #main-article .second-col ul.box-content-news li p a {
+    font-size: 12px;
+    line-height: 16px;
+    color: #5a5a5a;
+    margin-bottom: 0;
+}
+#main-article .foto-h-right,
+#main-article .foto-h-left {
+	width:180px;
+}
+#main-article .foto-h-right img,
+#main-article .foto-h-left img {
+	display:block;
+	float:none !important;
+	height:auto !important;
+	width:180px !important;
+}
+#main-article .foto-v-right,
+#main-article .foto-v-left {
+	width:140px;
+}
+#main-article .foto-v-right img,
+#main-article .foto-v-left img {
+	display:block;
+	float:none !important;
+	height:auto !important;	
+	width:140px !important;
+}
+
+
+#main-article .foto-v-right #evid img,
+#main-article .foto-v-left #evid img,
+#main-article .foto-h-right #evid img,
+#main-article .foto-h-left #evid img {
+	width:auto !important;
+	margin-left: -10px !important;
+}
+
+span.testata_player_190,
+span.testata_player_300,
+span.testata_player_400,
+span.testata_player_600,
+span.testata_player_620,
+.Embed-Player span.testata_player {
+	background-color:#262525;
+	display:block;
+	color:#FFFFFF;
+	line-height:17px;
+	padding:3px 6px 5px 8px;
+}
+span.testata_player_190 {
+	width:176px;
+}
+span.testata_player_300 {
+
+	width:286px;
+}
+span.testata_player_400 {
+	width:386px;
+}
+span.testata_player_620 {
+	width:606px;
+}
+p .Embed-Player .Embed-Player {
+	margin:0 !important;
+	padding:0 !important;
+}
+
+#article_sh_box .box-sommario {
+    float: right;
+    margin-bottom: 13px;
+    width: 188px;
+}
+
+
+
+ul.box-bottom-mobile {
+    width: 400px !important;
+}
+ul.box-bottom-mobile li {
+    width: 195px !important;
+}
+#main-article div.title_cor_col,
+#main-article .second-col h5 {
+    background: url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/article_share/punto_orizzontale.gif) repeat-x scroll left bottom transparent;
+    color: #4D5562 !important;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px !important;
+    line-height: 20px;
+    padding: 9px 0;
+}
+#main-article div.title_cor_col {
+	text-transform:uppercase;
+}
+#article_sh_box .share_box #fb_share .fb_share_count_right,
+#article_sh_box .share_box #fb_share .fb_share_count_nub_right  {
+    display: none !important;
+}
+
+
+
+.wide-pushbar {
+    clear: both;
+}
+.wide-pushbar  {
+    margin: 13px auto 10px !important;
+    padding: 4px 0;
+    text-align: center;
+    width: 965px;
+	float:none;
+}
+.centra_adv {
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+}
+
+/*DIRETTA SMS*/
+#listaDirettaSMS,
+ #diretta_sms_container {
+	float:left;
+	margin:12px 0 20px 0;
+	width:620px;
+ }
+ #listaDirettaSMS li,
+  #diretta_sms_container li {
+	padding:6px 0 6px 0;
+	position:relative;
+ }
+  #listaDirettaSMS li.title_day,
+  #diretta_sms_container li.title_day {
+  	font-weight:bold;
+	color:#cc2026;
+ }
+ .box_direttasms p {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/box_direttasms_bg.gif) no-repeat 0 0;
+	margin-bottom:0;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	padding:13px 15px 4px 15px;
+	color:#4c4c4c;
+	line-height:16px;
+}
+.box_direttasms p a {
+	color:#808080;
+	font-size:10px;
+	display:block;
+	text-align:right;
+	margin-top:8px;
+}
+.box_direttasms .box_direttasms_cell {
+	position:absolute;
+	width:40px;
+	height:34px;
+	top:6px;
+	left:7px;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/box_direttasms_cell.gif) no-repeat 0 0;
+}
+.box_direttasms .box_direttasms_top {
+	width:355px;
+	height:4px;
+}
+.box_direttasms .box_direttasms_bottom {
+	width:355px;
+	height:4px;
+}
+.box_direttasms .box_direttasms_top img,
+.box_direttasms .box_direttasms_bottom img {
+	margin:0 !important;
+}
+/*FINE DIRETTA SMS*/
+
+
+
+/* box vivimilano */
+#box-vivi-hp {
+	background: transparent url("http://vivimilano.corriere.it/img/bg-box-hp.png") no-repeat 0 0;
+	width: 300px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#box-vivi-hp .link-home-vivi {
+    display: block;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+#box-vivi-hp .link-vivi {
+	margin-left: 8px;
+	overflow: hidden;
+}
+
+#box-vivi-hp .link-vivi li {
+	float: left;
+	font-family:"Trebuchet MS", Arial;
+	font-size:11px;
+	font-weight: bold;
+	color:#FFFFFF;
+	width: 73px;
+	padding-bottom: 3px;
+}
+
+#box-vivi-hp .link-vivi li a {
+	color:#FFFFFF;
+	padding-left: 11px;
+}
+
+#box-vivi-hp .link-vivi li a.ico-giallo {
+	background: transparent url("http://vivimilano.corriere.it/img/sprite-quadratino.png") no-repeat 0 3px;
+}
+
+#box-vivi-hp .link-vivi li a.ico-blu {
+	background: transparent url("http://vivimilano.corriere.it/img/sprite-quadratino.png") no-repeat 0 -27px;
+}
+
+#box-vivi-hp .link-vivi li a.ico-verde {
+	background: transparent url("http://vivimilano.corriere.it/img/sprite-quadratino.png") no-repeat 0 -12px;
+}
+
+#box-vivi-hp .link-vivi li a.ico-marrone {
+	background: transparent url("http://vivimilano.corriere.it/img/sprite-quadratino.png") no-repeat 0 -42px;
+}
+
+#box-vivi-hp .link-vivi li a.ico-lilla {
+	background: transparent url("http://vivimilano.corriere.it/img/sprite-quadratino.png") no-repeat 0 -56px;
+}
+
+/* slideshow */
+#box-vivi-hp #slideshow-container {
+	width:270px;
+	position:relative;
+	padding: 7px;
+	background: #fff none;
+	margin: 10px auto;
+	clear: left;
+}
+#box-vivi-hp #slide {
+	width:270px;
+	height:205px;
+	overflow:hidden;
+}
+#box-vivi-hp #slide li {
+	width:270px;
+	height:205px;
+	overflow:hidden;
+}
+#box-vivi-hp #slide li img {
+	width:270px;
+}
+#box-vivi-hp #slide li .info {
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:0px 10px;
+	background: transparent url("http://vivimilano.corriere.it/img/bg-titolazione-slide.png") repeat 0 0;
+	width:250px;
+	height: 50px;
+	display:none;
+}
+
+#box-vivi-hp #slide li .info h4 {
+	font-family:"Trebuchet MS", Arial;
+	font-size:11px;
+	font-weight: bold;
+	color:#FFFFFF;
+	margin-top: 5px;
+}
+
+#box-vivi-hp #slide li .info h4 span {
+	text-transform: uppercase;
+}
+
+#box-vivi-hp #slide li .info h2 {
+	font-family:"Trebuchet MS", Arial;
+	font-size:11px;
+	color:#FFFFFF;
+	margin-top: 3px;
+	height: 23px;
+	overflow: hidden;
+}
+
+#box-vivi-hp #slide li .info h2 a {
+	color:#FFFFFF;
+}
+
+#box-vivi-hp #slideshow-container .nav {
+	position: absolute;
+	bottom: 42px;
+    right: 16px;
+    z-index: 100;
+}
+
+#box-vivi-hp #slideshow-container .nav img {
+	display: inline;
+}
+
+#box-vivi-hp .cerca-vivi {
+    margin: 0 auto;
+	width: 280px;
+	padding-top: 3px;
+}
+
+#box-vivi-hp .cerca-vivi form {
+	overflow: auto;
+	padding: 7px 0 9px 0;
+}
+
+#box-vivi-hp .cerca-vivi h4 {
+    background: url("http://vivimilano.corriere.it/img/lente-apertura-home.png") no-repeat scroll 0 0 transparent;
+    color: #FCC400;
+	font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 0 0 5px 24px;
+	border-bottom: 1px dotted #fff;
+}
+
+#box-vivi-hp .cerca-vivi h4 span {
+    color: #fff;
+}
+
+#box-vivi-hp .cerca-vivi ul li {
+    float: left;
+}
+
+#box-vivi-hp .cerca-vivi .input-left {
+    float: left;
+}
+
+#box-vivi-hp .cerca-vivi .input-dx {
+    float: left;
+	margin-right: 5px;
+}
+
+#box-vivi-hp .cerca-vivi input,
+#box-vivi-hp .cerca-vivi select {
+    color: #666666;
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#box-vivi-hp .cerca-vivi .ricerca-text {
+    background: url("http://vivimilano.corriere.it/img/bg-input-center.png") repeat-x scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+	width: 100px;
+}
+
+#box-vivi-hp .cerca-vivi .selector select {
+    min-width: 115px;
+}
+
+#box-vivi-hp .cerca-vivi .selector {
+    width: 108px;
+	margin-right: 3px;
+}
+
+#box-vivi-hp .cerca-vivi .selector span {
+    width: 80px;
+	color: #666666;
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#box-vivi-hp .cerca-vivi .submit {
+    background: url("http://vivimilano.corriere.it/img/bt-submit-mini.png") no-repeat scroll 0 -1px transparent;
+    border: 0 none;
+    cursor: pointer;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 0 !important;
+    width: 28px;
+}
+
+/* pagina piuletti*/
+
+body#piuletti #col-sx {
+	margin:0;
+	width:620px !important;
+}
+
+body#piuletti .intestazione {
+	margin: 0 10px 10px 0;
+}
+
+body#piuletti .intestazione h2 {
+	color:#566173;
+	font-family:Georgia,Palatino,serif;
+	font-size:22px;
+	float: left;
+}
+
+body#piuletti .intestazione h2 strong{
+	font-size:16px;
+	color:#BB1612;
+}
+
+body#piuletti .intestazione .link-dx {
+	float: right;
+	color:#556273;
+	font-family:Georgia,Palatino,serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:4px;
+}
+
+body#piuletti .intestazione .link-dx strong {
+	color:#AD1514;
+	font-size:11px;
+	text-transform:uppercase;
+}
+
+body#piuletti .intestazione .link-dx a {
+	color:#556273;
+}
+
+body#piuletti .lista-piuletti ul {
+	border-top: 1px dotted #9d9d9d;
+	margin:10px 0;
+}
+
+body#piuletti .lista-piuletti ul li {
+	border-bottom: 1px dotted #9d9d9d;
+	padding:15px 0;
+	color:#555555;
+	font-family:Georgia,Palatino,serif;
+	font-size:17px;
+}
+
+body#piuletti .lista-piuletti ul li a{
+	color:#555555;
+}
+
+body#piuletti .lista-piuletti span {
+	color:#CC2026;
+	font-family:Georgia,Palatino,serif;
+	font-size:18px;
+	text-align:center;
+	width:30px;
+	display: block;
+	float: left;
+}
+
+/* piu letti seconda colonna articolo */
+
+#main-article #piuletti_2a {
+	clear: both;
+}
+
+#main-article #piuletti_2a h4 {
+	color: #566173;
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 7px;
+}
+
+#main-article #piuletti_2a h4 strong {
+	color: #bb1612;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#main-article #piuletti_2a h4 span {
+	color: #bb1612;
+}
+
+#main-article #piuletti_2a .nav {
+	margin-bottom: 5px;
+}
+
+#main-article #piuletti_2a .nav li {
+	display: inline;
+}
+
+#main-article #piuletti_2a .nav li.last {
+	border-right: 0;
+}
+
+#main-article #piuletti_2a .nav li a {
+	color: #555555;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#main-article #piuletti_2a .nav li.ui-tabs-selected a {
+	color: #cc3333;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#main-article #piuletti_2a .class-container {
+	clear: left;
+}
+
+#main-article #piuletti_2a .class-container li {
+	color: #555555;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border-top: 1px dotted #9d9d9d;
+	padding: 15px 0;
+}
+
+#main-article #piuletti_2a .class-container li a {
+	color: #555555;
+}
+
+#main-article #piuletti_2a .class-container li span {
+	color: #cc3333;
+	font-size: 16px;
+}
+
+/* tappo diretta live */
+#box-tappo-live {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464646;
+	width: 202px;
+	margin-bottom: 15px;
+}
+#box-tappo-live .top-tappo-live,
+#box-tappo-live .bottom-tappo-live {
+	display: block;
+}
+#box-tappo-live .cont-tappo-live {
+	padding-left: 6px;
+	background: url("//images2-milano.corriereobjects.it/img/sfondo-tappo-diretta.png") 0 0 repeat-y;
+}
+#box-tappo-live img {
+	display: block;
+}
+#box-tappo-live .tit-tappo-live {
+	margin-bottom: 10px;
+}
+#box-tappo-live .box-img-tappo {
+	position: relative;
+}
+#box-tappo-live .box-img-tappo .hover-img-tappo {
+	display: block;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#box-tappo-live ul {
+	overflow: hidden;
+	width: 190px;
+	margin-top: 12px;
+}
+#box-tappo-live ul .desc-tappo-live {
+	width: 160px;
+	float: left;
+}
+#box-tappo-live ul .puls-tappo-diretta {
+	width: 160px;
+	float: right;
+	width: 22px;
+	height: 22px;
+}
+
+/*box quotazioni oro*/
+
+#box_quotazioni_oro {
+    background: none repeat scroll 0 0 #f3f4f6;
+    border: 1px solid #d8dce1;
+    display:table;
+    font-size: 11px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#box_quotazioni_oro div {
+  
+    width: 294px;
+}
+
+#box_quotazioni_oro h2.testatina {
+    background: none repeat scroll 0 0 #F3F4F6;
+    border-bottom: 1px solid #D8DCE1;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0 4px;
+}
+
+#box_quotazioni_oro ul {
+}
+
+#box_quotazioni_oro ul li {
+    float: left;
+    display: block;
+    padding: 2px;
+    height: 9px;
+    margin-top: 0;
+}
+
+#box_quotazioni_oro ul li.header {
+    margin-top: 8px;
+}
+
+#box_quotazioni_oro ul li.whitefooter {
+    background: #ffffff;
+    width: 167px;
+    height: 14px;
+    margin-left: 5px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+#box_quotazioni_oro ul li.grayfooter {
+    background: #dedede;
+    width: 102px;
+    height: 14px;
+    color: #000000;
+    padding-left: 8px;
+}
+
+#box_quotazioni_oro ul li.white {
+    background: #ffffff;
+    width: 167px;
+    margin-left: 5px;
+    border-bottom: 1px solid #B0B4BE;
+    color: #000000;
+    height: 11px;
+}
+
+#box_quotazioni_oro ul li.gray {
+    background: #dedede;
+    width: 102px;
+    border-bottom: 1px solid #B0B4BE;
+    color: #000000;
+    height: 11px;
+    padding-left: 8px;
+}
+
+#box_quotazioni_oro ul li#disclaimer {
+    background: none repeat scroll 0 0 #798091;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    height: 11px;
+    margin: 0 5px 7px;
+    text-align: left;
+    width: 279px;
+}
+
+#box_quotazioni_oro a {
+    color: #FFFFFF;
+}
+
+#box_quotazioni_oro ul li span {
+   
+}
+
+#box_quotazioni_oro ul li span.valuta_materia, #box_quotazioni_oro ul li.gray span {
+    font-weight: normal;
+}
+
+#box_quotazioni_oro ul li.gray span {
+    margin-right: 3px;
+}
+
+#box_quotazioni_oro ul li span.valuta_materia {
+    color: #655a48;
+    padding-right: 3px;
+    border-right: 1px solid #DEDEDE;
+}
+
+#box_quotazioni_oro .redlabel {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+#box_quotazioni_oro .pipe {
+    color: #CCCCCC;
+    padding: 0 2px;
+}
+
+/* snippet blog */
+.snippet-blog  {
+	color: #5b5b5b;
+	font-family: Arial, Helvetica, sans-serif;
+	background: transparent none;
+	/*padding-top: 10px;*/
+}
+
+.snippet-blog .title-blog  {
+	font-size: 17px;
+	font-family: "BreraRegular";
+	color: #145477;
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/punto.gif) repeat-x scroll 0 bottom;
+	padding-bottom: 7px;
+	margin-bottom: 6px;
+}
+.snippet-blog .title-blog a {
+	color: #145477;
+}
+
+.snippet-blog .ico-blog {
+	float: left;
+	margin: 0 5px 0px 0;
+	width: 54px;
+	height: 54px;
+}
+
+.snippet-blog span.testatina {
+	font-size: 10px;
+}
+
+.snippet-blog h2 {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #145477;
+}
+
+.snippet-blog h2 a {
+	color: #145477;
+	font-weight:bold;
+}
+
+.snippet-blog h3 {
+	clear: left;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+
+.snippet-blog h3 strong {
+	color: #145477;
+}
+
+.snippet-blog p {
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:16px;
+	margin: 5px 0 20px 0;
+}
+
+.snippet-blog p a {
+	text-decoration: none;
+	color: #5b5b5b;
+}
+
+.snippet-monoblog p {
+	display: none;
+}
+
+.snippet-monoblog {
+	margin-bottom: 20px;
+}
+
+.snippet-lacittanuova .title-blog a
+ {
+    color: #cc0000;
+}
+
+.snippet-lacittanuova h2 a {
+    color: #666666;
+}
+
+/* fix titolo player video */
+
+#article_sh_box span.Embed-Player {
+	float: left;
+	padding: 0 0 0;
+}
+
+#article_sh_box span.Embed-Player span.testata_player_400 {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 6px 10px 5px 4px;
+	color: #464646;
+    font-family: Arial;
+	background-color: #F1F2EE;
+	font-weight: normal;
+}
+
+#main-article .Embed-Player {
+	margin-bottom:0;
+}
+
+/* CONDIVIDI viste home */
+.has-sharebutton {padding-bottom:0}
+.share-bt-container,
+.share-bt-container div.title_art {
+	display:none;
+}
+#home .share-bt-container {
+	display:block !important;
+	height:29px;
+}
+#home .box-fotovideo .share-bt-container {
+	height:auto;
+	position:absolute;
+	bottom:-1px;
+	right:0;
+}
+#home .zappingnews .share-bt-container {
+	height:19px;
+	margin-top:5px;
+}
+.share-button {
+	background: transparent url(//images2-milano.corriereobjects.it/img/bg_share_art.png) scroll no-repeat 0 0;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;	
+    height: 16px;	
+    padding: 3px 0 0 21px;
+    position: relative;
+    text-transform: uppercase;
+    width: 61px;
+    float: right;
+}
+#home .zappingnews .share-button {
+    padding: 2px 0 0 21px;
+}
+#home .share-button:hover {
+	background-position: 0 -22px;
+}
+.share-balloon {
+    background: url(//images2-milano.corriereobjects.it/img/share-fb-top.png) -2px 0 no-repeat;
+    left: -68px;
+    position: absolute;
+    top: -89px;
+    width: 151px;
+    height: 91px;
+    z-index: 3000;
+    display: none;
+}
+.share-balloon ul {
+	padding: 15px 0 0 7px;
+	display: none;
+}
+.share-balloon ul .share-fb {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 5px;
+    padding: 0;
+    width: 75px;
+}
+.share-balloon ul .share-tw {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+    width: 55px;
+}
+.share-balloon .loader-share {
+    display: none;
+    height: 32px;
+    left: 60px;
+    position: absolute;
+    top: 25px;
+    width: 32px;
+}
+
+/* nuovo articolo multimedia */
+#article-multimedia h1 {
+	color: #464646;
+	font-family: "BreraCondensedLight",Arial;
+	font-size: 36px;
+	margin-bottom: 34px;
+	margin-top: 18px;
+}
+
+#article-multimedia .tit-multimedia {
+	color: #777777;
+	font-family: "BreraRegular",Arial;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+#article-multimedia .multimedia-wrapper {
+	overflow: auto;
+	color: #464646;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+#article-multimedia .multimedia-wrapper h2 {
+	color: #464646 !important;
+	font-family: "BreraCondensedLight",Arial !important;
+	font-size: 20px !important;
+	line-height: 24px !important;
+	font-style: normal !important;
+	margin: -4px 0 3px 0 !important;
+	display:inline;
+}
+
+#article-multimedia .multimedia-wrapper span.category {
+	display: block;
+	color: #2f5eb1;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 2px;
+}
+
+#article-multimedia .foto-wrapper {
+	background-color: #e4eaee;
+	padding: 10px 10px 0 10px;
+}
+
+#article-multimedia .foto-wrapper .foto-list {
+	float: left;
+	width: 367px;
+}
+
+#article-multimedia .foto-wrapper .foto-list img {
+	float: left;
+	margin-right: 9px;
+	margin-bottom: 10px;
+}
+
+#article-multimedia .foto-wrapper span.category {
+	color: #2f5eb1;
+}
+
+#article-multimedia .video-wrapper {
+	background-color: #f1f2ee;
+	padding: 20px 10px;
+}
+
+
+#article-multimedia .video-wrapper .open-widget-video {
+	position: relative;
+	display: block;
+}
+
+
+#article-multimedia .video-wrapper .ico-play {
+	background: transparent url(//images2-milano.corriereobjects.it/images/static/common/ico-play.png)  no-repeat scroll left top;
+	height: 44px;
+	width: 44px;
+	left: 54px;
+	top: 22px;
+	position: absolute;
+	cursor:pointer;
+}
+
+#article-multimedia .video-wrapper img.img-video {
+	width: 151px;
+	height: 86px;
+	float: left;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+#article-multimedia .video-wrapper span.category {
+	color: #d56f28;
+}
+
+#article-multimedia .video-wrapper span.category em {
+	color: #464646;
+}	
+#article-multimedia .video-wrapper span.datasez em.nome_canale {
+	font-style:normal;
+	text-transform:capitalize;
+}
+#article-multimedia .video-wrapper .go-to-video {
+	display: none;
+}
+
+#article-multimedia .video-wrapper-open {
+	padding: 20px 0;
+	overflow:hidden;
+}
+
+#article-multimedia .video-wrapper-open h2{
+	padding: 0 10px !important;
+}
+
+#article-multimedia .video-wrapper-open span {
+	padding: 0 10px 5px;
+}
+
+#article-multimedia .video-wrapper-open .box_Voting_Results span {
+	padding: 0 15px 5px 0 !important;
+}
+#article-multimedia .box_InteractiveTools .box_Voting {
+
+}
+#article-multimedia .box_InteractiveTools .box_Voting a {
+
+}
+#article-multimedia .txt_Hide {
+	display:none;
+}
+#article-multimedia .video-wrapper-open .go-to-video {
+	padding: 0 10px;
+	display: block;
+}
+
+#article-multimedia .video-wrapper-open span.datasez,
+#article-multimedia .video-wrapper-open img.img-video,
+#article-multimedia .video-wrapper-open span.ico-play {
+	display: none;
+}
+
+#home_multimedia #article_sh_box {
+    margin-top: 0 !important;
+}
+#article-multimedia .box_Player_620 .box_Embed .inp_Text {
+	width:170px !important;
+}
+.cont_title_multimedia {
+	margin-top:34px;
+	width:943px;
+	margin:29px auto 30px auto;
+}
+.cont_title_multimedia h1 {
+	font-family:"BreraLight";
+    color: #464646;
+    font-size:32px;
+    line-height: 1.3;
+    margin: 0 !important;
+}
+.cont_title_multimedia h2 {
+	font-family:"BreraLight";
+    color: #464646;
+    font-size:16px;
+    margin:0 !important;
+}
+.cont_title_multimedia h3 {
+	display:none;
+}
+
+
+/*stili inseriti per FACT CHECKING*/
+#article_sh_box,
+.homearticle-box,
+#main-article .first-col {
+    position: relative;
+}
+.homearticle-box .fact_chk_link {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/fact_chk_50.png) no-repeat scroll 0 0;
+	display:block;
+	height:16px;
+	width:85px;
+	position:absolute;
+	top:7px;
+	right:5px;
+}
+#article_sh_box .fact_chk_link {
+	background: transparent url(//images2-milano.corriereobjects.it/libs/css/default_theme/assets/fact_chk_50.png) no-repeat scroll 0 0;	
+	display:block;
+	height:16px;
+	width:85px;
+	position:absolute;
+	top:0px;
+	right:5px;
+}
+#article_sh_box #content-to-read .fact_chk_link {
+    bottom: 1px !important;
+    right: 23px;
+    top: auto;
+}	
+.container-box-fotovideo h5 {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #5B6378 !important;
+    font-family: "BreraCondensedRegular";
+    font-size: 12px;
+    font-weight: normal !important;
+    line-height: normal !important;
+	 margin: 0 0 10px 10px;
+     text-transform: uppercase;
+}
+.container-box-fotovideo h5 span {
+    color: #CC2026;
+    font-family: "BreraCondensedRegular";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    padding-left: 3px;
+    text-transform: uppercase;
+}
+
+/* Commenti Redazione - Start */
+div.commento_redazione_corriere {
+	margin-left: 117px;
+	padding-left:17px;
+	background:transparent url(//images2.corriereobjects.it/images/static/common/dilatua/commenti_redazione_bg.png) repeat-y left top;
+}
+div.commento_redazione_corriere p {
+	color: #2f5eb1!important;
+	font-family:Georgia!important;
+}
+div.commento_redazione_corriere p span {
+	font-style:italic;
+}
+/* Commenti Redazione - Stop */
